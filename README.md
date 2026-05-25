@@ -66,51 +66,31 @@ ai-engineering-agents-platform/
 
 ## Architecture Overview
 
-<h3>AI Agent Workflow</h3>
+### AI Agent Workflow
 
-<p align="center">
-  <img src="diagrams/png/ai-agent-workflow.png" width="650">
-</p>
-
-<h3>MCP Architecture</h3>
-
-<p align="center">
-  <img src="diagrams/png/mcp-architecture.png" width="650">
-</p>
-
-<h3>Agent Communication</h3>
-
-<p align="center">
-  <img src="diagrams/png/a2a-communication.png" width="650">
-</p>
-
-<h3>Platform Engineering Integration</h3>
-
-<p align="center">
-  <img src="diagrams/png/platform-engineering-ai.png" width="650">
-</p>
-<!-- ### AI Agent Workflow
-
-![AI Agent Workflow](diagrams/png/ai-agent-workflow.png)
+<!-- ![AI Agent Workflow](diagrams/png/ai-agent-workflow.png) -->
+<img src="diagrams/png/ai-agent-workflow.png" width="550">
 
 ---
 
 ### MCP Architecture
 
-![MCP Architecture](diagrams/png/mcp-architecture.png)
+<!-- ![MCP Architecture](diagrams/png/mcp-architecture.png) -->
+<img src="diagrams/png/mcp-architecture.png" width="550">
 
 ---
 
 ### Agent Communication
 
-![Agent Communication](diagrams/png/a2a-communication.png)
+<!-- ![Agent Communication](diagrams/png/a2a-communication.png) -->
+<img src="diagrams/png/a2a-communication.png" width="550">
 
 ---
 
 ### Platform Engineering Integration
 
-![Platform Engineering Integration](diagrams/png/platform-engineering-ai.png) -->
-
+<!-- ![Platform Engineering Integration](diagrams/png/platform-engineering-ai.png) -->
+<img src="diagrams/png/platform-engineering-ai.png" width="550">
 ---
 
 ## Learning Areas
