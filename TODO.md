@@ -11,23 +11,24 @@ Repository improvement backlog and future enhancements.
 - [x] MCP concepts
 - [x] A2A concepts
 - [x] Platform Engineering integration
+- [x] Repository navigation improvements
 
 ---
 
 ## Architecture Diagrams
 
-- [ ] AI Agent execution workflow
-- [ ] MCP architecture flow
-- [ ] Agent-to-Agent communication model
-- [ ] Platform Engineering AI integration diagram
+- [x] AI Agent execution workflow
+- [x] MCP architecture flow
+- [x] Agent-to-Agent communication model
+- [x] Platform Engineering AI integration diagram
 
 ---
 
 ## Engineering Examples
 
-- [ ] AI Agent workflow examples
-- [ ] MCP integration examples
-- [ ] Agent communication reference examples
+- [ ] AI Agent workflow implementation examples
+- [ ] MCP integration implementation examples
+- [ ] Agent coordination reference scenarios
 - [ ] Platform Engineering implementation patterns
 
 ---
@@ -37,23 +38,36 @@ Repository improvement backlog and future enhancements.
 - [ ] Multi-agent orchestration patterns
 - [ ] Enterprise engineering workflows
 - [ ] Knowledge retrieval systems
-- [ ] AI-assisted developer workflows
+- [ ] Context management approaches
+- [ ] Workflow optimization patterns
 
 ---
 
 ## Platform Engineering Focus
 
-- [ ] AI for Internal Developer Platforms
-- [ ] AI for Developer Experience
-- [ ] Engineering productivity improvements
+- [ ] AI-assisted Internal Developer Platforms
+- [ ] AI-enabled Developer Experience improvements
+- [ ] Engineering productivity patterns
+- [ ] Operational workflow integration
 
 ---
 
-## Future Improvements
+## Repository Enhancements
 
 - [ ] Additional architecture references
-- [ ] Operational considerations
+- [ ] Practical engineering scenarios
+- [ ] Example implementations
 - [ ] Engineering best practices
+- [ ] Cross-topic navigation improvements
+
+---
+
+## Long-Term Exploration
+
+- [ ] Observability considerations
+- [ ] Reliability patterns
+- [ ] Governance considerations
+- [ ] Platform Engineering operational models
 
 ---
 

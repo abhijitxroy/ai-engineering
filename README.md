@@ -64,6 +64,32 @@ ai-engineering-agents-platform/
 
 ---
 
+## Architecture Overview
+
+### AI Agent Workflow
+
+![AI Agent Workflow](diagrams/png/ai-agent-workflow.png)
+
+---
+
+### MCP Architecture
+
+![MCP Architecture](diagrams/png/mcp-architecture.png)
+
+---
+
+### Agent Communication
+
+![Agent Communication](diagrams/png/a2a-communication.png)
+
+---
+
+### Platform Engineering Integration
+
+![Platform Engineering Integration](diagrams/png/platform-engineering-ai.png)
+
+---
+
 ## Learning Areas
 
 ### AI Agents
@@ -135,5 +161,18 @@ This repository will continue evolving through:
 The long-term objective is to build practical understanding of AI-native engineering capabilities and their adoption within modern engineering platforms.
 
 Focus remains on engineering principles, operational reliability, and scalable platform design.
+
+---
+## Additional Resources
+
+Repository supporting assets:
+
+- [TODO](TODO.md)
+- [CHANGELOG](CHANGELOG.md)
+
+Architecture assets:
+
+- diagrams/
+- examples/
 
 ---
