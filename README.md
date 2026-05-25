@@ -69,28 +69,28 @@ ai-engineering-agents-platform/
 ### AI Agent Workflow
 
 <!-- ![AI Agent Workflow](diagrams/png/ai-agent-workflow.png) -->
-<img src="diagrams/png/ai-agent-workflow.png" width="550">
+<img src="diagrams/png/ai-agent-workflow.png" width="400">
 
 ---
 
 ### MCP Architecture
 
 <!-- ![MCP Architecture](diagrams/png/mcp-architecture.png) -->
-<img src="diagrams/png/mcp-architecture.png" width="550">
+<img src="diagrams/png/mcp-architecture.png" width="400">
 
 ---
 
 ### Agent Communication
 
 <!-- ![Agent Communication](diagrams/png/a2a-communication.png) -->
-<img src="diagrams/png/a2a-communication.png" width="550">
+<img src="diagrams/png/a2a-communication.png" width="400">
 
 ---
 
 ### Platform Engineering Integration
 
 <!-- ![Platform Engineering Integration](diagrams/png/platform-engineering-ai.png) -->
-<img src="diagrams/png/platform-engineering-ai.png" width="550">
+<img src="diagrams/png/platform-engineering-ai.png" width="400">
 ---
 
 ## Learning Areas
