@@ -11,6 +11,7 @@ Repository improvement backlog and future enhancements.
 - [x] Repository navigation improvements
 - [x] Architecture documentation structure
 - [x] Interview preparation structure
+- [x] Repository showcase structure
 
 ---
 
@@ -21,6 +22,7 @@ Repository improvement backlog and future enhancements.
 - [x] A2A concepts
 - [x] LLM Engineering concepts
 - [x] Platform Engineering integration
+- [x] Production engineering fundamentals
 
 ---
 
@@ -33,6 +35,10 @@ Repository improvement backlog and future enhancements.
 - [x] A2A interview preparation
 - [x] LLM Engineering interview preparation
 - [x] Platform Engineering interview preparation
+- [x] System design preparation
+- [x] Troubleshooting framework
+- [x] Tradeoff analysis
+- [x] Engineering principles reference
 
 ---
 
@@ -48,64 +54,75 @@ Repository improvement backlog and future enhancements.
 
 ## Engineering Examples
 
-- [ ] AI Agent implementation examples
-- [ ] MCP integration examples
-- [ ] Distributed coordination examples
-- [ ] Platform Engineering implementation patterns
-- [ ] AI troubleshooting workflows
+- [x] AI Agent troubleshooting examples
+- [x] MCP integration examples
+- [x] Distributed coordination examples
+- [x] Platform Engineering implementation patterns
+
+Future additions:
+
+- [ ] Operational investigation examples
+- [ ] Infrastructure diagnostics examples
+- [ ] AI-assisted troubleshooting workflows
 - [ ] Knowledge retrieval examples
 
 ---
 
-## Workflow References
+## Production Engineering
 
-- [ ] Multi-agent orchestration workflows
-- [ ] Context engineering workflows
-- [ ] Retrieval execution patterns
-- [ ] Operational troubleshooting workflows
-- [ ] Engineering productivity workflows
+- [x] Reliability discussions
+- [x] Observability concepts
+- [x] Governance concepts
+- [x] Security fundamentals
+- [x] Cost optimization approaches
+- [x] Scaling discussions
+- [x] Operational patterns
+- [x] Troubleshooting frameworks
+
+Future additions:
+
+- [ ] Disaster recovery patterns
+- [ ] Capacity planning discussions
+- [ ] Production incident workflows
+- [ ] Platform operational maturity patterns
 
 ---
 
 ## Platform Engineering Focus
 
-- [ ] AI-enabled Internal Developer Platforms
-- [ ] Developer Experience improvements
-- [ ] Engineering productivity patterns
-- [ ] Self-service platform workflows
-- [ ] Operational diagnostics workflows
+- [x] AI-enabled Internal Developer Platforms
+- [x] Developer Experience concepts
+- [x] Engineering productivity patterns
+- [x] Self-service platform workflows
+- [x] Operational diagnostics concepts
 
----
+Future additions:
 
-## Production Engineering Topics
-
-- [ ] Reliability patterns
-- [ ] Observability patterns
-- [ ] Governance considerations
-- [ ] Security considerations
-- [ ] Cost optimization approaches
-- [ ] Scalability discussions
+- [ ] Golden path workflows
+- [ ] Service catalog discussions
+- [ ] Platform maturity model
+- [ ] Developer onboarding patterns
 
 ---
 
 ## Repository Enhancements
 
 - [ ] Cross-topic references
+- [ ] Additional architecture diagrams
 - [ ] Architecture deep dives
-- [ ] Additional diagrams
-- [ ] Engineering best practices
 - [ ] Real-world engineering scenarios
 - [ ] Example system discussions
+- [ ] Platform operational references
 
 ---
 
 ## Long-Term Expansion
 
+- [ ] Enterprise engineering workflows
 - [ ] AI engineering operational models
-- [ ] Enterprise workflow discussions
-- [ ] Platform Engineering operational patterns
 - [ ] Emerging AI engineering capabilities
-- [ ] Engineering design references
+- [ ] Reliability deep dives
+- [ ] Advanced system discussions
 
 ---
 
@@ -113,4 +130,13 @@ Status: Active Development
 
 Goal:
 
-Single engineering reference for learning, revision, architecture understanding, workflows, engineering discussions, and interview preparation.
+Single engineering reference for:
+
+- Learning
+- Revision
+- Architecture understanding
+- Workflow visualization
+- Production engineering thinking
+- Platform Engineering concepts
+- Engineering discussions
+- Interview preparation

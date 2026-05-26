@@ -1,20 +1,21 @@
 # AI Engineering Agents Platform
 
-A structured engineering repository covering AI Agents, Model Context Protocol (MCP), Agent-to-Agent (A2A) systems, LLM engineering concepts, and Platform Engineering integration patterns.
+A structured engineering repository covering AI Agents, Model Context Protocol (MCP), Agent-to-Agent (A2A) systems, LLM engineering concepts, Platform Engineering integration patterns, and production engineering fundamentals.
 
 This repository is designed as a single engineering reference for:
 
 - Learning
 - Architecture understanding
 - Workflow visualization
+- Production engineering thinking
 - Platform Engineering integration
 - Engineering discussions
+- System design preparation
 - Interview preparation
-- Practical engineering understanding
 
-The objective is simple:
+Objective:
 
-**Open one repository and revise concepts, workflows, architecture, and engineering discussions efficiently.**
+Open one repository and revise concepts, workflows, architecture discussions, engineering principles, and production engineering fundamentals efficiently.
 
 ---
 
@@ -24,19 +25,21 @@ Build practical understanding of emerging AI engineering capabilities and explor
 
 Focus areas:
 
-- AI Agents fundamentals
-- Multi-agent workflows
-- Agent orchestration patterns
-- Model Context Protocol (MCP)
-- Agent-to-Agent (A2A) communication
-- LLM engineering concepts
+- AI Agents
+- MCP (Model Context Protocol)
+- Agent-to-Agent (A2A)
+- LLM Engineering
 - Retrieval systems
-- AI-enabled Internal Developer Platforms (IDP)
+- Platform Engineering
+- Internal Developer Platforms (IDP)
 - Developer Experience (DevEx)
-- Engineering productivity improvements
-- Platform Engineering integration patterns
-- Operational considerations
-- Reliability approaches
+- Engineering productivity
+- Reliability patterns
+- Operational engineering
+- Scaling approaches
+- Security fundamentals
+- Governance concepts
+- Production engineering thinking
 
 ---
 
@@ -82,6 +85,10 @@ Advanced
 ↓
 
 Scenario Discussions
+
+↓
+
+Production Engineering
 ```
 
 Start here:
@@ -94,7 +101,7 @@ Start here:
 
 ### Interview Preparation
 
-Interview-focused materials:
+Interview preparation areas:
 
 ```text
 06-interview-preparation/
@@ -111,7 +118,29 @@ Interview-focused materials:
 
 ├── llm-engineering/
 
-└── platform-engineering/
+├── platform-engineering/
+
+├── system-design-principles.md
+
+├── production-engineering.md
+
+├── troubleshooting-framework.md
+
+├── operational-patterns.md
+
+├── scaling-patterns.md
+
+├── observability.md
+
+├── security-fundamentals.md
+
+├── governance.md
+
+├── cost-optimization.md
+
+├── tradeoff-analysis.md
+
+└── engineering-principles.md
 ```
 
 Interview revision flow:
@@ -133,6 +162,14 @@ Architecture Diagrams
 
 ↓
 
+Examples
+
+↓
+
+Production Engineering
+
+↓
+
 Scenario Discussions
 ```
 
@@ -146,29 +183,14 @@ ai-engineering-agents-platform/
 ├── 00-learning-path/
 
 ├── ai-agents/
-│   ├── fundamentals/
-│   ├── workflows/
-│   └── orchestration/
 
 ├── mcp/
-│   ├── concepts/
-│   ├── integrations/
-│   └── examples/
 
 ├── a2a/
-│   ├── concepts/
-│   ├── agent-communication/
-│   └── samples/
 
 ├── llm-engineering/
-│   ├── prompting/
-│   ├── rag/
-│   └── evaluation/
 
 ├── platform-engineering-ai/
-│   ├── ai-for-idp/
-│   ├── ai-for-devex/
-│   └── developer-productivity/
 
 ├── diagrams/
 
@@ -211,60 +233,50 @@ ai-engineering-agents-platform/
 
 ## Learning Areas
 
-### AI Agents
+### AI Systems
 
-Understanding:
+Coverage:
 
-- Planning systems
-- Tool usage
-- Memory concepts
-- Agent workflows
-- Orchestration patterns
-
----
-
-### Model Context Protocol (MCP)
-
-Understanding:
-
-- Context connectivity
-- Tool integration
-- External system interaction
-- Standardized communication
+- AI Agents
+- MCP
+- A2A
+- LLM Engineering
+- Retrieval workflows
 
 ---
 
-### Agent-to-Agent Communication (A2A)
+### Platform Engineering
 
-Understanding:
+Coverage:
 
-- Coordination models
-- Distributed execution
-- Communication patterns
-- Aggregation workflows
-
----
-
-### LLM Engineering
-
-Understanding:
-
-- Prompt engineering
-- Retrieval systems
-- Evaluation approaches
-- Engineering patterns
-
----
-
-### Platform Engineering Integration
-
-Practical engineering perspective:
-
-- Internal Developer Platforms (IDP)
-- Developer Experience (DevEx)
+- Internal Developer Platforms
+- Developer Experience
 - Engineering productivity
-- Delivery workflows
-- Operational efficiency
+- Self-service systems
+
+---
+
+### Production Engineering
+
+Coverage:
+
+- Reliability
+- Scaling
+- Observability
+- Security
+- Governance
+- Cost optimization
+
+---
+
+### Engineering Operations
+
+Coverage:
+
+- Troubleshooting frameworks
+- Operational patterns
+- Tradeoff analysis
+- System design thinking
 
 ---
 
@@ -277,23 +289,15 @@ Definition
 
 ↓
 
-Why Needed
-
-↓
-
 Problem Statement
 
 ↓
 
-High Level Design
+Architecture
 
 ↓
 
-Mid Level Components
-
-↓
-
-Low Level Workflow
+Workflow
 
 ↓
 
@@ -301,7 +305,11 @@ Engineering Examples
 
 ↓
 
-Platform Engineering Perspective
+Operational Thinking
+
+↓
+
+Tradeoffs
 
 ↓
 
@@ -312,7 +320,7 @@ Interview Questions
 Quick Revision
 ```
 
-Objective:
+Goal:
 
 Fast learning and efficient revision.
 
@@ -320,41 +328,28 @@ Fast learning and efficient revision.
 
 ## Audience
 
-Relevant for engineers interested in:
+Relevant for:
 
-- Platform Engineering
-- DevOps Engineering
-- Cloud Infrastructure
-- Developer Experience
-- Software Architecture
-- AI engineering systems
-- Internal Developer Platforms
-- Engineering productivity
-
----
-
-## Repository Evolution
-
-Repository expansion areas:
-
-- Architecture references
-- Workflow patterns
-- Practical examples
-- Platform Engineering use cases
-- Operational patterns
-- Reliability discussions
+- Platform Engineers
+- DevOps Engineers
+- Cloud Engineers
+- Infrastructure Engineers
+- Software Engineers
+- Developer Experience Engineers
+- AI Engineering practitioners
 
 ---
 
-## Long-Term Direction
+## Repository Goal
 
 Build a practical engineering knowledge platform covering:
 
 - Learning
 - Revision
 - Architecture understanding
-- Engineering workflows
-- System discussions
+- Workflow visualization
+- Engineering discussions
+- Production engineering thinking
 - Platform Engineering integration
 
 Focus remains on:
@@ -362,7 +357,8 @@ Focus remains on:
 - Engineering principles
 - Operational reliability
 - Developer productivity
-- Scalable platform design
+- Platform design
+- Production readiness
 
 ---
 
@@ -370,9 +366,9 @@ Focus remains on:
 
 Supporting assets:
 
-- [Learning Path](00-learning-path/README.md)
-- [TODO](TODO.md)
-- [CHANGELOG](CHANGELOG.md)
+- Learning Path
+- TODO
+- CHANGELOG
 
 Reference areas:
 
@@ -382,4 +378,4 @@ Reference areas:
 
 ---
 
-Engineering Handbook • Workflow Reference • Architecture Discussions • Platform Engineering • Interview Preparation
+Engineering Handbook • Workflow Reference • Production Engineering • Platform Engineering • Interview Preparation
