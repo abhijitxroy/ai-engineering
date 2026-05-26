@@ -1,16 +1,28 @@
 # AI Engineering Agents Platform
 
-A structured engineering repository covering AI Agents, Model Context Protocol (MCP), Agent-to-Agent (A2A) systems, and AI engineering concepts from a Platform Engineering perspective.
+A structured engineering repository covering AI Agents, Model Context Protocol (MCP), Agent-to-Agent (A2A) systems, LLM engineering concepts, and Platform Engineering integration patterns.
 
-This repository focuses on understanding emerging engineering patterns and exploring how AI-native capabilities integrate with modern software delivery ecosystems.
+This repository is designed as a single engineering reference for:
+
+- Learning
+- Architecture understanding
+- Workflow visualization
+- Platform Engineering integration
+- Engineering discussions
+- Interview preparation
+- Practical engineering understanding
+
+The objective is simple:
+
+**Open one repository and revise concepts, workflows, architecture, and engineering discussions efficiently.**
 
 ---
 
 ## Objective
 
-The goal of this repository is to document concepts, workflows, architecture patterns, and practical references related to AI engineering and Platform Engineering.
+Build practical understanding of emerging AI engineering capabilities and explore how AI-native systems integrate with modern software delivery ecosystems.
 
-Areas of exploration include:
+Focus areas:
 
 - AI Agents fundamentals
 - Multi-agent workflows
@@ -18,10 +30,111 @@ Areas of exploration include:
 - Model Context Protocol (MCP)
 - Agent-to-Agent (A2A) communication
 - LLM engineering concepts
+- Retrieval systems
 - AI-enabled Internal Developer Platforms (IDP)
-- Developer Experience (DevEx) improvements
-- Engineering productivity patterns
-- Platform Engineering integration scenarios
+- Developer Experience (DevEx)
+- Engineering productivity improvements
+- Platform Engineering integration patterns
+- Operational considerations
+- Reliability approaches
+
+---
+
+## Repository Navigation
+
+### Learning Path
+
+Recommended progression:
+
+```text
+AI Agents
+
+↓
+
+MCP
+
+↓
+
+A2A
+
+↓
+
+LLM Engineering
+
+↓
+
+Platform Engineering
+```
+
+Learning progression:
+
+```text
+Beginner
+
+↓
+
+Intermediate
+
+↓
+
+Advanced
+
+↓
+
+Scenario Discussions
+```
+
+Start here:
+
+```text
+00-learning-path/
+```
+
+---
+
+### Interview Preparation
+
+Interview-focused materials:
+
+```text
+06-interview-preparation/
+
+├── quick-revision.md
+
+├── comparison-table.md
+
+├── ai-agents/
+
+├── mcp/
+
+├── a2a/
+
+├── llm-engineering/
+
+└── platform-engineering/
+```
+
+Interview revision flow:
+
+```text
+Quick Revision
+
+↓
+
+Comparison Tables
+
+↓
+
+Topic Notes
+
+↓
+
+Architecture Diagrams
+
+↓
+
+Scenario Discussions
+```
 
 ---
 
@@ -29,36 +142,42 @@ Areas of exploration include:
 
 ```text
 ai-engineering-agents-platform/
-│
+
+├── 00-learning-path/
+
 ├── ai-agents/
 │   ├── fundamentals/
 │   ├── workflows/
 │   └── orchestration/
-│
+
 ├── mcp/
 │   ├── concepts/
 │   ├── integrations/
 │   └── examples/
-│
+
 ├── a2a/
 │   ├── concepts/
 │   ├── agent-communication/
 │   └── samples/
-│
+
 ├── llm-engineering/
 │   ├── prompting/
 │   ├── rag/
 │   └── evaluation/
-│
+
 ├── platform-engineering-ai/
 │   ├── ai-for-idp/
 │   ├── ai-for-devex/
 │   └── developer-productivity/
-│
+
 ├── diagrams/
-│
+
+├── examples/
+
+├── 06-interview-preparation/
+
 ├── TODO.md
-│
+
 └── CHANGELOG.md
 ```
 
@@ -68,69 +187,134 @@ ai-engineering-agents-platform/
 
 ### AI Agent Workflow
 
-<!-- ![AI Agent Workflow](diagrams/png/ai-agent-workflow.png) -->
 <img src="diagrams/png/ai-agent-workflow.png" width="400">
 
 ---
 
 ### MCP Architecture
 
-<!-- ![MCP Architecture](diagrams/png/mcp-architecture.png) -->
 <img src="diagrams/png/mcp-architecture.png" width="400">
 
 ---
 
 ### Agent Communication
 
-<!-- ![Agent Communication](diagrams/png/a2a-communication.png) -->
 <img src="diagrams/png/a2a-communication.png" width="400">
 
 ---
 
 ### Platform Engineering Integration
 
-<!-- ![Platform Engineering Integration](diagrams/png/platform-engineering-ai.png) -->
 <img src="diagrams/png/platform-engineering-ai.png" width="400">
+
 ---
 
 ## Learning Areas
 
 ### AI Agents
 
-Understanding agent fundamentals, workflows, planning models, orchestration patterns, and engineering applications.
+Understanding:
 
-### MCP (Model Context Protocol)
+- Planning systems
+- Tool usage
+- Memory concepts
+- Agent workflows
+- Orchestration patterns
 
-Exploring standardized approaches for connecting AI systems with external tools and engineering environments.
+---
 
-### Agent-to-Agent (A2A)
+### Model Context Protocol (MCP)
 
-Studying communication models, coordination approaches, and distributed execution patterns.
+Understanding:
+
+- Context connectivity
+- Tool integration
+- External system interaction
+- Standardized communication
+
+---
+
+### Agent-to-Agent Communication (A2A)
+
+Understanding:
+
+- Coordination models
+- Distributed execution
+- Communication patterns
+- Aggregation workflows
+
+---
 
 ### LLM Engineering
 
-Foundational concepts including prompting techniques, retrieval systems, and evaluation mechanisms.
+Understanding:
+
+- Prompt engineering
+- Retrieval systems
+- Evaluation approaches
+- Engineering patterns
+
+---
 
 ### Platform Engineering Integration
 
-Understanding practical applications across:
+Practical engineering perspective:
 
 - Internal Developer Platforms (IDP)
 - Developer Experience (DevEx)
 - Engineering productivity
+- Delivery workflows
 - Operational efficiency
-- Software delivery ecosystems
 
 ---
 
-## Purpose
+## Design Philosophy
 
-This repository is intended to serve as:
+Repository content follows:
 
-- Structured learning material
-- Engineering knowledge reference
-- Practical exploration workspace
-- Architecture and workflow documentation
+```text
+Definition
+
+↓
+
+Why Needed
+
+↓
+
+Problem Statement
+
+↓
+
+High Level Design
+
+↓
+
+Mid Level Components
+
+↓
+
+Low Level Workflow
+
+↓
+
+Engineering Examples
+
+↓
+
+Platform Engineering Perspective
+
+↓
+
+Interview Questions
+
+↓
+
+Quick Revision
+```
+
+Objective:
+
+Fast learning and efficient revision.
 
 ---
 
@@ -143,39 +327,59 @@ Relevant for engineers interested in:
 - Cloud Infrastructure
 - Developer Experience
 - Software Architecture
-- Modern AI engineering systems
+- AI engineering systems
+- Internal Developer Platforms
+- Engineering productivity
 
 ---
 
 ## Repository Evolution
 
-This repository will continue evolving through:
+Repository expansion areas:
 
 - Architecture references
-- Engineering examples
 - Workflow patterns
-- Integration approaches
+- Practical examples
 - Platform Engineering use cases
+- Operational patterns
+- Reliability discussions
 
 ---
 
 ## Long-Term Direction
 
-The long-term objective is to build practical understanding of AI-native engineering capabilities and their adoption within modern engineering platforms.
+Build a practical engineering knowledge platform covering:
 
-Focus remains on engineering principles, operational reliability, and scalable platform design.
+- Learning
+- Revision
+- Architecture understanding
+- Engineering workflows
+- System discussions
+- Platform Engineering integration
+
+Focus remains on:
+
+- Engineering principles
+- Operational reliability
+- Developer productivity
+- Scalable platform design
 
 ---
+
 ## Additional Resources
 
-Repository supporting assets:
+Supporting assets:
 
+- [Learning Path](00-learning-path/README.md)
 - [TODO](TODO.md)
 - [CHANGELOG](CHANGELOG.md)
 
-Architecture assets:
+Reference areas:
 
 - diagrams/
 - examples/
+- interview preparation/
 
 ---
+
+Engineering Handbook • Workflow Reference • Architecture Discussions • Platform Engineering • Interview Preparation
