@@ -67,6 +67,10 @@ LLM Engineering
 ↓
 
 Platform Engineering
+
+↓
+
+Production Engineering
 ```
 
 Learning progression:
@@ -143,7 +147,7 @@ Interview preparation areas:
 └── engineering-principles.md
 ```
 
-Interview revision flow:
+Revision flow:
 
 ```text
 Quick Revision
@@ -175,6 +179,70 @@ Scenario Discussions
 
 ---
 
+### Engineering Examples
+
+Location:
+
+```text
+07-examples/
+```
+
+Coverage:
+
+- AI Agent troubleshooting
+- MCP integration workflows
+- Agent coordination examples
+- Platform Engineering workflows
+
+Purpose:
+
+Connect concepts with engineering workflows.
+
+---
+
+### Production Scenarios
+
+Location:
+
+```text
+08-production-scenarios/
+```
+
+Coverage:
+
+- Deployment failures
+- Dependency failures
+- Capacity exhaustion
+- Latency investigation
+- AI operational workflows
+
+Purpose:
+
+Production engineering thinking and troubleshooting mindset.
+
+---
+
+### Architecture References
+
+Location:
+
+```text
+09-diagrams/
+```
+
+Coverage:
+
+- AI Agent execution workflow
+- MCP architecture
+- Agent communication patterns
+- Platform Engineering integration
+
+Purpose:
+
+Fast architecture understanding and interview revision.
+
+---
+
 ## Repository Structure
 
 ```text
@@ -182,21 +250,23 @@ ai-engineering-agents-platform/
 
 ├── 00-learning-path/
 
-├── ai-agents/
+├── 01-ai-agents/
 
-├── mcp/
+├── 02-mcp/
 
-├── a2a/
+├── 03-a2a/
 
-├── llm-engineering/
+├── 04-llm-engineering/
 
-├── platform-engineering-ai/
-
-├── diagrams/
-
-├── examples/
+├── 05-platform-engineering-ai/
 
 ├── 06-interview-preparation/
+
+├── 07-examples/
+
+├── 08-production-scenarios/
+
+├── 09-diagrams/
 
 ├── TODO.md
 
@@ -209,25 +279,25 @@ ai-engineering-agents-platform/
 
 ### AI Agent Workflow
 
-<img src="diagrams/png/ai-agent-workflow.png" width="400">
+<img src="09-diagrams/png/ai-agent-workflow.png" width="400">
 
 ---
 
 ### MCP Architecture
 
-<img src="diagrams/png/mcp-architecture.png" width="400">
+<img src="09-diagrams/png/mcp-architecture.png" width="400">
 
 ---
 
 ### Agent Communication
 
-<img src="diagrams/png/a2a-communication.png" width="400">
+<img src="09-diagrams/png/a2a-communication.png" width="400">
 
 ---
 
 ### Platform Engineering Integration
 
-<img src="diagrams/png/platform-engineering-ai.png" width="400">
+<img src="09-diagrams/png/platform-engineering-ai.png" width="400">
 
 ---
 
@@ -348,7 +418,6 @@ Build a practical engineering knowledge platform covering:
 - Revision
 - Architecture understanding
 - Workflow visualization
-- Engineering discussions
 - Production engineering thinking
 - Platform Engineering integration
 
@@ -372,9 +441,9 @@ Supporting assets:
 
 Reference areas:
 
-- diagrams/
-- examples/
-- interview preparation/
+- 07-examples/
+- 08-production-scenarios/
+- 09-diagrams/
 
 ---
 
