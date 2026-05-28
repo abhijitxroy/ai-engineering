@@ -4,14 +4,41 @@ Repository improvement backlog and future enhancements.
 
 ---
 
-## Documentation
+## Foundation
 
 - [x] Repository structure initialization
+- [x] Learning path definition
+- [x] Repository navigation improvements
+- [x] Architecture documentation structure
+- [x] Interview preparation structure
+- [x] Repository showcase structure
+
+---
+
+## Knowledge Areas
+
 - [x] AI Agents fundamentals
 - [x] MCP concepts
 - [x] A2A concepts
+- [x] LLM Engineering concepts
 - [x] Platform Engineering integration
-- [x] Repository navigation improvements
+- [x] Production engineering fundamentals
+
+---
+
+## Interview Preparation
+
+- [x] Quick revision guide
+- [x] Comparison tables
+- [x] AI Agents interview preparation
+- [x] MCP interview preparation
+- [x] A2A interview preparation
+- [x] LLM Engineering interview preparation
+- [x] Platform Engineering interview preparation
+- [x] System design preparation
+- [x] Troubleshooting framework
+- [x] Tradeoff analysis
+- [x] Engineering principles reference
 
 ---
 
@@ -19,87 +46,97 @@ Repository improvement backlog and future enhancements.
 
 - [x] AI Agent execution workflow
 - [x] MCP architecture flow
-- [x] Agent-to-Agent communication model
-- [x] Platform Engineering AI integration diagram
+- [x] Agent communication model
+- [x] Platform Engineering integration workflow
+- [x] Diagram image standardization
 
 ---
 
 ## Engineering Examples
 
-- [ ] Distributed AI workflow implementation examples
-- [ ] MCP operational integration examples
-- [ ] Agent orchestration execution scenarios
-- [ ] Production A2A coordination workflows
-- [ ] AI-enabled platform engineering scenarios
-- [ ] Observability-aware AI workflow examples
-- [ ] Operational debugging workflow demonstrations
-- [ ] Infrastructure-aware execution patterns
+- [x] AI Agent troubleshooting examples
+- [x] MCP integration examples
+- [x] Distributed coordination examples
+- [x] Platform Engineering implementation patterns
+
+Future additions:
+
+- [ ] Operational investigation examples
+- [ ] Infrastructure diagnostics examples
+- [ ] AI-assisted troubleshooting workflows
+- [ ] Knowledge retrieval examples
 
 ---
 
-## Learning Expansion
+## Production Engineering
 
-- [ ] Multi-agent orchestration systems
-- [ ] Distributed workflow coordination
-- [ ] Enterprise operational AI workflows
-- [ ] Context management systems
-- [ ] Retrieval orchestration workflows
-- [ ] AI workflow observability
-- [ ] Reliability engineering for AI systems
-- [ ] Recovery engineering workflows
-- [ ] Distributed execution debugging
-- [ ] Scalable AI execution architectures
+- [x] Reliability discussions
+- [x] Observability concepts
+- [x] Governance concepts
+- [x] Security fundamentals
+- [x] Cost optimization approaches
+- [x] Scaling discussions
+- [x] Operational patterns
+- [x] Troubleshooting frameworks
+
+Future additions:
+
+- [ ] Disaster recovery patterns
+- [ ] Capacity planning discussions
+- [ ] Production incident workflows
+- [ ] Platform operational maturity patterns
 
 ---
 
 ## Platform Engineering Focus
 
-- [ ] AI-enabled Internal Developer Platforms
-- [ ] AI-assisted Developer Experience workflows
-- [ ] Engineering productivity engineering systems
-- [ ] Operational workflow orchestration
-- [ ] AI-assisted CI/CD workflows
-- [ ] Incident investigation assistance systems
-- [ ] Reliability-aware engineering workflows
-- [ ] Observability-aware developer tooling
+- [x] AI-enabled Internal Developer Platforms
+- [x] Developer Experience concepts
+- [x] Engineering productivity patterns
+- [x] Self-service platform workflows
+- [x] Operational diagnostics concepts
+
+Future additions:
+
+- [ ] Golden path workflows
+- [ ] Service catalog discussions
+- [ ] Platform maturity model
+- [ ] Developer onboarding patterns
 
 ---
 
 ## Repository Enhancements
 
-- [ ] Production architecture references
-- [ ] Distributed systems integration scenarios
-- [ ] Operational workflow case studies
-- [ ] Workflow observability references
-- [ ] Reliability engineering references
-- [ ] Governance-aware AI workflows
-- [ ] Cross-repository engineering alignment
-- [ ] Repository navigation scalability improvements
+- [ ] Cross-topic references
+- [ ] Additional architecture diagrams
+- [ ] Architecture deep dives
+- [ ] Real-world engineering scenarios
+- [ ] Example system discussions
+- [ ] Platform operational references
 
 ---
 
-## Long-Term Exploration
+## Long-Term Expansion
 
-- [ ] AI workflow observability systems
-- [ ] Distributed reliability engineering patterns
-- [ ] Operational governance systems
-- [ ] Recovery engineering coordination
-- [ ] Enterprise AI operational models
-- [ ] Scalable orchestration systems
-- [ ] Distributed execution telemetry
-- [ ] AI operational debugging systems
-
-## Ecosystem Alignment Goals
-
-- [ ] Maintain minimal topic duplication across repositories
-- [ ] Maintain operational engineering alignment
-- [ ] Maintain production-oriented workflow focus
-- [ ] Maintain ecosystem-wide terminology consistency
-- [ ] Maintain scalable repository ownership boundaries
-- [ ] Maintain observability and reliability engineering integration
-- [ ] Maintain infrastructure and platform engineering awareness
-- [ ] Maintain debugging-oriented engineering perspective
+- [ ] Enterprise engineering workflows
+- [ ] AI engineering operational models
+- [ ] Emerging AI engineering capabilities
+- [ ] Reliability deep dives
+- [ ] Advanced system discussions
 
 ---
 
 Status: Active Development
+
+Goal:
+
+Single engineering reference for:
+
+- Learning
+- Revision
+- Architecture understanding
+- Workflow visualization
+- Production engineering thinking
+- Platform Engineering concepts
+- Engineering discussions
+- Interview preparation
