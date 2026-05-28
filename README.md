@@ -38,6 +38,7 @@ The goal is building repositories that feel like:
 ---
 
 ## Repository Philosophy
+
 AI systems engineering changes significantly when moving from experimentation into production environments.
 
 Modern AI engineering systems do not operate independently from infrastructure platforms, backend systems, deployment workflows, observability systems, distributed architectures, scalability engineering, and operational production environments.

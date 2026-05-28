@@ -1,6 +1,5 @@
 # A2A Demo
 
-
 Reference implementation examples covering distributed A2A communication, orchestration workflows, operational coordination, observability integration, and scalable AI workflow execution.
 
 Production A2A demo systems become significantly more complex when moving from isolated examples into operational engineering environments.
@@ -15,7 +14,6 @@ Modern A2A execution workflows do not operate independently from:
 - platform engineering systems
 - operational reliability engineering
 - distributed execution environments
-
 
 ## Workflow Demonstration Areas
 
@@ -35,7 +33,6 @@ Topics include:
 - Workflow validation pipelines
 - Enterprise operational workflows
 - Scalable distributed execution models
-
 
 ## Production Engineering Perspective
 
