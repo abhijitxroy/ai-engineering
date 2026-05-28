@@ -66,12 +66,8 @@ Complex tasks are decomposed into smaller executable steps.
 
 Example:
 
-User Goal:
-
-```
-
+```text
 Investigate CI/CD deployment failure
-
 ```
 
 Agent Planning:
@@ -109,10 +105,8 @@ Execution can include:
 
 ## High-Level Workflow
 
-```
-
+```text
 Input → Context → Planning → Tool Usage → Execution → Response
-
 ```
 
 ---
@@ -136,6 +130,50 @@ AI agents can augment Platform Engineering initiatives by improving:
 - Internal Developer Platforms (IDP)
 - Operational efficiency
 - Engineering productivity
+
+---
+
+## Production Engineering Reality
+
+AI agents operating in production environments introduce significantly more complexity than standalone prompt-response systems.
+
+Real production agent systems must handle:
+
+- unreliable model outputs
+- orchestration failures
+- tool invocation failures
+- API reliability issues
+- latency bottlenecks
+- memory consistency challenges
+- workflow coordination problems
+- observability gaps
+- infrastructure scaling constraints
+- distributed execution complexity
+- operational debugging challenges
+- security and governance concerns
+
+Production AI agents are tightly connected with:
+
+- backend systems
+- APIs and distributed services
+- cloud infrastructure
+- deployment workflows
+- observability platforms
+- platform engineering systems
+- operational reliability engineering
+
+Successful AI agent engineering requires understanding not only model behavior, but also:
+
+- workflow orchestration
+- distributed systems behavior
+- infrastructure reliability
+- operational monitoring
+- debugging workflows
+- production scalability
+- failure recovery mechanisms
+- engineering governance
+
+AI agents should be treated as operational production systems rather than isolated AI experiments.
 
 ---
 
