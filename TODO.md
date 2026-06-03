@@ -126,6 +126,14 @@ Future additions:
 
 ---
 
+## Governance Alignment
+
+- [ ] Review ownership boundaries
+- [ ] Reduce cross-repository topic duplication
+- [ ] Clarify AI Engineering ownership scope
+
+---
+
 Status: Active Development
 
 Goal:
