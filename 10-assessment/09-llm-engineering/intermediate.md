@@ -1,304 +1,218 @@
-# LLM Engineering - Intermediate
+# LLM Engineering Assessment — Intermediate
 
-Engineering architecture concepts, operational workflows, retrieval patterns, and production considerations.
+## Purpose
 
----
+Evaluate practical LLM application engineering skills including retrieval systems, prompt optimization, evaluation, and production considerations.
 
-## Overview
-
-At intermediate level discussions, focus shifts from understanding language models toward building reliable engineering systems around them.
-
-Interview discussions commonly evaluate:
-
-- System architecture
-- Prompt engineering strategy
-- Retrieval approaches
-- Context handling
-- Tool integration
-- Reliability considerations
+This assessment validates the ability to design reliable LLM-powered applications.
 
 ---
 
-## System Architecture
+## Assessment Scope
 
-High Level Design
+Topics covered:
 
-User Request
-
-↓
-
-Prompt Layer
-
-↓
-
-Context Layer
-
-↓
-
-Retrieval Layer
-
-↓
-
-Model Layer
-
-↓
-
-Validation Layer
-
-↓
-
-Response Layer
+- LLM application architecture
+- Prompt engineering patterns
+- Embeddings
+- Vector search
+- RAG pipelines
+- Evaluation strategies
+- Model selection
+- Context optimization
+- AI application reliability
 
 ---
 
-## Prompt Engineering
+## Assessment Format
 
-Prompt quality directly impacts output quality.
+Three levels:
 
-Well-designed prompts generally include:
+### Level 1 — Concept Understanding
 
-### Context
+Validates intermediate LLM concepts.
 
-Background information.
+### Level 2 — Engineering Scenarios
 
-Example:
+Validates practical implementation decisions.
 
-Deployment failure investigation.
+### Level 3 — Senior Engineer Decisions
 
----
-
-### Objective
-
-Expected outcome.
-
-Example:
-
-Identify failure reason.
+Validates production architecture thinking.
 
 ---
 
-### Constraints
+# Level 1 — Concept Understanding
 
-Execution boundaries.
+## Q1. What is the purpose of embeddings in LLM applications?
 
-Example:
+A. Store application source code
 
-- Maximum 5 recommendations
-- Operational focus only
+B. Convert information into numerical representations for similarity search
 
----
+C. Replace databases completely
 
-## Context Management
-
-Context quality significantly impacts output quality.
-
-Examples:
-
-### Short Context
-
-Current interaction information.
-
-Examples:
-
-- Deployment request
-- Current troubleshooting task
+D. Increase CPU performance
 
 ---
 
-### Extended Context
+## Q2. What is the main purpose of RAG architecture?
 
-Additional supporting information.
+A. Train a new foundation model
 
-Examples:
+B. Combine retrieval of external knowledge with LLM generation
 
-- Documentation
-- Infrastructure state
-- Historical operational information
+C. Remove the need for data sources
 
----
-
-## Retrieval Layer
-
-Engineering systems commonly retrieve information before model execution.
-
-Examples:
-
-### Documentation Retrieval
-
-Engineering references.
+D. Eliminate evaluation
 
 ---
 
-### Operational Retrieval
+## Q3. Why is prompt engineering important?
 
-Examples:
+A. It improves instructions, context, and output quality
 
-- Infrastructure metrics
-- Deployment status
-- Monitoring information
+B. It replaces software testing
 
----
+C. It removes model limitations completely
 
-### Knowledge Systems
-
-Examples:
-
-- Internal engineering knowledge
-- Operational references
+D. It avoids monitoring
 
 ---
 
-## Tool Integration
+# Level 2 — Engineering Scenarios
 
-Modern engineering systems commonly extend model capabilities.
+## Q4. A RAG application retrieves irrelevant documents.
 
-Examples:
+What should be investigated?
 
-| Tool Type | Example |
-|------------|----------|
-| API | External service interaction |
-| Infrastructure Platform | Operational visibility |
-| Documentation Platform | Knowledge retrieval |
-| Monitoring System | Metrics retrieval |
+Expected thinking:
 
----
-
-## Workflow Example
-
-Developer Request:
-
-Investigate deployment issue.
-
-↓
-
-Prompt Generated
-
-↓
-
-Operational context retrieved
-
-↓
-
-Infrastructure signals collected
-
-↓
-
-Model reasoning executed
-
-↓
-
-Validation performed
-
-↓
-
-Response generated
+- Chunking strategy
+- Embedding model quality
+- Retrieval parameters
+- Document metadata
+- Query transformation
 
 ---
 
-## Reliability Considerations
+## Q5. An LLM application frequently exceeds token limits.
 
-Production systems require reliability mechanisms.
+Possible improvements:
 
-Examples:
-
-### Validation Layer
-
-Verify output quality.
-
----
-
-### Timeout Protection
-
-Prevent blocked execution.
+- Context reduction
+- Better chunking
+- Summarization
+- Retrieval filtering
+- Prompt optimization
 
 ---
 
-### Retry Handling
+## Q6. An AI assistant gives different answers for the same question.
 
-Support transient failures.
+Investigation areas:
+
+- Model temperature
+- Prompt consistency
+- Retrieved context
+- Evaluation dataset
+- Model version changes
 
 ---
 
-## Observability
+# Level 3 — Senior Engineer Decisions
 
-Examples:
+## Q7. Design an enterprise knowledge assistant using LLMs.
 
-### Metrics
+Consider:
 
-Track:
+- Data ingestion pipeline
+- Document processing
+- Embedding strategy
+- Retrieval architecture
+- Access control
+- Evaluation
+- Monitoring
 
+---
+
+## Q8. A company wants to reduce LLM API cost while maintaining quality.
+
+What should be evaluated?
+
+Expected thinking:
+
+- Model selection
+- Prompt efficiency
+- Caching
+- Request batching
+- Response optimization
+
+---
+
+## Q9. Production issue:
+
+```
+Application: Healthy
+Model API: Available
+Latency: Increasing
+Quality: Stable
+Cost: Increasing
+```
+
+Investigation areas:
+
+- Token usage
+- Prompt size
+- Model selection
 - Request volume
-- Response latency
-- Success rate
+- Caching opportunities
 
 ---
 
-### Logging
+# Answer Key
 
-Track:
-
-- Execution activity
-- Operational failures
+To be completed after assessment execution.
 
 ---
 
-### Tracing
+# Explanation
 
-Understand workflow execution.
-
----
-
-## Platform Engineering Perspective
-
-Potential integrations:
-
-- Internal Developer Platforms
-- Developer productivity workflows
-- Operational diagnostics
-- Engineering knowledge systems
+Detailed explanations will be added after answering questions.
 
 ---
 
-## Tradeoffs
+# Score Tracking
 
-| Simplicity | Advanced Capability |
-|-------------|---------------------|
-| Easier implementation | Better capability |
-| Lower operational effort | More operational complexity |
-| Lower cost | Higher capability |
-
----
-
-## Common Interview Questions
-
-1. Why prompt engineering matters?
-
-2. Why retrieval systems important?
-
-3. Context management approaches?
-
-4. Tool integration benefits?
-
-5. Reliability considerations?
+| Topic | Score | Status |
+|---|---|---|
+| Embeddings | | |
+| RAG | | |
+| Prompt Engineering | | |
+| Evaluation | | |
+| Optimization | | |
+| Architecture | | |
 
 ---
 
-## Quick Revision
+# Weak Areas
 
-Prompt
+Identified after assessment completion.
 
-↓
+---
 
-Context
+# Recommended Resources
 
-↓
+Focused resources will be added based on assessment results.
 
-Retrieval
+---
 
-↓
+# Practical Application
 
-Model
+Apply LLM engineering concepts through AI-powered applications.
 
-↓
+---
 
-Validation
+# Next Assessment
+
+Next: `10-assessment/09-llm-engineering/advanced.md`

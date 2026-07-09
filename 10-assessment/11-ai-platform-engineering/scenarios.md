@@ -1,34 +1,52 @@
-# Platform Engineering - Scenario Discussions
+# AI Platform Engineering Assessment — Scenario Based
 
-Architecture discussions, design thinking, operational workflows, and interview preparation.
+## Purpose
+
+Evaluate AI platform engineering architecture skills through realistic platform design scenarios covering Internal Developer Platforms, AI-assisted workflows, reliability, security, and operational tradeoffs.
+
+This assessment focuses on architecture thinking and engineering decision-making.
 
 ---
 
-# Scenario 1
+## Assessment Scope
 
-## Design Internal Developer Platform (IDP)
+Topics covered:
 
-### Problem Statement
+- Internal Developer Platform (IDP)
+- Developer Experience (DevEx)
+- Platform architecture
+- Self-service workflows
+- AI-enabled engineering platforms
+- Reliability
+- Security
+- Observability
+- Engineering tradeoffs
 
-Engineering teams experience operational bottlenecks.
+---
 
-Examples:
+# Scenario 1 — Design Internal Developer Platform (IDP)
+
+## Problem Statement
+
+Engineering teams experience operational bottlenecks:
 
 - Manual infrastructure provisioning
-- Slow onboarding
+- Slow developer onboarding
 - Fragmented documentation
 - Inconsistent deployment workflows
-- Operational dependency on platform teams
+- Heavy dependency on platform teams
 
 Objective:
 
-Improve Developer Experience and engineering productivity.
+Improve Developer Experience and engineering productivity through a standardized Internal Developer Platform.
 
 ---
 
-## Functional Requirements
+## Requirements
 
-Platform capabilities:
+### Functional Requirements
+
+Platform should provide:
 
 - Self-service infrastructure provisioning
 - Service templates
@@ -36,36 +54,31 @@ Platform capabilities:
 - Documentation discovery
 - CI/CD integration
 - Operational visibility
+- Environment management
 
 ---
 
-## Non Functional Requirements
+### Non-Functional Requirements
 
-### Reliability
+#### Reliability
 
-Platform should remain operational and predictable.
+Platform should provide predictable and reliable developer workflows.
 
----
+#### Scalability
 
-### Scalability
+Support multiple engineering teams and services.
 
-Support multiple engineering teams.
+#### Security
 
----
+Protect platform capabilities and infrastructure access.
 
-### Security
+#### Standardization
 
-Protect infrastructure and platform capabilities.
-
----
-
-### Standardization
-
-Reduce engineering workflow inconsistencies.
+Reduce workflow differences across teams.
 
 ---
 
-## High Level Design
+# High Level Design
 
 Developer
 
@@ -99,48 +112,52 @@ Operations
 
 ---
 
-## Mid Level Components
+# Component Design
 
-### Developer Portal
+## Developer Portal
 
 Capabilities:
 
 - Service catalog
 - Templates
 - Documentation
+- Self-service workflows
 
 ---
 
-### Provisioning Layer
+## Provisioning Layer
 
 Capabilities:
 
 - Infrastructure creation
 - Environment management
+- Configuration management
 
 ---
 
-### Delivery Layer
+## Delivery Layer
 
 Capabilities:
 
-- CI/CD
+- CI/CD automation
 - Validation
 - Release workflows
+- Deployment management
 
 ---
 
-### Observability Layer
+## Observability Layer
 
 Capabilities:
 
 - Metrics
 - Logs
 - Tracing
+- Alerts
 
 ---
 
-## Low Level Workflow
+# Low Level Workflow
 
 Developer requests service creation.
 
@@ -170,52 +187,55 @@ Service available.
 
 ---
 
-## Reliability Considerations
+# Reliability Considerations
 
-Examples:
+Consider:
 
 - Validation controls
 - Retry mechanisms
-- Operational visibility
+- Failure recovery
+- Operational monitoring
+- Dependency management
 
 ---
 
-## Platform Engineering Perspective
+# Security Considerations
 
-Expected outcomes:
+Consider:
 
-- Reduced operational bottlenecks
-- Better Developer Experience
-- Improved productivity
+- Authentication
+- Authorization
+- Role-based access control
+- Secret management
+- Audit logging
 
 ---
 
-# Scenario 2
+# Scenario 2 — Design AI-enabled Developer Platform
 
-## Design AI-enabled Developer Platform
+## Problem Statement
 
-### Problem Statement
-
-Engineering teams spend time searching documentation and troubleshooting operational issues.
+Engineering teams spend significant time searching documentation, troubleshooting failures, and understanding operational systems.
 
 Goal:
 
-Reduce engineering friction.
+Reduce engineering friction using AI-assisted platform capabilities.
 
 ---
 
 ## Functional Requirements
 
-Examples:
+Platform should support:
 
 - Documentation assistance
 - Troubleshooting guidance
 - Infrastructure recommendations
 - Knowledge retrieval
+- Operational insights
 
 ---
 
-## High Level Design
+# High Level Design
 
 Developer
 
@@ -241,11 +261,9 @@ Response Layer
 
 ---
 
-## AI Integration Examples
+# AI Integration Examples
 
-Examples:
-
-### Knowledge Discovery
+## Knowledge Discovery
 
 Developer asks:
 
@@ -253,15 +271,15 @@ How deployment workflow operates.
 
 ↓
 
-Knowledge retrieved.
+Relevant knowledge retrieved.
 
 ↓
 
-Response generated.
+AI response generated.
 
 ---
 
-### Troubleshooting Assistance
+## Troubleshooting Assistance
 
 Developer reports deployment issue.
 
@@ -271,33 +289,50 @@ Operational signals collected.
 
 ↓
 
+AI analyzes context.
+
+↓
+
 Recommendation generated.
 
 ---
 
-## Tradeoffs
+# Engineering Decisions
 
-| Simplicity | Capability |
-|-------------|-------------|
-| Faster implementation | Better developer productivity |
-| Lower complexity | More operational ownership |
-| Lower cost | Higher engineering capability |
+Consider:
+
+- AI model integration
+- Knowledge quality
+- Data access boundaries
+- Response accuracy
+- Human approval requirements
 
 ---
 
-# Common Interview Questions
+# Tradeoffs
 
-1. Internal Developer Platform architecture?
+| Area | Consideration |
+|---|---|
+| Simplicity | Faster implementation vs limited capability |
+| Capability | More automation vs higher complexity |
+| Security | More access vs stronger restrictions |
+| Cost | AI processing vs productivity improvement |
 
-2. Platform Engineering benefits?
+---
 
-3. Reliability considerations?
+# Common Scenario Questions
 
-4. AI integration opportunities?
+1. Design an Internal Developer Platform architecture.
 
-5. Developer productivity improvements?
+2. How does platform engineering improve developer productivity?
 
-6. Standardization importance?
+3. What reliability mechanisms are required?
+
+4. How can AI improve developer workflows?
+
+5. What security controls are required for AI-enabled platforms?
+
+6. How do you measure platform success?
 
 ---
 
@@ -323,8 +358,18 @@ Reliability
 
 ↓
 
+Security
+
+↓
+
 Tradeoffs
 
 ↓
 
 Developer Experience
+
+---
+
+# Next Assessment
+
+Next: `10-assessment/12-production-ai-engineering.md`

@@ -1,366 +1,112 @@
-# Internal Developer Platform (IDP)
+# Internal Developer Platform (IDP) Assessment
 
-Platform Engineering concepts, architecture thinking, operational workflows, and interview preparation.
-
----
-
-## Overview
-
-Internal Developer Platforms (IDPs) provide standardized self-service capabilities enabling engineering teams to build, deploy, operate, and manage software efficiently.
-
-The objective is improving:
-
-- Developer Experience (DevEx)
-- Standardization
-- Operational efficiency
-- Engineering productivity
+## Purpose
+This assessment evaluates your understanding of Internal Developer Platforms (IDP), their architecture, benefits, and real-world engineering scenarios. It is designed to check both conceptual knowledge and the ability to apply platform engineering principles in practical situations.
 
 ---
 
-## Why Internal Developer Platforms Needed
-
-Engineering organizations often face challenges:
-
-Examples:
-
-- Manual infrastructure workflows
-- Inconsistent deployment processes
-- Knowledge fragmentation
-- Operational complexity
-- Slow developer onboarding
-
-IDPs improve engineering experience through standardized capabilities.
+## Assessment Scope
+- IDP concepts and purpose
+- Core platform components
+- Developer experience improvements
+- Platform engineering workflows
+- AI integration in IDP
+- Reliability, metrics, and tradeoffs
 
 ---
 
-## Problem Statement
+## Level 1: Concept Understanding
 
-Traditional Model
+**Q1.** What is an Internal Developer Platform (IDP)?  
+a) A platform for external customers to deploy applications  
+b) A set of standardized self-service capabilities for engineering teams  
+c) A tool for marketing automation  
+d) A platform for storing only documentation  
 
-Developer
+<br/>
 
-↓
+**Q2.** Which of the following is NOT a core component of an IDP?  
+a) Developer portal  
+b) Infrastructure layer  
+c) Observability layer  
+d) Marketing analytics  
 
-Manual Requests
+<br/>
 
-↓
-
-Operations Team
-
-↓
-
-Infrastructure Provisioning
-
-↓
-
-Deployment
-
-↓
-
-Validation
-
-↓
-
-Release
-
-Challenges:
-
-- Operational bottlenecks
-- Reduced productivity
-- Process inconsistency
+**Q3.** What is the primary goal of introducing an IDP?  
+a) Increase manual workflows  
+b) Improve developer experience and productivity  
+c) Add operational bottlenecks  
+d) Reduce automation  
 
 ---
 
-Platform Engineering Model
+## Level 2: Engineering Scenarios
 
-Developer
+**Q4.** A developer needs to provision infrastructure and deploy a new microservice. Describe the typical workflow using an IDP.
 
-↓
+**Q5.** List three ways AI can be integrated into an Internal Developer Platform to improve engineering workflows.
 
-Internal Developer Platform
-
-↓
-
-Self-Service Capabilities
-
-├── Infrastructure Provisioning
-
-├── Deployment Platform
-
-├── Documentation
-
-├── CI/CD
-
-├── Observability
-
-└── Security Controls
-
-↓
-
-Delivery Workflow
-
-Benefits:
-
-- Faster delivery
-- Better standardization
-- Improved Developer Experience
+**Q6.** Identify two metrics that can be used to measure the effectiveness of an IDP.
 
 ---
 
-## Core Platform Components
+## Level 3: Engineering Thinking
 
-### Developer Portal
+**Q7.** Compare the traditional operations model with the platform engineering model in terms of developer productivity and standardization. Provide two tradeoffs.
 
-Single entry point.
+**Q8.** A team is experiencing slow onboarding for new developers. How can an IDP address this challenge? Suggest one practical solution.
 
-Examples:
-
-- Documentation
-- Platform workflows
-- Service templates
+**Q9.** You are designing an IDP for a company with strict security requirements. What are two security features you would prioritize in the platform?
 
 ---
 
-### Infrastructure Layer
+## Answer Key
 
-Examples:
-
-- Cloud resources
-- Kubernetes platforms
-- Networking
-
----
-
-### Delivery Layer
-
-Examples:
-
-- CI/CD
-- Release automation
+**Q1:** b  
+**Q2:** d  
+**Q3:** b  
+**Q4:** Example answer: The developer accesses the developer portal, selects a service template, provisions infrastructure via self-service, configures CI/CD, deploys the service, and enables observability.  
+**Q5:** Example answers: (1) AI-powered documentation assistant, (2) Automated troubleshooting and recommendations, (3) Knowledge discovery and onboarding guidance.  
+**Q6:** Example answers: Deployment frequency, developer onboarding time, failure rate, workflow completion time.  
+**Q7:** Example answer: Traditional operations rely on manual processes and are less standardized, leading to bottlenecks. Platform engineering emphasizes self-service and standardization, improving productivity. Tradeoffs: (1) Initial setup complexity, (2) Need for cultural change.  
+**Q8:** Example answer: IDPs provide standardized onboarding workflows and documentation, reducing ramp-up time. Solution: Implement automated onboarding guides in the developer portal.  
+**Q9:** Example answers: (1) Role-based access control (RBAC), (2) Secret management and audit logging.
 
 ---
 
-### Observability Layer
+## Score Tracking
 
-Examples:
-
-- Logging
-- Metrics
-- Tracing
+- **0-3 correct:** Review foundational IDP concepts.
+- **4-6 correct:** Good understanding; practice scenario-based questions.
+- **7-9 correct:** Strong grasp; ready for advanced platform engineering topics.
 
 ---
 
-### Security Layer
+## Weak Areas
 
-Examples:
-
-- Authentication
-- Authorization
-- Secret management
-
----
-
-## High Level Workflow
-
-Developer Request
-
-↓
-
-Developer Portal
-
-↓
-
-Provision Infrastructure
-
-↓
-
-Configure Deployment
-
-↓
-
-Execute CI/CD
-
-↓
-
-Validation
-
-↓
-
-Release
-
-↓
-
-Observability
+If you missed questions in:
+- **Level 1:** Review IDP core concepts and components.
+- **Level 2:** Practice describing workflows and AI use cases.
+- **Level 3:** Focus on tradeoffs, onboarding, and security in IDP design.
 
 ---
 
-## Platform Engineering + AI Integration
-
-Examples:
-
-### AI Documentation Assistant
-
-Developer asks:
-
-How deployment workflow operates.
-
-↓
-
-Knowledge retrieval
-
-↓
-
-Operational guidance
+## Recommended Resources
+- [Platform Engineering Community](https://platformengineering.org/)
+- [Humanitec’s IDP Guide](https://humanitec.com/internal-developer-platform)
+- [CNCF Platform Whitepaper](https://tag-app-delivery.cncf.io/whitepapers/platform-whitepaper/)
+- [AI in Platform Engineering (Blog)](https://blog.humanitec.io/ai-in-platform-engineering)
 
 ---
 
-### AI Troubleshooting
-
-Developer reports issue.
-
-↓
-
-Operational context collected
-
-↓
-
-Analysis executed
-
-↓
-
-Recommendation generated
+## Practical Application
+- Map out your organization’s current developer workflow.
+- Identify manual steps that could be replaced by IDP self-service.
+- Brainstorm how AI could support onboarding or troubleshooting.
+- Track onboarding time and deployment frequency before/after IDP adoption.
 
 ---
 
-### AI Productivity Improvements
-
-Examples:
-
-- Faster onboarding
-- Knowledge discovery
-- Operational guidance
-
----
-
-## Engineering Example
-
-Scenario:
-
-Developer creates new service.
-
-Flow:
-
-Developer Portal
-
-↓
-
-Template Selection
-
-↓
-
-Infrastructure Provisioning
-
-↓
-
-CI/CD Configuration
-
-↓
-
-Deployment
-
-↓
-
-Observability Enabled
-
-↓
-
-Service Ready
-
----
-
-## Reliability Considerations
-
-Examples:
-
-- Standardization
-- Validation
-- Operational visibility
-- Security boundaries
-
----
-
-## Platform Engineering Metrics
-
-Examples:
-
-### Delivery Metrics
-
-- Deployment frequency
-- Lead time
-
----
-
-### Reliability Metrics
-
-- Failure rate
-- Recovery time
-
----
-
-### Productivity Metrics
-
-- Developer onboarding time
-- Workflow completion time
-
----
-
-## Tradeoffs
-
-| Traditional Operations | Platform Engineering |
-|------------------------|----------------------|
-| Manual operations | Self-service |
-| Lower automation | Higher automation |
-| Reduced consistency | Standardization |
-| Slower onboarding | Faster onboarding |
-
----
-
-## Common Interview Questions
-
-1. What is Internal Developer Platform?
-
-2. Why Platform Engineering needed?
-
-3. Core platform components?
-
-4. AI integration opportunities?
-
-5. Developer Experience improvements?
-
-6. Standardization benefits?
-
----
-
-## Quick Revision
-
-IDP
-
-=
-
-Developer Experience
-
-+
-
-Self Service
-
-+
-
-Standardization
-
-+
-
-Automation
-
-+
-
-Productivity
+# Next Assessment
+Continue to: [Platform Engineering Scenarios](scenarios.md)

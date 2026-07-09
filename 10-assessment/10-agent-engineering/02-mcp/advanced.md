@@ -327,3 +327,217 @@ Observable
 ↓
 
 Operationally Maintainable
+
+# MCP Assessment — Advanced
+
+## Purpose
+
+Evaluate advanced MCP engineering skills including production architecture, scalability, security, governance, reliability, and operational design.
+
+This assessment validates the ability to design enterprise-grade MCP-based AI integrations.
+
+---
+
+## Assessment Scope
+
+Topics covered:
+
+- Production MCP architecture
+- Scalability patterns
+- Reliability engineering
+- Security boundaries
+- Governance
+- Platform integration
+- Operational maturity
+
+---
+
+## Assessment Format
+
+Three levels:
+
+### Level 1 — Concept Understanding
+
+Validates advanced MCP concepts.
+
+### Level 2 — Engineering Scenarios
+
+Validates production implementation decisions.
+
+### Level 3 — Senior Engineer Decisions
+
+Validates architecture trade-offs.
+
+---
+
+# Level 1 — Concept Understanding
+
+## Q1. What is the primary production concern when exposing MCP capabilities?
+
+A. Increasing application size
+
+B. Controlling access, reliability, and operational behavior
+
+C. Removing all APIs
+
+D. Avoiding monitoring
+
+---
+
+## Q2. Why are security boundaries important in MCP systems?
+
+Expected thinking:
+
+- Control available capabilities
+- Limit permissions
+- Protect sensitive systems
+- Prevent unsafe operations
+
+---
+
+## Q3. Why is observability required for MCP integrations?
+
+Expected thinking:
+
+- Track requests
+- Monitor latency
+- Diagnose failures
+- Understand tool execution behavior
+
+---
+
+# Level 2 — Engineering Scenarios
+
+## Q4. Design a production MCP architecture for enterprise AI applications.
+
+Consider:
+
+- AI application
+- MCP client layer
+- MCP servers
+- External systems
+- Security controls
+- Monitoring
+- Governance
+
+---
+
+## Q5. Multiple teams consume the same MCP server and performance decreases.
+
+Investigation areas:
+
+- Request volume
+- Resource bottlenecks
+- Server scaling
+- Connection management
+- Caching opportunities
+
+---
+
+## Q6. An MCP server exposes infrastructure automation tools.
+
+What controls are required?
+
+Expected thinking:
+
+- Authentication
+- Authorization
+- Least privilege
+- Approval workflows
+- Audit logging
+- Rollback capability
+
+---
+
+# Level 3 — Senior Engineer Decisions
+
+## Q7. Design an MCP platform for an Internal Developer Platform.
+
+Consider:
+
+- Developer workflows
+- Knowledge systems
+- Infrastructure integrations
+- Tool governance
+- Access management
+- Operational ownership
+
+---
+
+## Q8. An MCP-based system has increasing latency.
+
+```
+AI Application: Healthy
+MCP Client: Healthy
+MCP Server: Slow
+Backend Systems: Variable
+```
+
+Investigation areas:
+
+- MCP server capacity
+- External dependency latency
+- Resource retrieval performance
+- Request patterns
+- Caching strategy
+
+---
+
+## Q9. How should MCP systems handle failures?
+
+Expected thinking:
+
+- Timeout handling
+- Retry strategy
+- Circuit protection
+- Graceful degradation
+- Failure visibility
+
+---
+
+# Answer Key
+
+To be completed after assessment execution.
+
+---
+
+# Explanation
+
+Detailed explanations will be added after answering questions.
+
+---
+
+# Score Tracking
+
+| Topic | Score | Status |
+|---|---|---|
+| Architecture | | |
+| Scalability | | |
+| Security | | |
+| Reliability | | |
+| Governance | | |
+| Operations | | |
+
+---
+
+# Weak Areas
+
+Identified after assessment completion.
+
+---
+
+# Recommended Resources
+
+Focused resources will be added based on assessment results.
+
+---
+
+# Practical Application
+
+Apply MCP concepts through enterprise AI platforms and engineering workflows.
+
+---
+
+# Next Assessment
+
+Next: `10-assessment/10-agent-engineering/02-mcp/scenario-based.md`

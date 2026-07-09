@@ -1,180 +1,199 @@
-# Comparison Tables
+# Comparison Table Assessment
 
-Quick engineering comparison references for interview preparation and fast revision.
+## Purpose
+
+Evaluate the ability to compare AI engineering concepts, architecture choices, platform approaches, and operational design decisions.
+
+This assessment validates understanding of similarities, differences, benefits, and tradeoffs.
 
 ---
 
-# AI Agent vs Traditional Automation
+## Assessment Scope
+
+Topics covered:
+
+- AI Agent vs Traditional Automation
+- Single Agent vs Multi-Agent
+- MCP vs Traditional Integration
+- MCP vs A2A
+- RAG vs Fine Tuning
+- AI Assistant vs AI Agent
+- Platform Engineering vs Traditional Operations
+- DevOps vs Platform Engineering
+- IDP vs Traditional Platform
+
+---
+
+# Level 1 — Concept Understanding
+
+## Q1. AI Agent vs Traditional Automation
+
+Compare:
 
 | Area | AI Agent | Traditional Automation |
-|-------|-----------|------------------------|
-| Decision Making | Dynamic reasoning | Rule based |
-| Execution Flow | Adaptive | Fixed |
-| Context Awareness | Higher | Limited |
-| Tool Usage | Dynamic selection | Predefined |
-| Planning Capability | Present | Limited |
-| Flexibility | Higher | Lower |
-| Workflow Evolution | Context driven | Manual changes |
+|---|---|---|
+| Decision Making | | |
+| Execution Flow | | |
+| Context Awareness | | |
+| Tool Usage | | |
 
 ---
 
-# Single Agent vs Multi-Agent
+## Q2. MCP vs A2A
 
-| Area | Single Agent | Multi-Agent |
-|-------|---------------|--------------|
-| Complexity | Lower | Higher |
-| Coordination | Minimal | Required |
-| Scalability | Moderate | Better |
-| Fault Isolation | Lower | Better |
-| Parallel Processing | Limited | Strong |
-| Operational Overhead | Lower | Higher |
-
----
-
-# MCP vs Traditional Integration
-
-| Area | MCP | Traditional Integration |
-|-------|-----|-------------------------|
-| Integration Model | Standardized | Custom |
-| Tool Connectivity | Unified | Independent |
-| Context Management | Structured | Application specific |
-| Maintainability | Better | Lower |
-| Extensibility | Better | Limited |
-| Operational Complexity | Lower | Higher |
-
----
-
-# MCP Host vs Client vs Server
-
-| Component | Responsibility |
-|------------|----------------|
-| Host | Primary application |
-| Client | Communication layer |
-| Server | Tool and resource access |
-
----
-
-# MCP vs A2A
+Compare:
 
 | Area | MCP | A2A |
-|-------|-----|-----|
-| Primary Goal | Tool connectivity | Agent coordination |
-| Scope | Context sharing | Distributed execution |
-| Communication Pattern | System integration | Agent interaction |
-| Focus Area | Access layer | Collaboration layer |
-| Responsibility | External connectivity | Agent orchestration |
+|---|---|---|
+| Primary Goal | | |
+| Communication | | |
+| Main Responsibility | | |
 
 ---
 
-# Single Execution vs Distributed Execution
+## Q3. RAG vs Fine Tuning
 
-| Area | Single Execution | Distributed Execution |
-|-------|------------------|-----------------------|
-| Complexity | Lower | Higher |
-| Scalability | Limited | Better |
-| Coordination | Lower | Higher |
-| Fault Isolation | Limited | Better |
-| Parallel Execution | Limited | Strong |
-
----
-
-# Sequential vs Parallel Execution
-
-| Area | Sequential | Parallel |
-|-------|-------------|-----------|
-| Speed | Lower | Faster |
-| Dependency Handling | Easier | More complex |
-| Coordination | Lower | Higher |
-| Operational Complexity | Lower | Higher |
-
----
-
-# RAG vs Fine Tuning
+Compare:
 
 | Area | RAG | Fine Tuning |
-|-------|-----|-------------|
-| External Knowledge | Yes | Limited |
-| Model Retraining | Not Required | Required |
-| Dynamic Information | Strong | Limited |
-| Operational Complexity | Medium | Higher |
-| Knowledge Updates | Easier | Harder |
-| Cost | Lower | Higher |
+|---|---|---|
+| Knowledge Update | | |
+| Model Changes | | |
+| Cost Impact | | |
 
 ---
 
-# AI Assistant vs AI Agent
+# Level 2 — Engineering Scenarios
 
-| Area | AI Assistant | AI Agent |
-|-------|--------------|-----------|
-| Interaction | Request-response | Goal oriented |
-| Planning | Limited | Present |
-| Tool Usage | Optional | Core capability |
-| Execution Ownership | Lower | Higher |
-| Workflow Control | Limited | Broader |
+## Q4. An organization needs AI assistance using frequently changing documentation.
 
----
+Choose the appropriate approach:
 
-# Platform Engineering vs Traditional Operations
+Consider:
 
-| Area | Platform Engineering | Traditional Operations |
-|-------|----------------------|------------------------|
-| Developer Experience | Strong focus | Limited |
-| Self Service | Core principle | Limited |
-| Standardization | Higher | Variable |
-| Automation | Extensive | Partial |
-| Platform Ownership | Dedicated | Shared |
-| Developer Productivity | Primary focus | Secondary focus |
+- Knowledge updates
+- Operational cost
+- Data freshness
+- Maintenance effort
 
 ---
 
-# DevOps vs Platform Engineering
+## Q5. A company needs multiple AI agents collaborating on complex workflows.
 
-| Area | DevOps | Platform Engineering |
-|-------|---------|----------------------|
-| Focus | Delivery collaboration | Developer productivity |
-| Goal | Faster delivery | Better engineering experience |
-| Scope | Delivery lifecycle | Platform capabilities |
-| Ownership | Shared operations | Platform enablement |
+Evaluate:
 
----
-
-# Internal Developer Platform vs Traditional Platform
-
-| Area | Traditional Platform | IDP |
-|-------|----------------------|-----|
-| Self Service | Limited | Strong |
-| Standardization | Variable | Higher |
-| Developer Experience | Variable | Primary focus |
-| Operational Friction | Higher | Lower |
+- Single agent approach
+- Multi-agent approach
+- Coordination complexity
+- Reliability impact
 
 ---
 
-# Quick Memory Reference
+## Q6. A platform team wants to improve developer productivity.
 
-AI Agent
+Compare:
 
-→ Work execution
+- Traditional operations
+- Platform engineering
+- Internal Developer Platform
 
-MCP
+Consider:
 
-→ Connectivity
+- Self-service
+- Automation
+- Developer experience
 
-A2A
+---
 
-→ Coordination
+# Level 3 — Engineering Thinking
 
+## Q7. Select architecture approach:
+
+```
+Simple System
+        vs
+Distributed System
+```
+
+Evaluate:
+
+- Scalability
+- Complexity
+- Reliability
+- Operational overhead
+
+---
+
+## Q8. Select AI integration approach:
+
+```
 RAG
+        vs
+Fine Tuning
+```
 
-→ Retrieval
+Evaluate:
 
-IDP
+- Data requirements
+- Update frequency
+- Cost
+- Accuracy needs
 
-→ Self-service platform
+---
 
-DevEx
+## Q9. Architecture Review Scenario:
 
-→ Developer productivity
+```
+System Growth: Increasing
+Team Size: Increasing
+Operational Complexity: Increasing
+```
 
-Platform Engineering
+Identify suitable improvements:
 
-→ Developer enablement
+- Standardization
+- Automation
+- Platform capabilities
+- Observability
+
+---
+
+# Answer Key
+
+To be completed after assessment execution.
+
+---
+
+# Score Tracking
+
+| Topic | Score | Status |
+|---|---|---|
+| AI Concepts | | |
+| Integration Patterns | | |
+| Architecture Decisions | | |
+| Platform Engineering | | |
+| Tradeoff Analysis | | |
+
+---
+
+# Weak Areas
+
+Identified after assessment completion.
+
+---
+
+# Recommended Resources
+
+Focused resources will be added based on assessment results.
+
+---
+
+# Practical Application
+
+Apply comparison frameworks during architecture reviews and engineering decisions.
+
+---
+
+# Next Assessment
+
+Complete: `10-assessment/22-cost-optimization.md` review

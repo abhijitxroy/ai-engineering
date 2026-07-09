@@ -1,300 +1,184 @@
-# Engineering Principles
+# Engineering Principles Assessment
 
-Engineering principles reference for architecture discussions, production systems, and interview preparation.
+## Purpose
 
----
+Evaluate understanding of fundamental engineering principles including maintainability, reliability, scalability, simplicity, automation, and system design practices.
 
-# Goal
-
-Build systems that remain:
-
-- Reliable
-- Maintainable
-- Scalable
-- Observable
-- Operationally manageable
-
-Engineering principles improve long-term sustainability.
+This assessment validates engineering decision-making for building sustainable software systems.
 
 ---
 
-# Simplicity First
+## Assessment Scope
 
-Goal:
+Topics covered:
 
-Prefer simpler solutions.
-
-Questions:
-
-Can requirement solve with simpler design?
-
-Can operational complexity reduce?
-
-Benefits:
-
-- Easier maintenance
-- Lower operational burden
-- Faster onboarding
-
-Example:
-
-Bad:
-
-Complex distributed workflow without requirement.
-
-Good:
-
-Simple solution aligned to problem.
+- Simplicity
+- Separation of concerns
+- Loose coupling
+- High cohesion
+- Design for failure
+- Automation
+- Observability
+- Standardization
+- Developer experience
 
 ---
 
-# Separation of Concerns
+# Level 1 — Concept Understanding
 
-Goal:
+## Q1. Why is simplicity important in engineering design?
 
-Independent responsibilities.
+Expected thinking:
 
-Example:
+- Reduce complexity
+- Improve maintainability
+- Lower operational overhead
 
-Deployment Service
+---
 
-↓
+## Q2. What is separation of concerns?
 
-Deployment responsibility
+Expected thinking:
 
-Monitoring Service
-
-↓
-
-Observability responsibility
-
-Benefits:
-
-- Better ownership
-- Easier maintenance
+- Clear responsibilities
 - Reduced coupling
-
-Questions:
-
-Component responsibility clear?
+- Better ownership
 
 ---
 
-# Loose Coupling
+## Q3. Why should systems be designed for failure?
 
-Goal:
+Expected thinking:
 
-Reduce dependency impact.
-
-Bad:
-
-Single failure impacts entire system.
-
-Good:
-
-Independent services.
-
-Benefits:
-
-- Better reliability
-- Easier scaling
-
-Questions:
-
-Failure isolation possible?
+- Failures are expected
+- Recovery mechanisms improve reliability
 
 ---
 
-# High Cohesion
+# Level 2 — Engineering Scenarios
 
-Goal:
+## Q4. A service handles deployment, monitoring, and authentication responsibilities.
 
-Related responsibilities remain together.
+What design improvement is needed?
 
-Bad:
+Expected thinking:
 
-One service handling:
-
-- Monitoring
-- Deployment
-- Documentation
-- Authentication
-
-Good:
-
-Focused ownership.
-
-Benefits:
-
-- Easier maintenance
-- Better clarity
+- Separate responsibilities
+- Improve ownership boundaries
+- Reduce coupling
 
 ---
 
-# Design for Failure
+## Q5. A production system has frequent manual operational tasks.
 
-Goal:
+How can engineering principles help?
 
-Failures expected.
+Expected thinking:
 
-Examples:
-
-Retry
-
-↓
-
-Timeout
-
-↓
-
-Fallback
-
-↓
-
-Recovery
-
-Questions:
-
-System survives failures?
-
----
-
-# Automation First
-
-Goal:
-
-Reduce manual operations.
-
-Examples:
-
-- Deployment automation
-- Validation automation
-- Operational workflows
-
-Benefits:
-
+- Automation
+- Standard workflows
 - Reduced human error
-- Better consistency
 
 ---
 
-# Observability by Design
+## Q6. A system failure impacts multiple components.
 
-Goal:
+Investigation areas:
 
-Visibility built from beginning.
-
-Examples:
-
-Logs
-
-↓
-
-Metrics
-
-↓
-
-Tracing
-
-Benefits:
-
-- Faster troubleshooting
-- Better reliability
+- Dependency boundaries
+- Failure isolation
+- Coupling issues
+- Recovery mechanisms
 
 ---
 
-# Standardization
+# Level 3 — Engineering Thinking
 
-Goal:
+## Q7. Design principles for a scalable production system.
 
-Reduce operational inconsistency.
+Consider:
 
-Examples:
-
-- Deployment patterns
-- Service templates
-- Platform workflows
-
-Benefits:
-
-- Better maintainability
-- Faster onboarding
+- Simplicity
+- Modularity
+- Loose coupling
+- Observability
+- Automation
+- Standardization
 
 ---
 
-# Developer Experience Thinking
+## Q8. Evaluate this design decision:
 
-Questions:
+```
+Simple Design
+        vs
+Highly Flexible Design
+```
 
-Can engineering friction reduce?
+Consider:
 
-Can workflow simplify?
-
-Benefits:
-
-- Better productivity
-- Faster delivery
-
----
-
-# Platform Engineering Perspective
-
-Engineering priorities:
-
-Developer Productivity
-
-↓
-
-Operational Reliability
-
-↓
-
-Scalability
-
-↓
-
-Maintainability
-
-↓
-
-Standardization
+- Current requirements
+- Future needs
+- Operational complexity
+- Maintenance cost
 
 ---
 
-# Interview Questions
+## Q9. Production scenario:
 
-1. Why loose coupling important?
+```
+System: Working
+Changes: Frequent
+Failures: Difficult to Diagnose
+Operations: Manual
+```
 
-2. Cohesion vs coupling?
+Identify improvements:
 
-3. Why automation matters?
-
-4. Simplicity vs complexity?
-
-5. Why design for failure?
+- Observability
+- Automation
+- Standardization
+- Better ownership boundaries
 
 ---
 
-# Quick Revision
+# Answer Key
 
-Simple
+To be completed after assessment execution.
 
-↓
+---
 
-Decoupled
+# Score Tracking
 
-↓
+| Topic | Score | Status |
+|---|---|---|
+| Simplicity | | |
+| Coupling | | |
+| Cohesion | | |
+| Reliability | | |
+| Automation | | |
+| Observability | | |
 
-Observable
+---
 
-↓
+# Weak Areas
 
-Automated
+Identified after assessment completion.
 
-↓
+---
 
-Standardized
+# Recommended Resources
 
-↓
+Focused resources will be added based on assessment results.
 
-Maintainable
+---
+
+# Practical Application
+
+Apply engineering principles during architecture reviews and software development projects.
+
+---
+
+# Next Assessment
+
+Next: `10-assessment/17-governance.md`

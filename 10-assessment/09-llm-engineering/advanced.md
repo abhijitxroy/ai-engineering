@@ -393,3 +393,230 @@ Scalable
 ↓
 
 Operationally Maintainable
+
+# LLM Engineering Assessment — Advanced
+
+## Purpose
+
+Evaluate advanced LLM engineering skills including production architecture, scalability, reliability, governance, and operational maturity.
+
+This assessment validates the ability to design enterprise-grade LLM-powered systems.
+
+---
+
+## Assessment Scope
+
+Topics covered:
+
+- Production LLM architecture
+- Context engineering
+- Advanced RAG patterns
+- Evaluation systems
+- Reliability engineering
+- Governance
+- Security boundaries
+- Cost optimization
+- Operational maturity
+
+---
+
+## Assessment Format
+
+Three levels:
+
+### Level 1 — Concept Understanding
+
+Validates advanced LLM concepts.
+
+### Level 2 — Engineering Scenarios
+
+Validates production implementation decisions.
+
+### Level 3 — Senior Engineer Decisions
+
+Validates architecture trade-offs.
+
+---
+
+# Level 1 — Concept Understanding
+
+## Q1. Why is context engineering important in LLM applications?
+
+A. It improves the quality of information provided to the model
+
+B. It replaces model training completely
+
+C. It removes the need for evaluation
+
+D. It eliminates infrastructure requirements
+
+---
+
+## Q2. What is the purpose of LLM evaluation systems?
+
+A. Measure quality, reliability, and regression behavior
+
+B. Increase application complexity
+
+C. Replace monitoring
+
+D. Remove user feedback
+
+---
+
+## Q3. Why are governance controls required for enterprise AI systems?
+
+A. To manage security, access, compliance, and responsible usage
+
+B. To reduce source code size
+
+C. To avoid architecture design
+
+D. To remove operational ownership
+
+---
+
+# Level 2 — Engineering Scenarios
+
+## Q4. An enterprise RAG system returns technically correct but irrelevant answers.
+
+Investigation areas:
+
+Expected thinking:
+
+- Retrieval quality
+- Chunking strategy
+- Ranking approach
+- Metadata filtering
+- Context validation
+
+---
+
+## Q5. An LLM application has high cost and increasing latency.
+
+Possible optimization areas:
+
+- Model selection
+- Prompt optimization
+- Response caching
+- Context reduction
+- Request batching
+
+Expected thinking:
+
+Optimize based on measured usage patterns.
+
+---
+
+## Q6. An AI agent can execute infrastructure commands.
+
+What controls are required?
+
+Expected thinking:
+
+- Permission boundaries
+- Human approval points
+- Audit logging
+- Tool restrictions
+- Failure handling
+
+---
+
+# Level 3 — Senior Engineer Decisions
+
+## Q7. Design a production enterprise AI platform.
+
+Consider:
+
+- Gateway layer
+- Authentication
+- Context management
+- Retrieval layer
+- Model orchestration
+- Evaluation pipeline
+- Observability
+- Governance
+
+---
+
+## Q8. A company wants to introduce AI agents for engineering automation.
+
+What should be evaluated before adoption?
+
+Expected thinking:
+
+- Agent responsibilities
+- Security boundaries
+- Tool access
+- Operational risks
+- Human oversight
+- Cost impact
+
+---
+
+## Q9. Production issue:
+
+```
+Application: Healthy
+Model API: Available
+Latency: Increasing
+Cost: Increasing
+Quality: Decreasing
+```
+
+Investigation areas:
+
+- Context size changes
+- Retrieval quality
+- Model version changes
+- Prompt changes
+- Evaluation metrics
+
+---
+
+# Answer Key
+
+To be completed after assessment execution.
+
+---
+
+# Explanation
+
+Detailed explanations will be added after answering questions.
+
+---
+
+# Score Tracking
+
+| Topic | Score | Status |
+|---|---|---|
+| Architecture | | |
+| Context Engineering | | |
+| RAG | | |
+| Evaluation | | |
+| Governance | | |
+| Optimization | | |
+
+---
+
+# Weak Areas
+
+Identified after assessment completion.
+
+---
+
+# Recommended Resources
+
+Focused resources will be added based on assessment results.
+
+---
+
+# Practical Application
+
+Apply advanced LLM engineering concepts through production AI projects.
+
+---
+
+# Next Assessment
+
+Next: `10-assessment/10-agents-mcp/`

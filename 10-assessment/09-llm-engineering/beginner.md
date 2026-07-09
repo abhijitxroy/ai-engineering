@@ -1,269 +1,202 @@
-# LLM Engineering - Beginner
+# LLM Engineering Assessment — Beginner
 
-Fundamental concepts and interview preparation for understanding Large Language Models (LLMs) and modern AI engineering systems.
+## Purpose
 
----
+Evaluate fundamental knowledge required to build applications using Large Language Models (LLMs).
 
-## Overview
-
-Large Language Models (LLMs) are machine learning systems trained on large-scale datasets capable of understanding, generating, and reasoning over natural language.
-
-Modern AI systems often combine LLMs with retrieval systems, tools, memory, and orchestration workflows.
-
-Examples:
-
-- Conversational systems
-- Knowledge retrieval systems
-- Engineering productivity workflows
-- Documentation assistants
+This assessment validates understanding of LLM concepts, application patterns, and basic engineering practices.
 
 ---
 
-## Why LLM Engineering Needed
+## Assessment Scope
 
-Base language models have limitations.
+Topics covered:
 
-Examples:
-
-- Limited external knowledge access
-- No direct infrastructure visibility
-- Hallucination risk
-- Static training information
-
-Engineering systems extend LLM capabilities using:
-
-- Prompt engineering
-- Retrieval systems
-- Tool integration
-- Memory mechanisms
+- LLM fundamentals
+- Tokens and context windows
+- Prompt engineering basics
+- Model selection
+- Embeddings concepts
+- Retrieval Augmented Generation basics
+- AI application architecture
+- Responsible AI practices
 
 ---
 
-## Core Components
+## Assessment Format
 
-### Model Layer
+Three levels:
 
-Responsible for:
+### Level 1 — Concept Understanding
 
-- Language understanding
-- Reasoning
-- Response generation
+Validates LLM fundamentals.
 
----
+### Level 2 — Engineering Scenarios
 
-### Prompt Layer
+Validates practical application decisions.
 
-Instructions guiding execution behavior.
+### Level 3 — Senior Engineer Decisions
 
-Example:
-
-Poor Prompt:
-
-Explain deployment issue.
-
-Better Prompt:
-
-Analyze deployment failure logs and provide remediation guidance.
+Advanced assessment is covered separately.
 
 ---
 
-### Retrieval Layer
+# Level 1 — Concept Understanding
 
-Retrieve information from external systems.
+## Q1. What is an LLM?
 
-Examples:
+A. A database system
 
-- Documentation systems
-- Knowledge repositories
-- Operational systems
+B. A machine learning model trained to understand and generate text
 
----
+C. A programming language
 
-### Tool Layer
-
-Connect external capabilities.
-
-Examples:
-
-- APIs
-- Infrastructure systems
-- Monitoring systems
+D. A deployment platform
 
 ---
 
-## High Level Workflow
+## Q2. What is a token in LLM systems?
 
-User Request
+A. A physical hardware component
 
-↓
+B. A unit of text processed by the model
 
-Prompt Processing
+C. A database record
 
-↓
-
-Model Execution
-
-↓
-
-Optional Retrieval
-
-↓
-
-Optional Tool Usage
-
-↓
-
-Response Generation
-
-↓
-
-Final Response
+D. A cloud resource
 
 ---
 
-## Prompt Engineering Basics
+## Q3. Why are context windows important?
 
-Good prompts generally contain:
+A. They define how much information a model can process at once
 
-### Context
+B. They increase server memory automatically
 
-Relevant background.
+C. They replace databases
 
----
-
-### Objective
-
-Expected outcome.
+D. They remove the need for prompts
 
 ---
 
-### Constraints
+# Level 2 — Engineering Scenarios
 
-Execution boundaries.
+## Q4. An LLM application provides incorrect answers for internal documents.
 
-Example:
+What should be considered first?
 
-Requirements:
+Expected thinking:
 
-- Explain deployment issue
-- Maximum 5 steps
-- Focus operational guidance
-
----
-
-## Retrieval-Augmented Generation (RAG)
-
-RAG combines:
-
-Retrieval Layer
-
-+
-
-Language Model
-
-Purpose:
-
-Improve contextual accuracy.
-
-Benefits:
-
-- Better information grounding
-- Reduced hallucination risk
-- Dynamic information access
+- Source data quality
+- Retrieval approach
+- Prompt design
+- Context provided to the model
 
 ---
 
-## Engineering Example
+## Q5. A prompt produces inconsistent results.
 
-Scenario:
+Possible improvements:
 
-Developer requests deployment troubleshooting guidance.
-
-Flow:
-
-Developer Request
-
-↓
-
-Knowledge Retrieved
-
-↓
-
-Infrastructure Context Collected
-
-↓
-
-Model Analysis
-
-↓
-
-Operational Guidance Produced
+- Clear instructions
+- Structured output format
+- Examples
+- Better context
 
 ---
 
-## Platform Engineering Perspective
+## Q6. A team needs an AI assistant that answers from company documentation.
 
-Potential integrations:
+Which approach is commonly used?
 
-- Internal Developer Platforms
-- Developer Experience workflows
-- Documentation systems
-- Operational diagnostics
+A. RAG architecture
 
----
+B. Removing all documents
 
-## LLM vs Traditional Automation
+C. Increasing UI complexity
 
-| Traditional Systems | LLM Systems |
-|---------------------|--------------|
-| Fixed logic | Dynamic reasoning |
-| Rule execution | Context-aware execution |
-| Limited adaptability | Flexible interaction |
+D. Avoiding evaluation
 
 ---
 
-## Common Interview Questions
+# Level 3 — Engineering Thinking
 
-1. What is LLM Engineering?
+## Q7. Before selecting an LLM model for production, what should be evaluated?
 
-2. Why retrieval systems important?
+Expected thinking:
 
-3. Prompt engineering purpose?
-
-4. Why RAG useful?
-
-5. Tool integration benefits?
-
----
-
-## Common Mistakes
-
-Incorrect:
-
-LLM equals AI system.
-
-Correct:
-
-LLM is one component within broader AI engineering systems.
+- Accuracy requirements
+- Latency
+- Cost
+- Privacy requirements
+- Deployment options
 
 ---
 
-## Quick Revision
+## Q8. An AI application is expensive to operate.
 
-LLM
+Possible optimization areas:
 
-=
+- Prompt efficiency
+- Model selection
+- Caching
+- Request optimization
 
-Model
+---
 
-+
+## Q9. Why is evaluation important for LLM applications?
 
-Prompt
+Expected thinking:
 
-+
+- Measure quality
+- Detect regressions
+- Compare model changes
+- Improve reliability
 
-Retrieval
+---
 
-+
+# Answer Key
 
-Tool Integration
+To be completed after assessment execution.
+
+---
+
+# Explanation
+
+Detailed explanations will be added after answering questions.
+
+---
+
+# Score Tracking
+
+| Topic | Score | Status |
+|---|---|---|
+| LLM Fundamentals | | |
+| Prompt Engineering | | |
+| RAG Basics | | |
+| Model Selection | | |
+| Evaluation | | |
+
+---
+
+# Weak Areas
+
+Identified after assessment completion.
+
+---
+
+# Recommended Resources
+
+Focused resources will be added based on assessment results.
+
+---
+
+# Practical Application
+
+Apply LLM concepts through AI-powered engineering projects.
+
+---
+
+# Next Assessment
+
+Next: `10-assessment/09-llm-engineering/intermediate.md`

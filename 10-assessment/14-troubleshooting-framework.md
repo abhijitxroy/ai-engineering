@@ -1,259 +1,179 @@
-# Troubleshooting Framework
+# Troubleshooting Framework Assessment
 
-Operational troubleshooting reference for engineering interviews and production environments.
+## Purpose
 
----
+Evaluate troubleshooting skills including problem isolation, signal analysis, hypothesis formation, root cause analysis, resolution, and prevention strategies.
 
-# Goal
-
-Identify issues systematically.
-
-Reduce investigation time.
-
-Improve operational efficiency.
+This assessment validates systematic production debugging and operational problem-solving skills.
 
 ---
 
-# Troubleshooting Process
+## Assessment Scope
 
-Problem Reported
+Topics covered:
 
-↓
-
-Scope Validation
-
-↓
-
-Signal Collection
-
-↓
-
-Hypothesis Formation
-
-↓
-
-Validation
-
-↓
-
-Root Cause Identification
-
-↓
-
-Resolution
-
-↓
-
-Prevention
+- Troubleshooting methodology
+- Signal collection
+- Logs, metrics, tracing
+- Hypothesis-driven debugging
+- Root cause analysis
+- Incident resolution
+- Prevention strategies
 
 ---
 
-# Step 1 — Scope Validation
+# Level 1 — Concept Understanding
 
-Questions:
+## Q1. What is the goal of a troubleshooting framework?
 
-- What changed?
-- Impacted systems?
-- Single service or multiple services?
-- Recent deployment happened?
+Expected thinking:
 
-Examples:
-
-- Deployment failure
-- Latency increase
-- Infrastructure issue
+- Systematic investigation
+- Faster issue identification
+- Evidence-based decisions
 
 ---
 
-# Step 2 — Signal Collection
+## Q2. What are primary production signals?
 
-Primary signals:
+Expected answer:
 
-Logs
-
-↓
-
-Metrics
-
-↓
-
-Tracing
-
-Examples:
-
-Logs:
-
-- Exceptions
-- Errors
-- Deployment failures
-
-Metrics:
-
-- CPU
-- Memory
-- Latency
-- Error rate
-
-Tracing:
-
-- Dependency visibility
-- Service interaction
+- Logs
+- Metrics
+- Traces
 
 ---
 
-# Step 3 — Hypothesis Formation
+## Q3. Why is hypothesis formation important?
 
-Examples:
+Expected thinking:
 
-Deployment Failure
-
-Possible causes:
-
-- Configuration issue
-- Infrastructure issue
-- Dependency issue
-- Resource exhaustion
-
-Goal:
-
-Avoid random debugging.
-
-Use evidence.
+- Avoid random debugging
+- Validate assumptions using evidence
 
 ---
 
-# Step 4 — Validation
+# Level 2 — Engineering Scenarios
 
-Questions:
+## Q4. A production service has increased latency.
 
-Can issue reproduce?
+Investigation workflow:
 
-↓
-
-Can issue isolate?
-
-↓
-
-Can evidence support assumption?
+- Validate scope
+- Collect metrics
+- Analyze traces
+- Review recent changes
+- Identify root cause
 
 ---
 
-# Step 5 — Root Cause Analysis
+## Q5. A deployment fails after release.
 
-Goal:
+Investigation areas:
 
-Identify underlying reason.
-
-Examples:
-
-Incorrect:
-
-Restart service repeatedly.
-
-Correct:
-
-Find why service failed.
-
-Potential causes:
-
-- Configuration drift
-- Infrastructure failure
-- Deployment defect
-- Dependency issue
+- Configuration changes
+- Infrastructure health
+- Dependency failures
+- Deployment artifacts
+- Logs
 
 ---
 
-# Step 6 — Resolution
+## Q6. A service repeatedly fails after restart.
 
-Examples:
+What should be done?
 
-- Configuration correction
-- Infrastructure remediation
-- Deployment rollback
-- Capacity adjustment
+Expected thinking:
 
----
-
-# Step 7 — Prevention
-
-Questions:
-
-How prevent recurrence?
-
-Examples:
-
-- Monitoring improvements
-- Validation automation
-- Better alerting
-- Documentation updates
+- Do root cause analysis
+- Collect evidence
+- Identify underlying issue
+- Prevent recurrence
 
 ---
 
-# Platform Engineering Perspective
+# Level 3 — Engineering Thinking
 
-Potential improvements:
+## Q7. Design a production troubleshooting workflow.
 
-- Self-service diagnostics
-- Automated troubleshooting
-- Operational visibility
-- Knowledge discovery
+Consider:
 
----
-
-# Interview Framework
-
-Problem
-
-↓
-
-Signals
-
-↓
-
-Hypothesis
-
-↓
-
-Validation
-
-↓
-
-Root Cause
-
-↓
-
-Resolution
-
-↓
-
-Prevention
+- Problem identification
+- Signal collection
+- Hypothesis creation
+- Validation
+- Root cause analysis
+- Resolution
+- Prevention
 
 ---
 
-# Quick Revision
+## Q8. How can automation improve troubleshooting?
 
-Logs
+Expected thinking:
 
-+
+- Automated diagnostics
+- Better monitoring
+- Knowledge retrieval
+- Standard workflows
 
-Metrics
+---
 
-+
+## Q9. Production incident:
 
-Tracing
+```
+Service: Available
+Errors: Increasing
+Latency: Increasing
+Deployment: Completed
+```
 
-↓
+Investigation areas:
 
-Evidence
+- Application logs
+- Metrics
+- Dependency health
+- Recent changes
+- Trace analysis
 
-↓
+---
 
-Root Cause
+# Answer Key
 
-↓
+To be completed after assessment execution.
 
-Fix
+---
 
-↓
+# Score Tracking
 
-Prevent Recurrence
+| Topic | Score | Status |
+|---|---|---|
+| Troubleshooting Process | | |
+| Signal Analysis | | |
+| Root Cause Analysis | | |
+| Resolution | | |
+| Prevention | | |
+
+---
+
+# Weak Areas
+
+Identified after assessment completion.
+
+---
+
+# Recommended Resources
+
+Focused resources will be added based on assessment results.
+
+---
+
+# Practical Application
+
+Apply troubleshooting frameworks through production incidents and engineering projects.
+
+---
+
+# Next Assessment
+
+Next: `10-assessment/15-tradeoff-analysis.md`

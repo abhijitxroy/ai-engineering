@@ -1,237 +1,182 @@
-# Production Engineering
+# Production AI Engineering Assessment
 
-Operational engineering concepts and production readiness reference.
+## Purpose
 
----
+Evaluate production AI engineering skills including reliability, scalability, observability, security, performance, cost optimization, and operational readiness.
 
-# Reliability
-
-Goal:
-
-System behaves predictably under failures.
-
-Examples:
-
-- Retry handling
-- Timeout protection
-- Circuit protection
-- Graceful degradation
-
-Questions:
-
-- Failure recovery approach?
-- Single point of failure?
-- Service dependency handling?
+This assessment validates the ability to design and operate production-grade AI systems.
 
 ---
 
-# Scalability
+## Assessment Scope
 
-Goal:
+Topics covered:
 
-Support workload growth.
-
-Approaches:
-
-Vertical Scaling
-
-↓
-
-Horizontal Scaling
-
-↓
-
-Workload Distribution
-
-Considerations:
-
-- Throughput
-- Resource utilization
-- Dependency bottlenecks
-
-Questions:
-
-- Growth handling approach?
-- Scaling boundaries?
-
----
-
-# Observability
-
-Goal:
-
-Understand operational system behavior.
-
-Signals:
-
-Logs
-
-↓
-
-Metrics
-
-↓
-
-Tracing
-
-Examples:
-
-Logs:
-
-- Error investigation
-- Failure visibility
-
-Metrics:
-
-- Latency
-- Throughput
-- Error rate
-
-Tracing:
-
-- Dependency flow
-- Bottleneck identification
-
-Questions:
-
-- Operational visibility?
-- Failure detection?
-
----
-
-# Security
-
-Focus Areas:
-
-Authentication
-
-↓
-
-Authorization
-
-↓
-
-Secrets Protection
-
-↓
-
-Least Privilege
-
-Examples:
-
-- Access boundaries
-- Credential management
-- Sensitive information handling
-
-Questions:
-
-- Security controls?
-- Access validation?
-
----
-
-# Performance
-
-Optimization Areas:
-
-- Latency
-- Throughput
-- Resource efficiency
-
-Questions:
-
-- Performance bottlenecks?
-- Optimization opportunities?
-
----
-
-# Cost Optimization
-
-Examples:
-
-- Cache frequently used information
-- Resource right sizing
-- Avoid unnecessary processing
-
-Questions:
-
-- Resource efficiency?
-- Cost visibility?
-
----
-
-# Operational Readiness Checklist
-
-System supports:
-
-- Monitoring
-- Alerting
-- Retry handling
-- Failure recovery
+- Production readiness
+- Reliability engineering
 - Scalability
+- Observability
+- Security
+- Performance optimization
+- Cost optimization
+- Operational practices
+
+---
+
+# Level 1 — Concept Understanding
+
+## Q1. Why is reliability important in production AI systems?
+
+Expected thinking:
+
+- Predictable behavior
+- Failure handling
+- Recovery mechanisms
+- User trust
+
+---
+
+## Q2. What are the three main observability signals?
+
+Expected answer:
+
+- Logs
+- Metrics
+- Traces
+
+---
+
+## Q3. Why is cost optimization important for AI systems?
+
+Expected thinking:
+
+- Model usage cost
+- Resource efficiency
+- Sustainable operations
+
+---
+
+# Level 2 — Engineering Scenarios
+
+## Q4. An AI application has increasing latency after production deployment.
+
+Investigation areas:
+
+- Model response time
+- Request volume
+- Context size
+- External dependencies
+- Resource utilization
+
+---
+
+## Q5. An AI service becomes unavailable during high traffic.
+
+Possible improvements:
+
+- Load balancing
+- Scaling strategy
+- Retry handling
+- Failure isolation
+- Capacity planning
+
+---
+
+## Q6. A production AI system produces incorrect responses.
+
+Investigation areas:
+
+- Data quality
+- Prompt changes
+- Model changes
+- Retrieval quality
+- Evaluation results
+
+---
+
+# Level 3 — Engineering Thinking
+
+## Q7. Design a production AI platform architecture.
+
+Consider:
+
+- Application layer
+- Model layer
+- Data layer
+- Monitoring
 - Security controls
-- Operational visibility
+- Deployment workflow
 
 ---
 
-# Production Engineering Framework
+## Q8. How would you prepare an AI system for production readiness?
 
-Reliable
+Expected thinking:
 
-↓
-
-Scalable
-
-↓
-
-Observable
-
-↓
-
-Secure
-
-↓
-
-Operationally Maintainable
+- Testing
+- Monitoring
+- Security validation
+- Failure recovery
+- Operational ownership
 
 ---
 
-# Interview Keywords
+## Q9. Production incident:
 
-Reliability
+```
+System: Available
+Latency: Increasing
+Cost: Increasing
+Quality: Decreasing
+```
 
-Scalability
+Investigation areas:
 
-Observability
-
-Governance
-
-Performance
-
-Security
-
-Cost Optimization
-
-Operational Readiness
+- Model usage
+- Prompt size
+- Data changes
+- Infrastructure resources
+- Evaluation metrics
 
 ---
 
-# Quick Revision
+# Answer Key
 
-Reliable
+To be completed after assessment execution.
 
-↓
+---
 
-Scalable
+# Score Tracking
 
-↓
+| Topic | Score | Status |
+|---|---|---|
+| Reliability | | |
+| Scalability | | |
+| Observability | | |
+| Security | | |
+| Performance | | |
+| Cost Optimization | | |
 
-Observable
+---
 
-↓
+# Weak Areas
 
-Secure
+Identified after assessment completion.
 
-↓
+---
 
-Maintainable
+# Recommended Resources
+
+Focused resources will be added based on assessment results.
+
+---
+
+# Practical Application
+
+Apply production AI engineering concepts through deployment and operations projects.
+
+---
+
+# Next Assessment
+
+Next: `10-assessment/13-observability.md`

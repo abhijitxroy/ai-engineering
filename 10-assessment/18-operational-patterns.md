@@ -1,309 +1,186 @@
-# Operational Patterns
+# Operational Patterns Assessment
 
-Engineering operational patterns reference for production systems and interview preparation.
+## Purpose
 
----
+Evaluate understanding of operational patterns used to build reliable, scalable, and maintainable production systems.
 
-# Goal
-
-Build reliable, scalable, maintainable systems.
-
-Operational patterns improve:
-
-- Reliability
-- Stability
-- Availability
-- Recovery capability
+This assessment validates knowledge of resilience patterns, failure handling, scalability techniques, and operational design decisions.
 
 ---
 
-# Retry Pattern
+## Assessment Scope
 
-Purpose:
+Topics covered:
 
-Handle transient failures.
-
-Examples:
-
-- API timeout
-- Temporary dependency issue
-- Network instability
-
-Workflow:
-
-Request
-
-↓
-
-Failure
-
-↓
-
-Retry
-
-↓
-
-Success
-
-Considerations:
-
-- Retry limit
-- Retry interval
-- Backoff strategy
-
-Questions:
-
-Should every failure retry?
-
-No.
-
-Permanent failures should not retry.
+- Retry pattern
+- Timeout pattern
+- Circuit breaker
+- Graceful degradation
+- Bulkhead isolation
+- Queue pattern
+- Cache pattern
+- Idempotency
+- Reliability engineering
 
 ---
 
-# Timeout Pattern
+# Level 1 — Concept Understanding
 
-Purpose:
+## Q1. Why is the retry pattern used?
 
-Prevent blocked execution.
+Expected thinking:
 
-Examples:
-
-Service A
-
-↓
-
-Calls Service B
-
-↓
-
-Service B unresponsive
-
-↓
-
-Timeout triggered
-
-Benefits:
-
-- Faster recovery
-- Resource protection
-- Better reliability
-
-Questions:
-
-What happens without timeout?
-
-Potential thread exhaustion.
+- Handle transient failures
+- Improve recovery
+- Reduce impact of temporary issues
 
 ---
 
-# Circuit Breaker Pattern
+## Q2. Why are timeouts important?
 
-Purpose:
+Expected thinking:
 
-Protect systems from cascading failures.
+- Prevent blocked resources
+- Avoid cascading issues
+- Improve system recovery
 
-Workflow:
+---
 
-Requests failing repeatedly
+## Q3. What is the purpose of a circuit breaker?
 
-↓
+Expected thinking:
 
-Circuit Open
+- Detect repeated failures
+- Stop unhealthy dependency calls
+- Protect system stability
 
-↓
+---
 
-Traffic blocked temporarily
+# Level 2 — Engineering Scenarios
 
-↓
+## Q4. A service dependency becomes unavailable.
 
-Recovery validation
+Design the recovery approach.
 
-↓
+Consider:
 
-Circuit Closed
+- Timeout handling
+- Retry strategy
+- Circuit breaker
+- Fallback behavior
 
-Benefits:
+---
 
+## Q5. A system receives duplicate requests during retry operations.
+
+How should this be handled?
+
+Expected thinking:
+
+- Idempotent operations
+- Request tracking
+- Duplicate prevention
+
+---
+
+## Q6. A production workload creates pressure on a critical service.
+
+Possible improvements:
+
+- Queue-based processing
+- Bulkhead isolation
+- Rate limiting
+- Capacity planning
+
+---
+
+# Level 3 — Engineering Thinking
+
+## Q7. Design a resilient production service.
+
+Consider:
+
+- Retry strategy
+- Timeout configuration
+- Circuit breaker
 - Failure isolation
-- Dependency protection
-
-Questions:
-
-Why useful?
-
-Prevent unhealthy systems impacting healthy systems.
+- Asynchronous processing
+- Observability
 
 ---
 
-# Graceful Degradation
+## Q8. Evaluate this design decision:
 
-Purpose:
+```
+Direct Processing
+        vs
+Queue Based Processing
+```
 
-Provide reduced capability instead of complete failure.
+Consider:
 
-Example:
-
-Documentation unavailable
-
-↓
-
-Metrics still available
-
-↓
-
-Partial functionality continues
-
-Benefits:
-
-- Better user experience
-- Reduced outage impact
-
----
-
-# Bulkhead Isolation Pattern
-
-Purpose:
-
-Reduce failure propagation.
-
-Example:
-
-Monitoring workload isolated from deployment workload.
-
-Benefits:
-
-- Better resilience
-- Failure containment
-
----
-
-# Queue Pattern
-
-Purpose:
-
-Support asynchronous execution.
-
-Workflow:
-
-Request
-
-↓
-
-Queue
-
-↓
-
-Worker
-
-↓
-
-Processing
-
-Benefits:
-
-- Improved scalability
-- Reduced system pressure
-
-Examples:
-
-- Notification processing
-- Background execution
-
----
-
-# Cache Pattern
-
-Purpose:
-
-Reduce repeated computation.
-
-Examples:
-
-Frequently requested information.
-
-Benefits:
-
-- Lower latency
-- Better efficiency
-
-Challenges:
-
-- Stale information
-- Cache invalidation
-
----
-
-# Idempotency
-
-Purpose:
-
-Prevent duplicate execution problems.
-
-Example:
-
-Deployment request submitted twice.
-
-Expected:
-
-Single deployment created.
-
-Benefits:
-
-- Safer retries
-- Better operational stability
-
----
-
-# Platform Engineering Perspective
-
-Operational patterns improve:
-
+- Latency
+- Scalability
 - Reliability
-- Developer productivity
-- Platform stability
-- Operational efficiency
+- Operational complexity
 
 ---
 
-# Interview Questions
+## Q9. Production scenario:
 
-1. Why retry useful?
+```
+Dependency Failure
+Retries Enabled
+Latency Increasing
+Resources Exhausted
+```
 
-2. Circuit breaker purpose?
+Identify improvements:
 
-3. Timeout importance?
-
-4. Cache tradeoffs?
-
-5. Graceful degradation benefits?
+- Retry limits
+- Timeout tuning
+- Circuit breaker
+- Resource protection
 
 ---
 
-# Quick Revision
+# Answer Key
 
-Retry
+To be completed after assessment execution.
 
-↓
+---
 
-Timeout
+# Score Tracking
 
-↓
+| Topic | Score | Status |
+|---|---|---|
+| Retry Pattern | | |
+| Timeout Pattern | | |
+| Circuit Breaker | | |
+| Failure Isolation | | |
+| Queue Pattern | | |
+| Idempotency | | |
 
-Circuit Breaker
+---
 
-↓
+# Weak Areas
 
-Isolation
+Identified after assessment completion.
 
-↓
+---
 
-Queue
+# Recommended Resources
 
-↓
+Focused resources will be added based on assessment results.
 
-Cache
+---
 
-↓
+# Practical Application
 
-Idempotency
+Apply operational patterns during system design, production engineering, and reliability improvements.
+
+---
+
+# Next Assessment
+
+Next: `10-assessment/20-quick-revision.md`

@@ -1,318 +1,186 @@
-# Scaling Patterns
+# Scaling Patterns Assessment
 
-Engineering scalability concepts reference for production systems and interview preparation.
+## Purpose
 
----
+Evaluate scalability engineering skills including workload growth, architecture scaling strategies, performance considerations, and operational scalability.
 
-# Goal
-
-Support increasing workload while maintaining:
-
-- Reliability
-- Performance
-- Operational stability
-
-Questions:
-
-Can system handle growth?
-
-Can system scale predictably?
+This assessment validates the ability to design systems that scale reliably.
 
 ---
 
-# Vertical Scaling
+## Assessment Scope
 
-Definition:
+Topics covered:
 
-Increase capacity of existing infrastructure.
-
-Examples:
-
-2 CPU
-
-↓
-
-8 CPU
-
-Benefits:
-
-- Easier implementation
-- Faster improvement
-
-Challenges:
-
-- Infrastructure limits
-- Single point dependency
-
-Questions:
-
-When useful?
-
-Smaller systems.
+- Vertical scaling
+- Horizontal scaling
+- Stateless architecture
+- Load balancing
+- Queue-based scaling
+- Auto scaling
+- Database scaling
+- Capacity planning
 
 ---
 
-# Horizontal Scaling
+# Level 1 — Concept Understanding
 
-Definition:
+## Q1. What is the difference between vertical and horizontal scaling?
 
-Increase number of execution units.
+Expected thinking:
 
-Examples:
+- Vertical scaling increases resource capacity of existing systems
+- Horizontal scaling increases number of execution units
 
-1 Service Instance
+---
 
-↓
+## Q2. Why is stateless architecture important for scalability?
 
-5 Service Instances
+Expected thinking:
 
-Benefits:
+- Easier horizontal scaling
+- Better failure recovery
+- Improved flexibility
 
-- Better scalability
-- Better fault tolerance
+---
 
-Challenges:
+## Q3. What is the purpose of load balancing?
 
-- Coordination complexity
+Expected thinking:
+
+- Distribute workload
+- Improve resource utilization
+- Reduce bottlenecks
+
+---
+
+# Level 2 — Engineering Scenarios
+
+## Q4. A service receives increasing traffic.
+
+Design a scaling approach.
+
+Consider:
+
+- Horizontal scaling
+- Load balancing
+- Stateless design
+- Capacity planning
+
+---
+
+## Q5. A background processing system cannot handle workload growth.
+
+Possible improvements:
+
+- Queue-based processing
+- Worker scaling
+- Asynchronous execution
 - Load distribution
 
-Questions:
+---
 
-Why preferred?
+## Q6. Database performance decreases as users increase.
 
-Better long-term growth.
+Investigation areas:
+
+- Query performance
+- Read replicas
+- Caching
+- Partitioning
+- Database capacity
 
 ---
 
-# Stateless Design
+# Level 3 — Engineering Thinking
 
-Definition:
+## Q7. Design a scalable production architecture.
 
-Execution unit should avoid storing local execution state.
+Consider:
 
-Benefits:
-
-- Easier scaling
-- Better resiliency
-
-Example:
-
-Bad:
-
-Session stored locally.
-
-Good:
-
-Shared storage.
-
-Questions:
-
-Why useful?
-
-Enables horizontal scaling.
+- Application scaling
+- Load balancing
+- Database strategy
+- Caching
+- Queue processing
+- Monitoring
+- Capacity planning
 
 ---
 
-# Load Balancing
+## Q8. Evaluate this design decision:
 
-Purpose:
+```
+Vertical Scaling
+        vs
+Horizontal Scaling
+```
 
-Distribute workload.
+Consider:
 
-Workflow:
-
-Requests
-
-↓
-
-Load Balancer
-
-↓
-
-Service A
-
-Service B
-
-Service C
-
-Benefits:
-
-- Better utilization
-- Reduced bottlenecks
-
-Examples:
-
-Round Robin
-
-Least Connections
-
-Weighted Routing
+- Cost
+- Complexity
+- Growth expectations
+- Reliability requirements
 
 ---
 
-# Queue Based Scaling
+## Q9. Production scenario:
 
-Purpose:
+```
+Traffic: Increasing
+Latency: Increasing
+Resources: High Utilization
+Database: Bottleneck
+```
 
-Support asynchronous processing.
+Identify improvements:
 
-Workflow:
-
-Request
-
-↓
-
-Queue
-
-↓
-
-Workers
-
-↓
-
-Processing
-
-Benefits:
-
-- Improved throughput
-- Better workload handling
-
-Examples:
-
-Notification systems
-
-Background processing
+- Application scaling
+- Database optimization
+- Caching
+- Queue processing
+- Capacity planning
 
 ---
 
-# Auto Scaling
+# Answer Key
 
-Purpose:
-
-Adjust infrastructure automatically.
-
-Examples:
-
-CPU increase
-
-↓
-
-Additional instances added
-
-Benefits:
-
-- Better resource utilization
-- Reduced operational effort
-
-Challenges:
-
-- Incorrect thresholds
-- Delayed scaling
+To be completed after assessment execution.
 
 ---
 
-# Database Scaling
+# Score Tracking
 
-Approaches:
-
-Read Replica
-
-Purpose:
-
-Scale read traffic.
-
----
-
-Partitioning
-
-Purpose:
-
-Distribute workload.
+| Topic | Score | Status |
+|---|---|---|
+| Vertical Scaling | | |
+| Horizontal Scaling | | |
+| Stateless Design | | |
+| Load Balancing | | |
+| Queue Scaling | | |
+| Database Scaling | | |
 
 ---
 
-Caching
+# Weak Areas
 
-Purpose:
-
-Reduce database pressure.
-
-Benefits:
-
-- Lower latency
-- Better performance
+Identified after assessment completion.
 
 ---
 
-# Capacity Planning
+# Recommended Resources
 
-Questions:
-
-Current workload?
-
-↓
-
-Expected growth?
-
-↓
-
-Dependency bottlenecks?
-
-↓
-
-Scaling boundary?
+Focused resources will be added based on assessment results.
 
 ---
 
-# Platform Engineering Perspective
+# Practical Application
 
-Scaling improves:
-
-- Reliability
-- Operational efficiency
-- Developer productivity
-- Platform stability
+Apply scaling patterns during system design, production engineering, and platform architecture projects.
 
 ---
 
-# Interview Questions
+# Next Assessment
 
-1. Vertical vs Horizontal scaling?
-
-2. Stateless architecture benefits?
-
-3. Queue scaling advantages?
-
-4. Auto scaling tradeoffs?
-
-5. Database scaling approaches?
-
----
-
-# Quick Revision
-
-Vertical
-
-↓
-
-Horizontal
-
-↓
-
-Stateless
-
-↓
-
-Load Balancing
-
-↓
-
-Queue
-
-↓
-
-Auto Scaling
-
-↓
-
-Capacity Planning
+Next: `10-assessment/20-quick-revision.md`

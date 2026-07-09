@@ -1,35 +1,48 @@
-# Quick Revision
+# Quick Revision Assessment
 
-Fast engineering revision notes before interviews.
+## Purpose
 
-Objective:
+Provide a final assessment review covering key AI engineering, platform engineering, and production system concepts.
 
-Quick refresh of concepts, workflows, architecture understanding, and discussion areas.
-
----
-
-# AI Agents
-
-### Definition
-
-Software systems capable of:
-
-- Reasoning
-- Planning
-- Tool usage
-- Execution
-
-toward achieving defined objectives.
+This revision helps validate understanding before technical discussions or assessments.
 
 ---
 
-### Core Components
+## Assessment Scope
 
-Model
+Topics covered:
+
+- AI Agents
+- MCP
+- A2A
+- RAG
+- LLM Engineering
+- Platform Engineering
+- IDP
+- DevEx
+- Reliability
+- Observability
+- Security
+- Scalability
+- Tradeoffs
+
+---
+
+# AI Engineering Quick Recall
+
+## AI Agents
+
+Definition:
+
+Systems capable of reasoning, planning, tool usage, and execution toward objectives.
+
+Core Flow:
+
+Request
 
 ↓
 
-Memory
+Context
 
 ↓
 
@@ -43,86 +56,19 @@ Tools
 
 Execution
 
----
-
-### Workflow
-
-User Request
-
-↓
-
-Context Collection
-
-↓
-
-Planning
-
-↓
-
-Tool Usage
-
-↓
-
-Execution
-
 ↓
 
 Response
 
 ---
 
-### Key Interview Points
+## MCP
 
-- Agent vs traditional automation
-- Single Agent vs Multi-Agent
-- Planning layer responsibility
-- Tool interaction model
-- Memory considerations
-- Reliability approaches
+Purpose:
 
----
+Standardized connectivity between AI applications and external capabilities.
 
-### Quick Recall
-
-AI Agent
-
-=
-
-Reason
-
-+
-
-Plan
-
-+
-
-Execute
-
----
-
-# MCP (Model Context Protocol)
-
-### Definition
-
-Protocol enabling AI systems to connect with external tools, systems, and contextual information sources.
-
----
-
-### Components
-
-Host
-
-↓
-
-Client
-
-↓
-
-Server
-
----
-
-### Workflow
+Flow:
 
 AI Application
 
@@ -138,64 +84,21 @@ MCP Server
 
 External Systems
 
-↓
-
-Context Returned
-
 ---
 
-### Key Interview Points
+## A2A
 
-- Problem MCP solves
-- Architecture components
-- Integration benefits
-- Context sharing approach
-- Platform Engineering relevance
+Purpose:
 
----
+Enable multiple agents to collaborate and execute distributed workflows.
 
-### Quick Recall
-
-MCP
-
-=
-
-Connectivity
-
-+
-
-Context
-
-+
-
-Tool Integration
-
----
-
-# A2A (Agent-to-Agent)
-
-### Definition
-
-Distributed coordination model enabling multiple execution systems to collaborate.
-
----
-
-### Core Concepts
-
-- Coordination
-- Delegation
-- Aggregation
-- Distributed execution
-
----
-
-### Workflow
+Flow:
 
 Coordinator
 
 ↓
 
-Execution Distribution
+Specialized Agents
 
 ↓
 
@@ -207,61 +110,13 @@ Response
 
 ---
 
-### Key Interview Points
+## RAG
 
-- Why multi-agent systems
-- Communication patterns
-- Coordination challenges
-- Reliability considerations
-- Failure handling
+Purpose:
 
----
+Improve AI responses using external knowledge retrieval.
 
-### Quick Recall
-
-A2A
-
-=
-
-Coordination
-
-+
-
-Distribution
-
-+
-
-Aggregation
-
----
-
-# RAG
-
-### Definition
-
-Retrieval-Augmented Generation combines retrieval systems with language models.
-
----
-
-### Components
-
-Retriever
-
-↓
-
-Knowledge Source
-
-↓
-
-Model
-
-↓
-
-Generation Layer
-
----
-
-### Workflow
+Flow:
 
 Request
 
@@ -271,123 +126,35 @@ Retrieve Context
 
 ↓
 
-Model Processing
-
-↓
-
-Response
+Generate Response
 
 ---
 
-### Benefits
+# Platform Engineering Quick Recall
 
-- Better contextual accuracy
-- Reduced hallucination risk
-- Dynamic information retrieval
-- Better grounding
+## IDP
 
----
+Purpose:
 
-### Quick Recall
+Enable self-service engineering capabilities.
 
-RAG
+Key Areas:
 
-=
-
-Retrieve
-
-+
-
-Generate
-
----
-
-# Platform Engineering
-
-### Goal
-
-Improve developer productivity and reduce operational friction.
-
----
-
-### Core Areas
-
-IDP
-
-↓
-
-Developer Experience
-
-↓
-
-Self Service
-
-↓
-
-Automation
-
-↓
-
-Engineering Productivity
-
----
-
-### Key Interview Points
-
-- Internal Developer Platform
-- Developer Experience
-- Self-service capabilities
-- Operational efficiency
-- Standardization
-
----
-
-### Quick Recall
-
-Platform Engineering
-
-=
-
-Developer Enablement
-
----
-
-# Internal Developer Platform (IDP)
-
-### Goal
-
-Provide self-service engineering capabilities.
-
-Examples:
-
-- Infrastructure provisioning
+- Service catalog
+- Templates
+- Automation
 - Deployment workflows
-- Documentation systems
-- Observability capabilities
+- Observability
 
 ---
 
-### Quick Recall
+## DevEx
 
-IDP
+Purpose:
 
-=
+Reduce developer friction and improve productivity.
 
-Self Service
-
-+
-
-Developer Productivity
-
----
-
-# DevEx
-
-### Goal
-
-Improve engineering experience.
-
-Focus Areas:
+Key Areas:
 
 - Documentation
 - Automation
@@ -396,33 +163,49 @@ Focus Areas:
 
 ---
 
-### Quick Recall
+# Production Engineering Quick Recall
 
-DevEx
+## Reliability
 
-=
+Remember:
 
-Reduce Engineering Friction
+- Retry
+- Timeout
+- Circuit Breaker
+- Fallback
+- Validation
 
 ---
 
-# Reliability Keywords
+## Observability
 
-Retry
+Three pillars:
 
-Timeout
+- Logs
+- Metrics
+- Traces
 
-Fallback
+---
 
-Validation
+## Scalability
 
-Observability
+Remember:
 
-Scalability
+- Horizontal scaling
+- Stateless design
+- Load balancing
+- Queue processing
 
-Governance
+---
 
-Security
+## Security
+
+Remember:
+
+- Authentication
+- Authorization
+- Least privilege
+- Auditability
 
 ---
 
@@ -436,7 +219,7 @@ Requirements
 
 ↓
 
-High Level Design
+Architecture
 
 ↓
 
@@ -452,40 +235,33 @@ Reliability
 
 ↓
 
-Tradeoffs
+Security
 
 ↓
 
 Scalability
 
+↓
+
+Tradeoffs
+
 ---
 
-# 30 Second Revision
+# Final Assessment Checklist
 
-AI Agent
+Before completing an architecture discussion, verify:
 
-→ Execute Work
+- Problem understood
+- Requirements identified
+- Components defined
+- Workflow explained
+- Failure handling considered
+- Security addressed
+- Observability included
+- Tradeoffs discussed
 
-MCP
+---
 
-→ Connectivity
+# Next Assessment
 
-A2A
-
-→ Coordination
-
-RAG
-
-→ Knowledge Retrieval
-
-IDP
-
-→ Self Service Platform
-
-DevEx
-
-→ Developer Productivity
-
-Platform Engineering
-
-→ Developer Enablement
+Complete: `10-assessment/21-comparison-table.md` review

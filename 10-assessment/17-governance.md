@@ -1,248 +1,189 @@
-# Governance
+# Governance Assessment
 
-Engineering governance concepts reference for production systems and interview preparation.
+## Purpose
 
----
+Evaluate governance engineering skills including access control, change management, configuration management, auditability, policy enforcement, and operational governance.
 
-# Goal
-
-Establish controls ensuring systems remain:
-
-- Reliable
-- Secure
-- Auditable
-- Operationally manageable
-
-Governance reduces operational risk and improves engineering consistency.
+This assessment validates the ability to establish controlled, secure, and reliable engineering systems.
 
 ---
 
-# Why Governance Important
+## Assessment Scope
 
-Challenges without governance:
+Topics covered:
 
-Examples:
+- Access governance
+- Change governance
+- Configuration governance
+- Auditability
+- Policy enforcement
+- Security controls
+- AI governance
+- Operational governance
 
-- Uncontrolled access
+---
+
+# Level 1 — Concept Understanding
+
+## Q1. Why is governance important in engineering systems?
+
+Expected thinking:
+
+- Reduce operational risk
+- Improve consistency
+- Enable accountability
+- Support compliance
+
+---
+
+## Q2. What is access governance?
+
+Expected thinking:
+
+- Control who can access systems
+- Define permissions
+- Apply least privilege
+
+---
+
+## Q3. Why is auditability important?
+
+Expected thinking:
+
+- Track changes
+- Support investigations
+- Provide operational visibility
+
+---
+
+# Level 2 — Engineering Scenarios
+
+## Q4. A developer requires production access for troubleshooting.
+
+How should governance be applied?
+
+Expected thinking:
+
+- Define access boundaries
+- Apply approval workflow
+- Use least privilege
+- Record activity
+
+---
+
+## Q5. Multiple teams make manual configuration changes.
+
+What risks exist?
+
+Expected thinking:
+
 - Configuration drift
-- Operational inconsistency
-- Security exposure
-- Compliance gaps
+- Inconsistent environments
+- Difficult troubleshooting
 
-Goal:
+Possible improvements:
 
-Create predictable engineering systems.
-
----
-
-# Access Governance
-
-Purpose:
-
-Control access boundaries.
-
-Examples:
-
-Developer
-
-↓
-
-Limited permissions
-
-Platform Team
-
-↓
-
-Administrative permissions
-
-Benefits:
-
-- Better security
-- Reduced operational risk
-
-Questions:
-
-Who can access?
-
-↓
-
-What permissions allowed?
+- Standard configuration management
+- Automation
+- Validation controls
 
 ---
 
-# Change Governance
+## Q6. A production deployment introduces unexpected issues.
 
-Purpose:
+Governance workflow:
 
-Manage infrastructure and application changes safely.
-
-Examples:
-
-Deployment Request
-
-↓
-
-Validation
-
-↓
-
-Approval Process
-
-↓
-
-Deployment
-
-Benefits:
-
-- Better consistency
-- Reduced deployment risk
-
-Questions:
-
-Who changed system?
-
-↓
-
-When change occurred?
+- Change request
+- Validation
+- Approval
+- Deployment
+- Audit record
 
 ---
 
-# Configuration Governance
+# Level 3 — Engineering Thinking
 
-Purpose:
+## Q7. Design governance controls for an engineering platform.
 
-Prevent configuration inconsistency.
+Consider:
 
-Examples:
-
-Bad:
-
-Manual configuration changes.
-
-Good:
-
-Controlled configuration management.
-
-Benefits:
-
-- Better operational consistency
-- Reduced configuration drift
+- Access management
+- Change control
+- Configuration standards
+- Audit logging
+- Policy enforcement
+- Operational ownership
 
 ---
 
-# Auditability
+## Q8. AI governance scenario:
 
-Purpose:
+An AI system processes sensitive engineering information.
 
-Track operational activity.
+Consider:
 
-Examples:
-
-Track:
-
-- Deployment history
-- Access history
-- Configuration changes
-
-Benefits:
-
-- Investigation support
-- Compliance visibility
-- Operational traceability
-
-Questions:
-
-Who changed what?
-
-↓
-
-When?
-
-↓
-
-Why?
+- Data access boundaries
+- Information protection
+- Usage tracking
+- Model behavior monitoring
 
 ---
 
-# Policy Enforcement
+## Q9. Production scenario:
 
-Purpose:
+```
+System: Running
+Changes: Frequent
+Access: Uncontrolled
+Audit: Limited
+```
 
-Apply engineering standards consistently.
+Identify improvements:
 
-Examples:
-
-Deployment Rules:
-
-- Security validation required
-- Infrastructure validation required
-
-Benefits:
-
-- Better reliability
-- Reduced operational mistakes
+- Access governance
+- Change management
+- Auditability
+- Policy enforcement
 
 ---
 
-# Platform Engineering Perspective
+# Answer Key
 
-Governance improves:
-
-- Platform reliability
-- Operational consistency
-- Engineering standards
-- Infrastructure control
+To be completed after assessment execution.
 
 ---
 
-# AI Engineering Perspective
+# Score Tracking
 
-Governance considerations:
-
-Examples:
-
-- Sensitive information protection
-- Access boundaries
-- Context handling
-- Operational visibility
-
-Benefits:
-
-- Safer AI adoption
-- Better operational controls
+| Topic | Score | Status |
+|---|---|---|
+| Access Governance | | |
+| Change Governance | | |
+| Configuration Governance | | |
+| Auditability | | |
+| Policy Enforcement | | |
+| AI Governance | | |
 
 ---
 
-# Governance Interview Questions
+# Weak Areas
 
-1. Why governance important?
-
-2. Auditability purpose?
-
-3. Configuration governance benefits?
-
-4. Access governance approaches?
-
-5. Governance challenges?
+Identified after assessment completion.
 
 ---
 
-# Quick Revision
+# Recommended Resources
 
-Access Control
+Focused resources will be added based on assessment results.
 
-↓
+---
 
-Change Management
+# Practical Application
 
-↓
+Apply governance practices through platform engineering, security, and production operations.
 
-Configuration Standards
+---
 
-↓
+# Next Assessment
 
-Auditability
-
-↓
-
-Policy Enforcement
+Next: `10-assessment/18-operational-patterns.md`

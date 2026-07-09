@@ -1,373 +1,190 @@
-# Developer Experience (DevEx)
+# Developer Experience (DevEx) Assessment
 
-Developer Experience concepts, operational workflows, engineering productivity improvements, and interview preparation.
+## Purpose
 
----
+Evaluate understanding of Developer Experience (DevEx), engineering productivity, self-service platforms, automation, and AI-assisted developer workflows.
 
-## Overview
-
-Developer Experience (DevEx) focuses on improving how engineering teams build, deploy, operate, and maintain software systems.
-
-The objective is reducing friction and improving engineering productivity.
-
-Good Developer Experience improves:
-
-- Productivity
-- Standardization
-- Onboarding speed
-- Engineering satisfaction
-- Operational efficiency
+This assessment validates the ability to improve software delivery experience through platform engineering practices.
 
 ---
 
-## Why DevEx Needed
+## Assessment Scope
 
-Engineering organizations often encounter challenges:
+Topics covered:
 
-Examples:
-
-- Complex onboarding
-- Fragmented tooling
-- Slow deployments
-- Knowledge silos
-- Manual operational tasks
-- Inconsistent engineering workflows
-
-Poor Developer Experience impacts:
-
-- Delivery speed
-- Operational efficiency
-- Engineering productivity
+- DevEx fundamentals
+- Developer productivity
+- Self-service platforms
+- Developer portals
+- Automation workflows
+- CI/CD enablement
+- Observability
+- AI-assisted engineering workflows
 
 ---
 
-## Problem Statement
+## Level 1 — Concept Understanding
 
-Traditional Engineering Workflow
+## Q1. What is the primary goal of DevEx?
 
-Developer
+A. Increase manual processes
 
-↓
+B. Reduce developer friction and improve productivity
 
-Infrastructure Request
+C. Replace engineering teams
 
-↓
-
-Manual Configuration
-
-↓
-
-Documentation Search
-
-↓
-
-Deployment Setup
-
-↓
-
-Validation
-
-↓
-
-Release
-
-Challenges:
-
-- Operational bottlenecks
-- Higher cognitive load
-- Slower onboarding
-- Increased delivery friction
+D. Remove operational visibility
 
 ---
 
-Developer Experience Approach
+## Q2. What are common DevEx improvement areas?
 
-Developer
+Select all:
 
-↓
-
-Developer Platform
-
-↓
-
-Self-Service Capabilities
-
-↓
-
-Standardized Tooling
-
-↓
-
-Automated Delivery
-
-↓
-
-Operational Visibility
-
-↓
-
-Faster Delivery
-
-Benefits:
-
-- Reduced friction
-- Improved consistency
-- Better engineering velocity
+- Self-service capabilities
+- Documentation
+- Automation
+- Standardized workflows
+- Developer tooling
 
 ---
 
-## Core DevEx Components
+## Q3. Why are developer portals useful?
 
-### Documentation
+Expected thinking:
 
-Engineering information should be easy to discover.
-
-Examples:
-
-- Deployment guides
-- Operational references
-- Service ownership
+- Provide centralized access
+- Improve discoverability
+- Enable self-service workflows
 
 ---
 
-### Developer Portal
+# Level 2 — Engineering Scenarios
 
-Centralized engineering entry point.
+## Q4. New engineers take weeks to become productive.
 
-Examples:
+How can DevEx help?
 
-- Templates
+Expected thinking:
+
+- Improve documentation
+- Provide templates
+- Automate environment setup
+- Create guided workflows
+
+---
+
+## Q5. Developers frequently request manual infrastructure changes.
+
+Possible improvements:
+
+- Self-service provisioning
+- Platform automation
+- Standard templates
+- Approval workflows
+
+---
+
+## Q6. Deployment process differs across teams.
+
+How should DevEx address this?
+
+Expected thinking:
+
+- Standardize workflows
+- Provide reusable pipelines
+- Automate validation
+- Improve visibility
+
+---
+
+# Level 3 — Engineering Thinking
+
+## Q7. Design a DevEx platform for engineering teams.
+
+Consider:
+
+- Developer portal
 - Service catalog
-- Platform workflows
+- Templates
+- CI/CD integration
+- Infrastructure automation
+- Observability
+- Documentation
 
 ---
 
-### CI/CD
+## Q8. How should DevEx success be measured?
 
-Reduce operational effort.
-
-Examples:
-
-- Automated validation
-- Standardized release workflows
-
----
-
-### Observability
-
-Improve operational understanding.
-
-Examples:
-
-- Logs
-- Metrics
-- Traces
-
----
-
-### Platform Automation
-
-Examples:
-
-- Infrastructure provisioning
-- Deployment workflows
-- Validation automation
-
----
-
-## High Level Workflow
-
-Developer
-
-↓
-
-Platform Entry Point
-
-↓
-
-Documentation
-
-↓
-
-Templates
-
-↓
-
-Provision Resources
-
-↓
-
-Deployment
-
-↓
-
-Observability
-
-↓
-
-Operations
-
----
-
-## AI + Developer Experience
-
-Examples:
-
-### Documentation Assistance
-
-Developer asks:
-
-How deployment workflow operates.
-
-↓
-
-Knowledge retrieval
-
-↓
-
-Guidance generated
-
----
-
-### Operational Troubleshooting
-
-Developer reports issue.
-
-↓
-
-Operational signals collected
-
-↓
-
-Analysis performed
-
-↓
-
-Recommendation generated
-
----
-
-### Engineering Productivity
-
-Examples:
-
-- Faster onboarding
-- Reduced troubleshooting effort
-- Better operational visibility
-
----
-
-## Engineering Example
-
-Scenario:
-
-New engineer joins engineering organization.
-
-Traditional approach:
-
-- Multiple documentation systems
-- Manual discovery
-- Operational dependencies
-
-Improved DevEx:
-
-Developer Portal
-
-↓
-
-Documentation
-
-↓
-
-Templates
-
-↓
-
-Provision Environment
-
-↓
-
-Deploy Service
-
-↓
-
-Operational Visibility
-
----
-
-## DevEx Metrics
-
-Examples:
-
-### Productivity Metrics
+Metrics:
 
 - Onboarding time
-- Deployment completion time
-- Operational effort reduction
-
----
-
-### Delivery Metrics
-
 - Deployment frequency
 - Lead time
+- Developer productivity
+- Operational effort
 
 ---
 
-### Reliability Metrics
+## Q9. AI + DevEx scenario:
 
-- Failure rate
-- Recovery time
+A company wants AI assistance for developers.
 
----
+Consider:
 
-## Tradeoffs
-
-| Traditional Workflow | DevEx Approach |
-|----------------------|----------------|
-| Higher friction | Reduced friction |
-| Manual operations | Automation |
-| Knowledge silos | Standardization |
-| Slower onboarding | Faster onboarding |
+- Documentation assistant
+- Troubleshooting assistant
+- Code assistance
+- Knowledge retrieval
+- Operational guidance
 
 ---
 
-## Common Interview Questions
+# Answer Key
 
-1. What is Developer Experience?
-
-2. Why DevEx important?
-
-3. DevEx improvement areas?
-
-4. Platform Engineering relationship?
-
-5. AI integration opportunities?
-
-6. Productivity measurement approaches?
+To be completed after assessment execution.
 
 ---
 
-## Quick Revision
+# Score Tracking
+
+| Topic | Score | Status |
+|---|---|---|
+| DevEx Fundamentals | | |
+| Automation | | |
+| Self-Service | | |
+| Developer Productivity | | |
+| Platform Integration | | |
+| AI Integration | | |
+
+---
+
+# Quick Revision
 
 DevEx
 
-=
-
-Developer Productivity
-
-+
-
-Automation
-
-+
-
-Standardization
-
-+
+↓
 
 Self-Service
 
-+
+↓
 
-Reduced Friction
+Automation
+
+↓
+
+Standardization
+
+↓
+
+Productivity
+
+↓
+
+Developer Satisfaction
+
+---
+
+# Next Assessment
+
+Next: `10-assessment/11-ai-platform-engineering/idp.md`
