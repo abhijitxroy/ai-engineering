@@ -1,34 +1,86 @@
 # Changelog
 
-All notable repository evolution, engineering alignment, operational architecture improvements, and ecosystem-level changes are documented here.
+All notable repository evolution, engineering alignment, architecture improvements, and ecosystem-level changes are documented here.
 
-Repository evolution focuses on learning, architecture understanding, production engineering thinking, Platform Engineering integration, and interview preparation.
+Repository evolution focuses on AI Engineering, LLM systems, AI applications, agent workflows, AI platform engineering, production AI engineering, and interview preparation.
+
+---
+
+## [v1.2.0] - AI Engineering Repository Restructure
+
+### Repository Identity Update
+
+Changed repository direction from an AI Agents focused repository to a broader AI Engineering knowledge and engineering practice repository.
+
+Updated scope:
+
+- AI Foundations
+- LLM Engineering
+- AI Application Engineering
+- AI Agents
+- MCP (Model Context Protocol)
+- Agent-to-Agent (A2A)
+- AI Platform Engineering
+- Production AI Engineering
+
+---
+
+### Repository Structure Improvements
+
+Reorganized learning path:
+
+- AI Foundations
+- LLM Engineering
+- AI Application Engineering
+- AI Agents
+- MCP
+- A2A
+- AI Platform Engineering
+- Production AI Engineering
+- Examples
+- Interview Preparation
+- Architecture Diagrams
+
+---
+
+### Documentation Updates
+
+Updated:
+
+- README.md
+- ROADMAP.md
+- TODO.md
+
+Improved:
+
+- Learning progression
+- Engineering domain separation
+- AI system architecture coverage
+- Production engineering alignment
 
 ---
 
 ## [v1.1.0] - Engineering Examples and Production Engineering Expansion
 
-### Repository Foundation
+### Added
 
-#### Engineering Examples
-
-Added practical engineering examples:
+Practical engineering examples:
 
 - AI Agent troubleshooting workflow
 - MCP integration with Internal Developer Platform
 - Agent-to-Agent deployment investigation workflow
-- Platform Engineering AI integration examples
+- AI platform integration examples
 
 Focus:
 
 - Workflow understanding
 - Operational thinking
-- Platform Engineering perspective
+- Production engineering perspective
 - Distributed execution concepts
 
 ---
 
-#### Production Engineering Foundation
+### Production Engineering Foundation
 
 Added:
 
@@ -55,13 +107,12 @@ Coverage:
 
 ---
 
-#### Interview Preparation Expansion
+### Interview Preparation Expansion
 
 Added:
 
 - Engineering comparison references
 - Deep revision framework
-- Production engineering discussions
 - Architecture discussion framework
 - Troubleshooting approaches
 - Tradeoff thinking
@@ -72,44 +123,28 @@ Coverage expanded across:
 - MCP
 - A2A
 - LLM Engineering
-- Platform Engineering
-- Production Engineering
+- AI Platform Engineering
+- Production AI Engineering
 
 ---
 
-#### Repository Improvements
-
-Added:
-
-- Showcase repository structure
-- Engineering handbook approach
-- Learning-first organization
-- Production engineering integration
-- Expanded revision workflow
-
----
-
-## [v1.0.0] - Engineering Knowledge Platform Foundation
+## [v1.0.0] - AI Engineering Knowledge Foundation
 
 ### Added
 
-#### Repository Foundation
+Repository foundation:
 
 - Repository structure initialization
 - Learning path organization
 - Repository navigation improvements
 
----
-
-#### Knowledge Areas
-
-Added:
+Knowledge areas:
 
 - AI Agents
 - MCP (Model Context Protocol)
 - Agent-to-Agent (A2A)
 - LLM Engineering
-- Platform Engineering integration
+- AI platform engineering concepts
 
 Coverage:
 
@@ -120,69 +155,19 @@ Coverage:
 
 ---
 
-#### Interview Preparation Framework
-
-Added:
-
-- Quick revision references
-- Comparison tables
-- Beginner → Intermediate → Advanced progression
-- Scenario discussions
-
-Coverage:
-
-- AI Agents
-- MCP
-- A2A
-- LLM Engineering
-- Platform Engineering
-
----
-
-#### Architecture Assets
-
-Added:
-
-- AI Agent workflow diagram
-- MCP architecture diagram
-- Agent communication diagram
-- Platform Engineering integration diagram
-
----
-
-#### Repository Improvements
-
-Added:
-
-- Learning-first navigation
-- Structured revision flow
-- Engineering handbook organization
-
----
-
 ## [Unreleased]
 
 Future roadmap:
 
-### Engineering Expansion
-
-- Real-world operational scenarios
-- Platform operational maturity discussions
-- Enterprise workflow examples
-- Capacity planning references
-
----
-
-### Platform Engineering Expansion
-
-- Golden path workflows
-- Service catalog discussions
-- Platform maturity discussions
-
----
-
 ### AI Engineering Expansion
 
+- AI application projects
+- Real-world production scenarios
+- Advanced AI system design
+- AI reliability deep dives
+- Enterprise AI engineering workflows
 - Emerging AI engineering capabilities
-- Reliability deep dives
-- Operational AI patterns
+
+---
+
+Status: Active Development

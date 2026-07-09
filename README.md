@@ -1,6 +1,6 @@
 # AI Engineering
 
-A structured engineering repository covering AI Agents, Model Context Protocol (MCP), Agent-to-Agent (A2A) systems, LLM engineering concepts, Platform Engineering integration patterns, and production engineering fundamentals.
+A structured engineering repository covering AI Engineering fundamentals, LLM engineering, AI applications, AI agents, Model Context Protocol (MCP), Agent-to-Agent (A2A) systems, AI platform engineering, and production AI engineering practices.
 
 This repository is designed as a single engineering reference for:
 
@@ -8,7 +8,7 @@ This repository is designed as a single engineering reference for:
 - Architecture understanding
 - Workflow visualization
 - Production engineering thinking
-- Platform Engineering integration
+- AI Platform Engineering integration
 - Engineering discussions
 - System design preparation
 - Interview preparation
@@ -25,21 +25,23 @@ Build practical understanding of emerging AI engineering capabilities and explor
 
 Focus areas:
 
+- AI Engineering fundamentals
+- LLM Engineering
+- AI Application Engineering
 - AI Agents
 - MCP (Model Context Protocol)
 - Agent-to-Agent (A2A)
-- LLM Engineering
 - Retrieval systems
-- Platform Engineering
+- AI Platform Engineering
 - Internal Developer Platforms (IDP)
 - Developer Experience (DevEx)
 - Engineering productivity
-- Reliability patterns
+- AI reliability patterns
 - Operational engineering
 - Scaling approaches
-- Security fundamentals
+- AI security fundamentals
 - Governance concepts
-- Production engineering thinking
+- Production AI engineering
 
 ---
 
@@ -50,6 +52,18 @@ Focus areas:
 Recommended progression:
 
 ```text
+AI Foundations
+
+↓
+
+LLM Engineering
+
+↓
+
+AI Application Engineering
+
+↓
+
 AI Agents
 
 ↓
@@ -62,15 +76,11 @@ A2A
 
 ↓
 
-LLM Engineering
+AI Platform Engineering
 
 ↓
 
-Platform Engineering
-
-↓
-
-Production Engineering
+Production AI Engineering
 ```
 
 Learning progression:
@@ -192,7 +202,7 @@ Coverage:
 - AI Agent troubleshooting
 - MCP integration workflows
 - Agent coordination examples
-- Platform Engineering workflows
+- AI Platform Engineering workflows
 
 Purpose:
 
@@ -235,7 +245,7 @@ Coverage:
 - AI Agent execution workflow
 - MCP architecture
 - Agent communication patterns
-- Platform Engineering integration
+- AI Platform Engineering integration
 
 Purpose:
 
@@ -248,15 +258,19 @@ Fast architecture understanding and interview revision.
 ```text
 ai-engineering/
 ├── 00-learning-path/
+├── 01-ai-foundations/
+├── 02-llm-engineering/
+├── 03-ai-application-engineering/
 ├── 04-ai-agents/
 ├── 05-mcp/
 ├── 06-a2a/
-├── 02-llm-engineering/
 ├── 07-ai-platform-engineering/
-├── 10-interview-preparation/
-├── 09-examples/
 ├── 08-production-ai-engineering/
+├── 09-examples/
+├── 10-interview-preparation/
 ├── 11-diagrams/
+├── README.md
+├── ROADMAP.md
 ├── TODO.md
 └── CHANGELOG.md
 ```
@@ -291,6 +305,18 @@ The repository structure reflects operational production engineering concerns in
 
 ## Learning Areas
 
+### AI Foundations
+
+Coverage:
+
+- AI engineering fundamentals
+- LLM concepts
+- Transformers
+- Embeddings
+- AI evaluation basics
+
+---
+
 ### AI Systems
 
 Coverage:
@@ -303,7 +329,19 @@ Coverage:
 
 ---
 
-### Platform Engineering
+### AI Application Engineering
+
+Coverage:
+
+- AI application architecture
+- Backend integration patterns
+- AI security
+- AI observability
+- Reliability engineering
+
+---
+
+### AI Platform Engineering
 
 Coverage:
 
@@ -402,12 +440,14 @@ Relevant for:
 
 Build a practical engineering knowledge platform covering:
 
-- Learning
+- AI engineering learning
+- AI application architecture
+- Production AI systems
 - Revision
 - Architecture understanding
 - Workflow visualization
 - Production engineering thinking
-- Platform Engineering integration
+- AI Platform Engineering integration
 
 Focus remains on:
 
@@ -435,4 +475,4 @@ Reference areas:
 
 ---
 
-Engineering Handbook • Workflow Reference • Production Engineering • Platform Engineering • Interview Preparation
+Engineering Handbook • Workflow Reference • Production Engineering • AI Platform Engineering • Interview Preparation
