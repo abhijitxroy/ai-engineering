@@ -118,7 +118,7 @@ Start here:
 Interview preparation areas:
 
 ```text
-10-interview-preparation/
+10-assessment/
 
 ├── quick-revision.md
 
@@ -267,7 +267,7 @@ ai-engineering/
 ├── 07-ai-platform-engineering/
 ├── 08-production-ai-engineering/
 ├── 09-examples/
-├── 10-interview-preparation/
+├── 10-assessment/
 ├── 11-diagrams/
 ├── README.md
 ├── ROADMAP.md
