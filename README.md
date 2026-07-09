@@ -1,4 +1,4 @@
-# AI Engineering Agents Platform
+# AI Engineering
 
 A structured engineering repository covering AI Agents, Model Context Protocol (MCP), Agent-to-Agent (A2A) systems, LLM engineering concepts, Platform Engineering integration patterns, and production engineering fundamentals.
 
@@ -108,7 +108,7 @@ Start here:
 Interview preparation areas:
 
 ```text
-06-interview-preparation/
+10-interview-preparation/
 
 ├── quick-revision.md
 
@@ -184,7 +184,7 @@ Scenario Discussions
 Location:
 
 ```text
-07-examples/
+09-examples/
 ```
 
 Coverage:
@@ -205,7 +205,7 @@ Connect concepts with engineering workflows.
 Location:
 
 ```text
-08-production-scenarios/
+08-production-ai-engineering/
 ```
 
 Coverage:
@@ -227,7 +227,7 @@ Production engineering thinking and troubleshooting mindset.
 Location:
 
 ```text
-09-diagrams/
+11-diagrams/
 ```
 
 Coverage:
@@ -246,17 +246,17 @@ Fast architecture understanding and interview revision.
 ## Repository Structure
 
 ```text
-ai-engineering-agents-platform/
+ai-engineering/
 ├── 00-learning-path/
-├── 01-ai-agents/
-├── 02-mcp/
-├── 03-a2a/
-├── 04-llm-engineering/
-├── 05-platform-engineering-ai/
-├── 06-interview-preparation/
-├── 07-examples/
-├── 08-production-scenarios/
-├── 09-diagrams/
+├── 04-ai-agents/
+├── 05-mcp/
+├── 06-a2a/
+├── 02-llm-engineering/
+├── 07-ai-platform-engineering/
+├── 10-interview-preparation/
+├── 09-examples/
+├── 08-production-ai-engineering/
+├── 11-diagrams/
 ├── TODO.md
 └── CHANGELOG.md
 ```
@@ -267,25 +267,25 @@ This repository intentionally treats AI engineering as part of a broader product
 
 The repository structure reflects operational production engineering concerns including:
 
-<img src="09-diagrams/png/ai-agent-workflow.png" width="400">
+<img src="11-diagrams/png/ai-agent-workflow.png" width="400">
 
 ---
 
 ## Engineering Focus Areas
 
-<img src="09-diagrams/png/mcp-architecture.png" width="400">
+<img src="11-diagrams/png/mcp-architecture.png" width="400">
 
 ---
 
 ## Production Engineering Mindset
 
-<img src="09-diagrams/png/a2a-communication.png" width="400">
+<img src="11-diagrams/png/a2a-communication.png" width="400">
 
 ---
 
 ## Learning Approach
 
-<img src="09-diagrams/png/platform-engineering-ai.png" width="400">
+<img src="11-diagrams/png/ai-platform-engineering.png" width="400">
 
 ---
 
@@ -429,9 +429,9 @@ Supporting assets:
 
 Reference areas:
 
-- 07-examples/
-- 08-production-scenarios/
-- 09-diagrams/
+- 09-examples/
+- 08-production-ai-engineering/
+- 11-diagrams/
 
 ---
 
