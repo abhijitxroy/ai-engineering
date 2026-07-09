@@ -11,7 +11,7 @@ This repository is designed as a single engineering reference for:
 - AI Platform Engineering integration
 - Engineering discussions
 - System design preparation
-- Interview preparation
+- Engineering assessment and evaluation
 
 Objective:
 
@@ -113,78 +113,62 @@ Start here:
 
 ---
 
-### Interview Preparation
+### Engineering Assessment
 
-Interview preparation areas:
+Assessment coverage:
 
 ```text
 10-assessment/
 
-├── quick-revision.md
-
-├── comparison-table.md
-
-├── ai-agents/
-
-├── mcp/
-
-├── a2a/
-
-├── llm-engineering/
-
-├── platform-engineering/
-
-├── system-design-principles.md
-
-├── production-engineering.md
-
-├── troubleshooting-framework.md
-
-├── operational-patterns.md
-
-├── scaling-patterns.md
-
-├── observability.md
-
-├── security-fundamentals.md
-
-├── governance.md
-
-├── cost-optimization.md
-
-├── tradeoff-analysis.md
-
-└── engineering-principles.md
+├── 01-software-engineering.md
+├── 02-system-design.md
+├── 03-backend-engineering.md
+├── 04-database.md
+├── 05-distributed-systems.md
+├── 06-devops-cloud.md
+├── 07-security.md
+├── 08-ai-engineering.md
+├── 09-llm-engineering/
+├── 10-agent-engineering/
+├── 11-ai-platform-engineering/
+├── 12-production-ai-engineering.md
+├── 13-observability.md
+├── 14-troubleshooting-framework.md
+├── 15-tradeoff-analysis.md
+├── 16-engineering-principles.md
+├── 17-governance.md
+├── 18-operational-patterns.md
+├── 19-scaling-patterns.md
+├── 20-quick-revision.md
+├── 21-comparison-table.md
+├── 22-cost-optimization.md
+└── README.md
 ```
 
-Revision flow:
+Assessment flow:
 
 ```text
+Foundation Concepts
+
+↓
+
+Topic Assessment
+
+↓
+
+Engineering Scenarios
+
+↓
+
+Architecture Decisions
+
+↓
+
+Tradeoff Evaluation
+
+↓
+
 Quick Revision
-
-↓
-
-Comparison Tables
-
-↓
-
-Topic Notes
-
-↓
-
-Architecture Diagrams
-
-↓
-
-Examples
-
-↓
-
-Production Engineering
-
-↓
-
-Scenario Discussions
 ```
 
 ---
@@ -475,4 +459,4 @@ Reference areas:
 
 ---
 
-Engineering Handbook • Workflow Reference • Production Engineering • AI Platform Engineering • Interview Preparation
+Engineering Handbook • Workflow Reference • Production Engineering • AI Platform Engineering • Engineering Assessment

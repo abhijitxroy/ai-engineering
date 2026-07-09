@@ -2,7 +2,68 @@
 
 All notable repository evolution, engineering alignment, architecture improvements, and ecosystem-level changes are documented here.
 
-Repository evolution focuses on AI Engineering, LLM systems, AI applications, agent workflows, AI platform engineering, production AI engineering, and interview preparation.
+Repository evolution focuses on AI Engineering, LLM systems, AI applications, agent workflows, AI platform engineering, production AI engineering, and engineering assessment.
+
+---
+
+## [v1.3.0] - Engineering Assessment Framework Expansion
+
+### Assessment Framework Added
+
+Introduced a structured assessment framework covering AI engineering, platform engineering, and production engineering capabilities.
+
+Added:
+
+- Concept understanding assessments
+- Engineering scenario assessments
+- Architecture decision exercises
+- Tradeoff evaluation exercises
+
+---
+
+### AI Engineering Assessments
+
+Added assessment coverage for:
+
+- AI Engineering fundamentals
+- LLM Engineering
+- AI Agents
+- MCP (Model Context Protocol)
+- Agent-to-Agent (A2A)
+
+---
+
+### AI Platform and Production Assessments
+
+Added coverage across:
+
+- AI Platform Engineering
+- Developer Experience (DevEx)
+- Internal Developer Platform (IDP)
+- Production AI Engineering
+- Observability
+- Troubleshooting Framework
+- Operational Patterns
+- Scaling Patterns
+- Cost Optimization
+
+---
+
+### Engineering Assessment Improvements
+
+Standardized:
+
+- Level 1 — Concept Understanding
+- Level 2 — Engineering Scenarios
+- Level 3 — Engineering Thinking
+
+Updated:
+
+- README.md
+- ROADMAP.md
+- TODO.md
+
+Repository capability expanded from learning reference material into structured engineering evaluation and architecture practice.
 
 ---
 
@@ -22,6 +83,7 @@ Updated scope:
 - Agent-to-Agent (A2A)
 - AI Platform Engineering
 - Production AI Engineering
+- Engineering Assessment
 
 ---
 
@@ -38,7 +100,8 @@ Reorganized learning path:
 - AI Platform Engineering
 - Production AI Engineering
 - Examples
-- Interview Preparation
+- Engineering Assessment
+- Engineering Assessment
 - Architecture Diagrams
 
 ---
@@ -107,7 +170,7 @@ Coverage:
 
 ---
 
-### Interview Preparation Expansion
+### Engineering Assessment Expansion
 
 Added:
 

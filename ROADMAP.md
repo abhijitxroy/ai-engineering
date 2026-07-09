@@ -143,6 +143,23 @@ Projects:
 
 ---
 
+## Phase 9 — Engineering Assessment
+
+Goal:
+Validate AI engineering knowledge through structured assessments and architecture scenarios.
+
+Topics:
+
+- AI engineering assessments
+- LLM engineering evaluation
+- Agent system evaluation
+- MCP and A2A scenarios
+- Platform engineering scenarios
+- Production engineering scenarios
+- Architecture tradeoff analysis
+
+---
+
 ## Long-Term Direction
 
 The target capability is becoming an AI-native software engineer who can combine:

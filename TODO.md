@@ -10,7 +10,7 @@ Repository improvement backlog and future enhancements.
 - [x] AI Engineering learning path definition
 - [x] Repository navigation improvements
 - [x] Architecture documentation structure
-- [x] Interview preparation structure
+- [x] Engineering assessment structure
 - [x] Repository showcase structure
 
 ---
@@ -133,23 +133,23 @@ Future additions:
 
 ---
 
-## Interview Preparation
+## Engineering Assessment
 
-- [x] Quick revision guide
-- [x] Comparison tables
-- [x] AI Agents interview preparation
-- [x] MCP interview preparation
-- [x] A2A interview preparation
-- [x] LLM Engineering interview preparation
-- [x] System design preparation
-- [x] Troubleshooting framework
-- [x] Tradeoff analysis
-- [x] Engineering principles reference
+- [x] Quick revision assessment
+- [x] Comparison assessment
+- [x] AI Agents assessment
+- [x] MCP assessment
+- [x] A2A assessment
+- [x] LLM Engineering assessment
+- [x] System design assessment
+- [x] Troubleshooting assessment
+- [x] Tradeoff analysis assessment
+- [x] Engineering principles assessment
 
 Future additions:
 
-- [ ] AI system design scenarios
-- [ ] AI architecture interview questions
+- [ ] Advanced AI system design scenarios
+- [ ] Enterprise architecture scenarios
 - [ ] Production troubleshooting scenarios
 
 ---
@@ -197,4 +197,4 @@ Single AI Engineering reference for:
 - Production AI engineering thinking
 - AI platform engineering concepts
 - Engineering discussions
-- Interview preparation
+- Engineering assessment
