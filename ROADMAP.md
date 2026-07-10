@@ -116,16 +116,17 @@ Topics:
 ## Phase 6 — AI Platform Engineering
 
 Goal:
-Understand engineering platforms and workflows that enable AI development at scale.
+Understand how AI capabilities enhance developer platforms, engineering workflows, and productivity systems.
 
 Topics:
 
-- AI developer workflows
-- AI-assisted software engineering
 - AI-enabled Developer Experience (DevEx)
-- Internal Developer Platforms (IDP)
-- AI governance
-- Engineering productivity
+- AI-enabled Internal Developer Platforms (IDP)
+- AI-assisted software engineering
+- Developer productivity systems
+- Engineering knowledge platforms
+- Self-service engineering capabilities
+- AI governance concepts
 
 ---
 

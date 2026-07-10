@@ -453,12 +453,24 @@ Understand how multiple AI agents communicate, collaborate, and coordinate tasks
 
 ### AI Platform Engineering
 
+Location:
+
+```text
+07-ai-platform-engineering/
+```
+
 Coverage:
 
-- Internal Developer Platforms
-- Developer Experience
-- Engineering productivity
-- Self-service systems
+- AI-enabled Developer Experience (DevEx)
+- AI-enabled Internal Developer Platforms (IDP)
+- Developer productivity
+- Engineering workflows
+- Self-service engineering capabilities
+- AI-assisted development experiences
+
+Purpose:
+
+Understand how AI capabilities enhance internal engineering platforms, developer workflows, and productivity systems.
 
 ---
 

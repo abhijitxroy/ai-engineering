@@ -6,6 +6,36 @@ Repository evolution focuses on AI Engineering, LLM systems, AI applications, ag
 
 ---
 
+## [v2.0.0] - AI Platform Engineering Layer
+
+### AI Platform Engineering Added
+
+Introduced a structured AI Platform Engineering layer focused on improving developer experiences, internal platforms, and engineering productivity through AI capabilities.
+
+Added coverage for:
+
+- AI-enabled Developer Experience (DevEx)
+- AI-enabled Internal Developer Platforms (IDP)
+- AI-assisted software engineering
+- Developer productivity systems
+- Engineering knowledge platforms
+- Self-service engineering capabilities
+- AI governance concepts
+
+---
+
+### Repository Improvements
+
+Updated:
+
+- AI Platform Engineering structure
+- Documentation hierarchy
+- Learning progression
+- Engineering knowledge organization
+
+Expanded the repository from AI agent collaboration concepts into AI-powered engineering platform capabilities.
+
+---
 
 ## [v1.9.0] - A2A Learning Layer
 

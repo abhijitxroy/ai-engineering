@@ -42,8 +42,25 @@ Future additions:
 - [x] A2A security and governance
 - [x] A2A examples
 
+
 Future additions:
 
 - [ ] Advanced multi-agent architectures
 - [ ] Large-scale agent collaboration patterns
 - [ ] Enterprise A2A systems
+
+## AI Platform Engineering
+
+- [x] AI-enabled Developer Experience (DevEx)
+- [x] AI-enabled Internal Developer Platforms (IDP)
+- [x] AI-assisted software engineering
+- [x] Developer productivity systems
+- [x] Engineering knowledge platforms
+- [x] Self-service engineering capabilities
+- [x] AI governance concepts
+
+Future additions:
+
+- [ ] Advanced AI developer platforms
+- [ ] Enterprise AI platform patterns
+- [ ] AI-powered engineering ecosystems
