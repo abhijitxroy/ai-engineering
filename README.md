@@ -354,9 +354,13 @@ Build practical engineering knowledge required to design, evaluate, optimize, an
 Coverage:
 
 - AI Agents
+- Agent architecture
+- Agent orchestration
+- Agent workflows
 - MCP
 - A2A
 - Retrieval workflows
+- Autonomous AI systems
 
 ---
 
@@ -369,6 +373,34 @@ Coverage:
 - AI security
 - AI observability
 - Reliability engineering
+
+---
+
+### AI Agents
+
+Location:
+
+```text
+04-ai-agents/
+```
+
+Coverage:
+
+- AI Agent fundamentals
+- Agent architecture
+- Agent components
+- Agent planning
+- Reasoning and decision making
+- Multi-agent systems
+- Agent workflows
+- Tool execution loops
+- Human-in-the-loop patterns
+
+Purpose:
+
+Build understanding of autonomous AI systems that can reason, use tools, and execute tasks beyond traditional AI applications.
+
+---
 
 ---
 

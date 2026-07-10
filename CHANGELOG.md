@@ -6,6 +6,57 @@ Repository evolution focuses on AI Engineering, LLM systems, AI applications, ag
 
 ---
 
+## [v1.7.0] - AI Agents Learning Layer
+
+### AI Agents Added
+
+Introduced a structured AI Agents layer focused on designing autonomous AI systems that can reason, plan, use tools, and execute tasks.
+
+Added coverage for:
+
+- AI Agent fundamentals
+- Agent architecture
+- Agent components
+- Agent planning
+- Reasoning and decision making
+- Multi-agent systems
+- Agent workflow design
+- Tool execution loops
+- Human-in-the-loop patterns
+
+---
+
+### AI Agent Engineering Improvements
+
+Expanded the AI learning path with autonomous system concepts:
+
+- AI Foundations
+- LLM Engineering
+- AI Application Engineering
+- AI Agents
+- Production AI Systems
+
+Improved separation between:
+
+- AI application workflows
+- Autonomous agent workflows
+- Agent orchestration patterns
+
+---
+
+### Repository Improvements
+
+Updated:
+
+- AI Agents structure
+- Documentation hierarchy
+- Learning progression
+- Engineering knowledge organization
+
+Improved the repository capability from AI application development patterns into autonomous AI system design and engineering concepts.
+
+---
+
 
 ## [v1.6.0] - LLM Engineering Learning Layer
 

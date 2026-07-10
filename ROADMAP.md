@@ -81,10 +81,14 @@ Topics:
 
 - Agent fundamentals
 - Agent architecture
+- Agent components
 - Planning and reasoning
-- Tool usage
+- Decision making
+- Tool usage and execution loops
 - Agent orchestration
-- Workflow patterns
+- Multi-agent systems
+- Agent workflow patterns
+- Human-in-the-loop patterns
 - Agent reliability patterns
 
 ---
