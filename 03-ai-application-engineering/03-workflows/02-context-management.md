@@ -1,8 +1,8 @@
 # Context Management
 
-Context management defines how AI applications collect, organize, and provide relevant information to large language models during execution.
+Context management defines how AI applications collect, organize, maintain, and provide relevant information during workflow execution.
 
-Effective context management improves response quality while controlling performance and cost.
+This section focuses on application-level context handling required to support reliable AI workflows.
 
 ---
 
@@ -10,10 +10,10 @@ Effective context management improves response quality while controlling perform
 
 Understand:
 
-- Context handling strategies
-- Conversation state management
-- Information selection
-- Context optimization
+- Context lifecycle management
+- Information collection and selection
+- Application state handling
+- Context optimization strategies
 
 ---
 
@@ -21,58 +21,69 @@ Understand:
 
 ## Context Sources
 
-Common sources:
+AI applications may collect context from multiple sources.
+
+Examples:
 
 - User input
 - Conversation history
-- Retrieved documents
+- Retrieved information
 - Application data
-- External system information
+- External systems
+
+---
+
+## Context Lifecycle
+
+Context moves through different stages during application execution.
+
+Stages:
+
+- Collection
+- Processing
+- Selection
+- Storage
+- Usage
+- Cleanup
 
 ---
 
 ## Context Selection
 
-Purpose:
-
-Provide only relevant information to the model.
+Applications should provide relevant information instead of sending unnecessary data.
 
 Consider:
 
 - Relevance
-- Token limitations
-- Information priority
-- Response requirements
+- Priority
+- Token constraints
+- User requirements
 
 ---
 
-## Conversation State
+## Application State Management
 
-Purpose:
+Applications may maintain state during workflows.
 
-Maintain continuity across interactions.
+Examples:
 
-Includes:
-
-- Previous messages
-- User preferences
+- User session information
 - Workflow progress
-- Application state
+- Previous actions
+- Task results
 
 ---
 
 ## Context Optimization
 
-Purpose:
-
-Improve efficiency and response quality.
+Improves efficiency and response quality.
 
 Approaches:
 
-- Context filtering
+- Information filtering
 - Summarization
 - Retrieval-based context
-- Information prioritization
+- Context prioritization
 
 ---
 
@@ -87,19 +98,19 @@ Context Collection
 
 ↓
 
+Context Processing
+
+↓
+
 Information Selection
 
 ↓
 
-Context Preparation
+AI Workflow Execution
 
 ↓
 
-LLM Processing
-
-↓
-
-Response Generation
+Response Delivery
 ```
 
 ---
@@ -109,13 +120,22 @@ Response Generation
 Important factors:
 
 - Context relevance
-- Token management
 - Privacy and security
-- Latency
+- Token management
+- Performance
 - Cost efficiency
+- State consistency
+
+---
+
+# Engineering Perspective
+
+Context management is an application engineering responsibility.
+
+The focus is controlling information flow across AI workflows rather than only managing LLM input size.
 
 ---
 
 # Goal
 
-Understand how AI applications manage context to provide accurate, efficient, and reliable responses.
+Understand how AI applications manage context throughout workflows to provide reliable, efficient, and scalable AI experiences.

@@ -1,8 +1,8 @@
 # External Tools
 
-External tool integration enables AI applications to extend their capabilities by interacting with external services, systems, and execution environments.
+External tool integration enables AI applications to extend their capabilities by connecting with external services, systems, and execution environments.
 
-It allows AI applications to perform actions beyond generating text responses.
+This section focuses on how applications safely integrate tools to perform actions beyond AI-generated responses.
 
 ---
 
@@ -10,10 +10,10 @@ It allows AI applications to perform actions beyond generating text responses.
 
 Understand:
 
-- Tool connectivity patterns
-- Function execution
-- External capability integration
-- Workflow extension
+- Tool integration patterns
+- Application-controlled tool execution
+- External capability management
+- Reliable tool workflows
 
 ---
 
@@ -21,45 +21,46 @@ Understand:
 
 ## Tool Connectivity
 
-Purpose:
-
-Connect AI applications with external capabilities.
+AI applications can connect with external capabilities through defined interfaces.
 
 Examples:
 
-- Search systems
+- Search services
 - Databases
 - APIs
-- Enterprise services
+- Enterprise systems
+- Automation platforms
 
 ---
 
 ## Function Execution
 
-Purpose:
-
-Allow applications to execute predefined operations.
+Applications execute predefined operations through tools.
 
 Flow:
 
 ```text
-AI Application
+User Request
 
 ↓
 
-Tool Selection
+Application Decision
 
 ↓
 
-Function Execution
+Tool Invocation
 
 ↓
 
-Tool Response
+External Execution
 
 ↓
 
-Application Processing
+Result Processing
+
+↓
+
+Application Response
 ```
 
 ---
@@ -70,46 +71,47 @@ Important areas:
 
 - Tool discovery
 - Input validation
-- Permission control
+- Permission management
+- Execution control
 - Error handling
 
 ---
 
 ## Workflow Integration
 
-External tools support:
+External tools enable applications to perform:
 
-- Data retrieval
-- Automation tasks
+- Information retrieval
+- Data processing
 - System operations
-- Business workflows
+- Business automation
 
 ---
 
-# Tool Integration Flow
+# Tool Integration Architecture
 
 ```text
-User Request
-
-↓
-
 AI Application
 
 ↓
 
-Tool Invocation
+Tool Management Layer
 
 ↓
 
-External System
+External Tools
 
 ↓
 
-Result Processing
+External Systems
 
 ↓
 
-Final Response
+Processed Result
+
+↓
+
+Application Workflow
 ```
 
 ---
@@ -127,6 +129,14 @@ Important factors:
 
 ---
 
+# Engineering Perspective
+
+External tools transform AI applications from response generators into systems capable of interacting with real-world services.
+
+Reliable tool integration requires controlled execution, secure access, and predictable application behavior.
+
+---
+
 # Goal
 
-Understand how external tools extend AI applications by connecting intelligent workflows with real-world systems and capabilities.
+Understand how AI applications integrate external tools to extend capabilities while maintaining reliability, security, and control.

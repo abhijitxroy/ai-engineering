@@ -1,8 +1,8 @@
 # Quality Evaluation
 
-Quality evaluation measures whether AI applications produce accurate, relevant, reliable, and useful outputs.
+Quality evaluation measures whether complete AI applications deliver accurate, reliable, useful, and user-focused outcomes.
 
-It helps engineering teams validate AI application behavior and continuously improve user experiences.
+This section focuses on evaluating AI applications as software systems rather than only measuring individual LLM responses.
 
 ---
 
@@ -10,80 +10,75 @@ It helps engineering teams validate AI application behavior and continuously imp
 
 Understand:
 
-- AI response quality measurement
+- AI application quality assessment
 - Evaluation criteria
-- User feedback analysis
+- User experience measurement
 - Improvement approaches
 
 ---
 
 # Core Concepts
 
-## Accuracy Evaluation
+## Response Quality Evaluation
 
-Purpose:
-
-Measure whether responses provide correct information.
+Measures whether application outputs meet expected requirements.
 
 Consider:
 
-- Factual correctness
-- Information completeness
-- Response consistency
+- Accuracy
+- Relevance
+- Completeness
+- Consistency
 
 ---
 
-## Relevance Evaluation
+## Application Behavior Evaluation
 
-Purpose:
-
-Measure whether responses address user requirements.
+Measures how the complete application performs during user interactions.
 
 Consider:
 
-- Context usage
-- Query understanding
-- Response usefulness
+- Workflow correctness
+- Response handling
+- Integration behavior
+- User experience
 
 ---
 
-## Safety Evaluation
+## User Experience Evaluation
 
-Purpose:
-
-Ensure AI applications behave responsibly.
+Measures whether the application provides value to users.
 
 Consider:
 
-- Harmful output prevention
-- Data protection
-- Policy compliance
+- Task completion
+- User satisfaction
+- Ease of use
+- Feedback patterns
 
 ---
 
-## User Feedback Analysis
+## Feedback Analysis
 
-Purpose:
-
-Use user interactions to improve application quality.
+Uses real usage information to improve application quality.
 
 Sources:
 
 - User ratings
 - Usage patterns
-- Feedback comments
-- Support insights
+- Support feedback
+- Operational insights
 
 ---
 
 # Evaluation Flow
 
 ```text
-AI Response
+AI Application Usage
 
 ↓
 
-Quality Assessment
+Quality Measurement
 
 ↓
 
@@ -104,14 +99,28 @@ Application Improvement
 
 Important factors:
 
-- Evaluation metrics
-- Test data quality
+- Evaluation criteria
+- Test scenarios
 - Human review
+- User feedback
 - Continuous improvement
-- Production feedback
+
+---
+
+# Engineering Perspective
+
+AI application quality evaluation considers the complete system:
+
+- AI components
+- Application workflows
+- Integrations
+- User experience
+- Operational behavior
+
+The goal is improving the reliability and usefulness of the complete AI application.
 
 ---
 
 # Goal
 
-Understand how AI application quality is measured and improved to deliver reliable and valuable user experiences.
+Understand how to evaluate AI applications and continuously improve their quality, reliability, and user value.

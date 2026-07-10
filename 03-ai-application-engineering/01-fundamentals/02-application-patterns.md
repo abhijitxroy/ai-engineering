@@ -1,8 +1,8 @@
 # AI Application Patterns
 
-AI application patterns describe common approaches for designing and implementing AI-powered software solutions.
+AI application patterns describe reusable approaches for designing software systems that integrate AI capabilities into real-world workflows.
 
-These patterns help engineers select suitable architectures based on user needs, data availability, and operational requirements.
+These patterns help engineers choose suitable application architectures based on user needs, business requirements, data sources, and operational constraints.
 
 ---
 
@@ -10,10 +10,10 @@ These patterns help engineers select suitable architectures based on user needs,
 
 Understand:
 
-- Common AI application approaches
-- Application architecture choices
-- Workflow design patterns
-- Real-world AI use cases
+- Common AI application architectures
+- Different AI solution patterns
+- Application design tradeoffs
+- Suitable patterns for different use cases
 
 ---
 
@@ -23,79 +23,79 @@ Understand:
 
 Purpose:
 
-Provide interactive AI support for users.
+Provide interactive AI capabilities through user-facing applications.
 
 Examples:
 
-- Question answering
-- Content assistance
-- Knowledge discovery
+- Customer assistants
+- Developer assistants
+- Knowledge assistants
 
 Key considerations:
 
+- User interaction design
 - Context handling
-- Response quality
-- User experience
+- Response reliability
 
 ---
 
-## Knowledge Application
+## Knowledge-Based Application
 
 Purpose:
 
-Provide answers using domain-specific information.
+Provide AI capabilities using domain-specific information sources.
 
 Examples:
 
-- Enterprise knowledge search
+- Enterprise knowledge systems
 - Documentation assistants
 - Research applications
 
 Key considerations:
 
-- Data ingestion
-- Retrieval quality
-- Knowledge freshness
+- Data integration
+- Knowledge lifecycle
+- Application workflow
 
 ---
 
-## Automation Workflow
+## AI Automation Workflow
 
 Purpose:
 
-Use AI capabilities to improve business and engineering processes.
+Integrate AI into existing business or engineering processes.
 
 Examples:
 
-- Document processing
-- Task automation
-- Workflow assistance
+- Document automation
+- Content processing
+- Engineering workflow assistance
 
 Key considerations:
 
 - Process integration
-- Validation
-- Reliability
+- Validation steps
+- Error handling
 
 ---
 
-## Decision Support System
+## Decision Support Application
 
 Purpose:
 
-Assist users in analyzing information and making decisions.
+Assist users by analyzing information and providing recommendations.
 
 Examples:
 
-- Data analysis assistants
-- Engineering recommendations
+- Analytics assistants
 - Operational insights
+- Engineering support systems
 
 Key considerations:
 
-- Data accuracy
-- Explainability
+- Data quality
 - Human validation
+- Explainability
 
 ---
 
@@ -104,13 +104,21 @@ Key considerations:
 Consider:
 
 - User requirements
+- Application complexity
 - Data availability
-- Integration needs
+- Integration requirements
 - Reliability expectations
-- Operational complexity
+
+---
+
+# Engineering Perspective
+
+Application patterns define how AI capabilities are packaged into software solutions.
+
+The focus is not the LLM itself, but how AI components are designed, integrated, and delivered as complete applications.
 
 ---
 
 # Goal
 
-Understand common AI application patterns and select appropriate approaches for building practical AI-powered solutions.
+Understand common AI application patterns and select suitable architectures for building reliable AI-powered software systems.

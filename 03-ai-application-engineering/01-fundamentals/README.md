@@ -1,52 +1,80 @@
+# AI Application Fundamentals
 
+AI application architecture defines how software systems combine AI capabilities, application logic, data sources, and user experiences to deliver AI-powered solutions.
 
-# AI Application Engineering Fundamentals
-
-Core concepts required to design and build AI-powered applications using modern AI capabilities.
-
-This section establishes the foundation before moving into RAG, workflows, integrations, and evaluation.
+Unlike traditional applications, AI applications require additional components for model interaction, context handling, evaluation, and continuous improvement.
 
 ---
 
-# Topics
+# Purpose
 
-## AI Application Architecture
+Understand:
 
-Covers:
-
-- Application components
-- AI service integration
-- Data flow design
-- User interaction patterns
+- Core components of AI applications
+- AI application architecture patterns
+- Data and request flow
+- Separation between AI capabilities and application logic
 
 ---
 
-## Application Patterns
+# Core Components
 
-Covers common AI application approaches:
+## User Interface Layer
 
-- AI assistants
-- Knowledge applications
-- Automation workflows
-- Decision support systems
+Responsible for user interaction.
 
----
+Examples:
 
-## LLM Integration
-
-Covers:
-
-- Model API integration
-- Prompt interaction
-- Context handling
-- Response processing
+- Web applications
+- Mobile applications
+- Chat interfaces
+- Enterprise portals
 
 ---
 
-# Learning Flow
+## Application Layer
+
+Controls business logic and AI workflow execution.
+
+Responsibilities:
+
+- Request processing
+- User management
+- Workflow coordination
+- Response handling
+
+---
+
+## AI Capability Layer
+
+Provides intelligence capabilities.
+
+Components:
+
+- Large Language Models
+- Retrieval systems
+- AI tools
+- Machine learning services
+
+---
+
+## Data and Integration Layer
+
+Provides access to external information and enterprise systems.
+
+Examples:
+
+- Databases
+- APIs
+- Document repositories
+- Business applications
+
+---
+
+# AI Application Flow
 
 ```text
-AI Model
+User Request
 
 ↓
 
@@ -54,15 +82,37 @@ Application Layer
 
 ↓
 
-Business Workflow
+AI Components
 
 ↓
 
-User Experience
+Data / External Systems
+
+↓
+
+Response Processing
+
+↓
+
+User Response
 ```
+
+---
+
+# Engineering Perspective
+
+Reliable AI applications require:
+
+- Clear architecture boundaries
+- Secure integrations
+- Effective AI component management
+- Monitoring and evaluation
+- Scalable application design
+
+AI application architecture connects AI capabilities with software engineering practices.
 
 ---
 
 # Goal
 
-Understand the architecture patterns and integration approaches required to transform LLM capabilities into practical AI applications.
+Understand how to design AI application architectures that integrate models, data, workflows, and software components into reliable systems.

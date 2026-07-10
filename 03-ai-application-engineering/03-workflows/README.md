@@ -1,8 +1,8 @@
 # AI Application Workflows
 
-Application workflows define how AI systems process requests, manage context, and generate useful responses.
+AI application workflows define how software systems process user requests, coordinate AI components, manage state, and deliver responses.
 
-This section covers workflow design patterns used in AI-powered applications before introducing autonomous agent workflows.
+This section focuses on application-level workflow orchestration and execution patterns used in AI-powered software systems.
 
 ---
 
@@ -10,23 +10,23 @@ This section covers workflow design patterns used in AI-powered applications bef
 
 Understand:
 
-- Prompt workflows
-- Context management
-- Response generation
-- Application execution flow
+- AI workflow design
+- Context management in applications
+- Response orchestration
+- Error handling and workflow reliability
 
 ---
 
 # Topics
 
-## Prompt Workflows
+## AI Workflow Design
 
 Covers:
 
-- Prompt design patterns
-- Instruction handling
-- Prompt execution flow
-- Response control
+- User request lifecycle
+- Workflow stages
+- Component coordination
+- Application execution patterns
 
 ---
 
@@ -34,21 +34,32 @@ Covers:
 
 Covers:
 
-- Context handling
-- Conversation state
+- Conversation state handling
+- Context storage
 - Information selection
-- Context optimization
+- Context lifecycle management
 
 ---
 
-## Response Generation
+## Response Orchestration
 
 Covers:
 
 - Response processing
-- Output validation
-- User experience considerations
-- Quality improvement
+- Output transformation
+- Validation workflows
+- User experience integration
+
+---
+
+## Error Handling
+
+Covers:
+
+- Failure scenarios
+- Retry strategies
+- Fallback workflows
+- Application reliability patterns
 
 ---
 
@@ -59,19 +70,19 @@ User Request
 
 ↓
 
+Application Workflow
+
+↓
+
 Context Preparation
 
 ↓
 
-Prompt Construction
+AI Component Execution
 
 ↓
 
-LLM Processing
-
-↓
-
-Response Validation
+Response Processing
 
 ↓
 
@@ -80,6 +91,20 @@ User Response
 
 ---
 
+# AI Engineering Perspective
+
+Reliable AI applications require:
+
+- Clear workflow design
+- State management
+- Error handling
+- Component coordination
+- Monitoring
+
+This layer focuses on controlling AI application behavior rather than only improving LLM responses.
+
+---
+
 # Goal
 
-Understand how AI applications manage user interactions, context, and response workflows to deliver reliable AI experiences.
+Understand how to design reliable AI application workflows that coordinate AI capabilities and software components.

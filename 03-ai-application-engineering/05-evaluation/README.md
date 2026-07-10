@@ -1,10 +1,8 @@
-
-
 # AI Application Evaluation
 
-Evaluation ensures AI applications provide accurate, reliable, and useful outcomes.
+AI application evaluation focuses on measuring whether complete AI-powered software systems provide accurate, reliable, and useful outcomes for users.
 
-This section covers methods for measuring application quality and operational behavior.
+This section covers application-level quality assessment, monitoring, and improvement practices after AI components are integrated into software systems.
 
 ---
 
@@ -13,9 +11,9 @@ This section covers methods for measuring application quality and operational be
 Understand:
 
 - AI application quality evaluation
-- Response accuracy measurement
-- Monitoring approaches
-- Production feedback loops
+- Application behavior monitoring
+- User feedback analysis
+- Production improvement loops
 
 ---
 
@@ -25,10 +23,10 @@ Understand:
 
 Covers:
 
-- Response quality
-- Accuracy evaluation
-- Relevance measurement
-- User feedback analysis
+- Response quality assessment
+- Application requirement validation
+- User experience measurement
+- Output reliability analysis
 
 ---
 
@@ -36,8 +34,8 @@ Covers:
 
 Covers:
 
-- Application behavior monitoring
-- Performance tracking
+- Application behavior tracking
+- Performance monitoring
 - Usage analysis
 - Production insights
 
@@ -50,23 +48,43 @@ AI Application
 
 ↓
 
-Response Collection
+User Interaction
 
 ↓
 
-Quality Analysis
+Quality Measurement
 
 ↓
 
-Performance Monitoring
+Application Monitoring
 
 ↓
 
-Improvement Feedback
+Feedback Analysis
+
+↓
+
+Continuous Improvement
 ```
+
+---
+
+# AI Engineering Perspective
+
+AI application evaluation requires looking beyond individual model responses.
+
+Production systems require:
+
+- Quality criteria
+- Monitoring systems
+- User feedback loops
+- Reliability tracking
+- Continuous improvement
+
+This layer focuses on evaluating the complete AI application experience rather than only evaluating the underlying LLM.
 
 ---
 
 # Goal
 
-Understand how AI applications are evaluated, monitored, and improved to maintain reliable user experiences.
+Understand how to evaluate and improve AI applications to maintain reliable, useful, and production-ready user experiences.

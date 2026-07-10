@@ -1,8 +1,8 @@
 # Application Monitoring
 
-Application monitoring tracks the behavior, performance, and operational health of AI applications in production environments.
+Application monitoring tracks the behavior, performance, reliability, and operational health of AI applications after deployment.
 
-It helps engineering teams identify issues, improve reliability, and maintain consistent user experiences.
+This section focuses on observing complete AI systems, including workflows, integrations, AI components, and user interactions.
 
 ---
 
@@ -12,8 +12,8 @@ Understand:
 
 - AI application observability
 - Performance monitoring
-- Usage tracking
-- Production feedback loops
+- Operational health tracking
+- Production improvement loops
 
 ---
 
@@ -21,53 +21,53 @@ Understand:
 
 ## Performance Monitoring
 
-Purpose:
-
-Track application performance and responsiveness.
+Tracks application responsiveness and resource usage.
 
 Measures:
 
 - Response latency
 - Request volume
 - Processing time
-- Resource usage
+- Resource utilization
 
 ---
 
 ## Application Behavior Monitoring
 
-Purpose:
+Tracks how the application operates during real usage.
 
-Understand how users and systems interact with AI applications.
-
-Tracks:
+Observes:
 
 - User interactions
 - Workflow execution
 - Feature usage
-- Error patterns
+- Failure patterns
 
 ---
 
-## AI-Specific Monitoring
+## AI Application Monitoring
+
+Tracks AI-related application behavior.
 
 Important areas:
 
 - Response quality trends
-- Model behavior
-- Prompt performance
-- Retrieval effectiveness
+- AI workflow performance
+- Retrieval behavior
+- User feedback patterns
 
 ---
 
 ## Operational Monitoring
 
+Tracks production reliability.
+
 Covers:
 
 - Application availability
-- Failures
-- Dependencies
+- Service dependencies
 - Infrastructure health
+- Error rates
 
 ---
 
@@ -103,10 +103,25 @@ Important factors:
 - Data privacy
 - Alert quality
 - Performance impact
-- Continuous improvement
+- Reliability improvement
+- Continuous monitoring
+
+---
+
+# Engineering Perspective
+
+AI application monitoring provides visibility into the complete production system:
+
+- Application workflows
+- AI components
+- Integrations
+- User experience
+- Operational behavior
+
+The goal is maintaining reliable AI applications through continuous observation and improvement.
 
 ---
 
 # Goal
 
-Understand how AI applications are monitored and improved to maintain reliable production operations.
+Understand how to monitor AI applications and improve their reliability, performance, and production readiness.

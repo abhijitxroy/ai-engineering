@@ -1,8 +1,8 @@
 # AI Application Architecture
 
-AI application architecture defines how AI capabilities are integrated into software systems to deliver intelligent user experiences.
+AI application architecture defines how software systems combine AI capabilities, application logic, data sources, and user experiences to deliver AI-powered solutions.
 
-It describes the components, data flow, and interactions required to build reliable AI-powered applications.
+Unlike traditional applications, AI applications require additional components for model interaction, context handling, evaluation, and continuous improvement.
 
 ---
 
@@ -10,11 +10,10 @@ It describes the components, data flow, and interactions required to build relia
 
 Understand:
 
-- AI application components
-- System architecture patterns
-- Data and context flow
-- Integration boundaries
-- Application reliability considerations
+- Core components of AI applications
+- AI application architecture patterns
+- Data and request flow
+- Separation between AI capabilities and application logic
 
 ---
 
@@ -22,55 +21,57 @@ Understand:
 
 ## User Interface Layer
 
-Responsible for:
+Responsible for user interaction.
 
-- User interaction
-- Request collection
-- Response presentation
+Examples:
+
+- Web applications
+- Mobile applications
+- Chat interfaces
+- Enterprise portals
 
 ---
 
-## Application Logic Layer
+## Application Layer
 
-Responsible for:
+Controls business logic and AI workflow execution.
 
-- Business workflows
+Responsibilities:
+
 - Request processing
-- Decision handling
+- User management
+- Workflow coordination
+- Response handling
 
 ---
 
-## AI Service Layer
+## AI Capability Layer
 
-Responsible for:
+Provides intelligence capabilities.
 
-- LLM interaction
-- Prompt execution
-- Response generation
+Components:
 
----
-
-## Knowledge Layer
-
-Responsible for:
-
-- External knowledge sources
+- Large Language Models
 - Retrieval systems
-- Context enrichment
+- AI tools
+- Machine learning services
 
 ---
 
-## Integration Layer
+## Data and Integration Layer
 
-Responsible for:
+Provides access to external information and enterprise systems.
 
+Examples:
+
+- Databases
 - APIs
-- External tools
-- Enterprise systems
+- Document repositories
+- Business applications
 
 ---
 
-# Architecture Flow
+# AI Application Flow
 
 ```text
 User Request
@@ -81,15 +82,15 @@ Application Layer
 
 ↓
 
-Context Preparation
+AI Components
 
 ↓
 
-AI Model Processing
+Data / External Systems
 
 ↓
 
-Response Validation
+Response Processing
 
 ↓
 
@@ -98,19 +99,20 @@ User Response
 
 ---
 
-# Design Considerations
+# Engineering Perspective
 
-Important factors:
+Reliable AI applications require:
 
-- Scalability
-- Security
-- Reliability
-- Observability
-- Cost management
-- Response quality
+- Clear architecture boundaries
+- Secure integrations
+- Effective AI component management
+- Monitoring and evaluation
+- Scalable application design
+
+AI application architecture connects AI capabilities with software engineering practices.
 
 ---
 
 # Goal
 
-Understand how AI capabilities are organized into complete software applications through architecture, integration, and operational design.
+Understand how to design AI application architectures that integrate models, data, workflows, and software components into reliable systems.

@@ -1,8 +1,8 @@
 # API Integration
 
-API integration enables AI applications to communicate with external services and software systems.
+API integration defines how AI applications communicate with external services, AI platforms, and software systems through structured interfaces.
 
-It provides a structured way to connect AI capabilities with existing application ecosystems.
+This section focuses on application engineering practices required to connect AI capabilities with real-world systems.
 
 ---
 
@@ -11,9 +11,9 @@ It provides a structured way to connect AI capabilities with existing applicatio
 Understand:
 
 - AI service API integration
-- Request and response handling
-- Authentication patterns
-- Integration reliability
+- Application-to-service communication
+- Request and response lifecycle
+- Secure and reliable API patterns
 
 ---
 
@@ -21,11 +21,9 @@ Understand:
 
 ## API Communication
 
-Purpose:
+APIs enable applications to exchange information with external services.
 
-Enable applications to exchange information with AI services and external systems.
-
-Includes:
+Key activities:
 
 - Request creation
 - Data exchange
@@ -34,47 +32,53 @@ Includes:
 
 ---
 
-## Authentication
+## Authentication and Authorization
 
-Purpose:
-
-Secure communication between applications and services.
+Secure communication requires controlling access between applications and services.
 
 Common approaches:
 
 - API keys
-- Tokens
+- Access tokens
 - Service identities
-- Access controls
+- Role-based access control
 
 ---
 
-## Request Processing
+## Request Lifecycle
 
-Responsible for:
+Applications manage requests through multiple stages.
+
+Stages:
 
 - Input validation
-- Request formatting
-- Parameter handling
+- Request preparation
 - Service invocation
+- Response handling
 
 ---
 
-## Response Processing
+## Response Handling
 
-Responsible for:
+Applications process external responses before using them.
+
+Activities:
 
 - Response parsing
 - Data transformation
 - Validation
-- Application integration
+- Error handling
 
 ---
 
 # API Integration Flow
 
 ```text
-Application
+User Request
+
+↓
+
+Application Layer
 
 ↓
 
@@ -90,11 +94,11 @@ API Response
 
 ↓
 
-Response Processing
+Application Processing
 
 ↓
 
-Application Output
+User Output
 ```
 
 ---
@@ -109,6 +113,15 @@ Important factors:
 - Latency
 - Rate limits
 - Monitoring
+- Scalability
+
+---
+
+# Engineering Perspective
+
+API integration is the connection point between AI applications and external capabilities.
+
+Reliable applications require secure communication, predictable behavior, and proper operational visibility.
 
 ---
 

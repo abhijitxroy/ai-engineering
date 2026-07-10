@@ -6,6 +6,58 @@ Repository evolution focuses on AI Engineering, LLM systems, AI applications, ag
 
 ---
 
+
+## [v1.6.0] - LLM Engineering Learning Layer
+
+### LLM Engineering Added
+
+Introduced a structured LLM Engineering layer focused on designing, building, evaluating, and optimizing Large Language Model powered applications.
+
+Added coverage for:
+
+- Large Language Model fundamentals
+- Tokens and context windows
+- LLM capabilities and limitations
+- Model selection
+- Prompt engineering
+- Prompt patterns and evaluation
+- Retrieval-Augmented Generation (RAG)
+- Retrieval and ranking
+- Embeddings and vector search
+- LLM evaluation
+- Quality metrics
+- Production evaluation
+- Latency optimization
+- Cost optimization
+- Inference optimization
+
+---
+
+### LLM Application Engineering Foundation
+
+Expanded the learning path between AI foundations and application development:
+
+- AI Foundations
+- LLM Engineering
+- AI Application Engineering
+- AI Agents
+- Production AI Systems
+
+---
+
+### Repository Improvements
+
+Updated:
+
+- LLM Engineering structure
+- Documentation hierarchy
+- Learning progression
+- Engineering knowledge organization
+
+Improved the repository capability from AI concept understanding into practical LLM engineering patterns for building reliable and scalable AI applications.
+
+---
+
 ## [v1.5.0] - AI Foundations Learning Layer
 
 ### AI Foundations Added
