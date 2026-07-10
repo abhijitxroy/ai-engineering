@@ -6,6 +6,179 @@ Repository evolution focuses on AI Engineering, LLM systems, AI applications, ag
 
 ---
 
+## [v1.5.0] - AI Foundations Learning Layer
+
+### AI Foundations Added
+
+Introduced a structured AI foundations layer to establish the core knowledge required for modern AI engineering.
+
+Added coverage for:
+
+- Artificial Intelligence fundamentals
+- Machine Learning concepts
+- Deep Learning foundations
+- Neural Network basics
+- Generative AI concepts
+- Foundation Models
+- Transformer fundamentals
+
+---
+
+### AI Development Foundations
+
+Added foundational engineering concepts across:
+
+- Datasets
+- Model lifecycle
+- AI evaluation basics
+- Inference concepts
+- Fine-tuning concepts
+- Responsible AI principles
+
+---
+
+### Learning Path Improvements
+
+Updated the AI engineering progression:
+
+- AI Foundations
+- LLM Engineering
+- AI Application Engineering
+- AI Agents
+- MCP
+- A2A
+- AI Platform Engineering
+- Production AI Engineering
+
+---
+
+### Repository Improvements
+
+Improved:
+
+- Foundation-to-production learning flow
+- AI concept organization
+- Long-term knowledge reference structure
+
+Repository capability expanded from AI engineering concepts into a complete foundation-to-production AI learning path.
+
+---
+# v1.4.0 - AI Application Engineering Expansion
+
+## Highlights
+
+Expanded the repository with a structured AI Application Engineering layer connecting LLM capabilities with practical software application development patterns.
+
+This release bridges the gap between AI models and production-ready applications by introducing architecture, retrieval, workflow, integration, and evaluation foundations.
+
+---
+
+## AI Application Engineering Added
+
+Added a complete AI application engineering foundation covering:
+
+- AI application architecture
+- Application design patterns
+- LLM integration approaches
+- Retrieval-Augmented Generation (RAG)
+- AI workflow patterns
+- External system integration
+- Application evaluation strategies
+
+---
+
+## RAG Engineering Foundations
+
+Added coverage for:
+
+- Retrieval architecture
+- Document processing concepts
+- Embeddings
+- Vector databases
+- RAG evaluation approaches
+
+Focus areas:
+
+- Knowledge retrieval
+- Context preparation
+- Semantic search
+- Response quality improvement
+
+---
+
+## AI Application Workflows
+
+Added workflow engineering concepts:
+
+- Prompt workflows
+- Context management
+- Response generation
+- Application execution flow
+
+Coverage includes:
+
+- Request processing
+- Context handling
+- Output validation
+- User experience considerations
+
+---
+
+## Integration Engineering
+
+Added application integration patterns:
+
+- API integration
+- External tool connectivity
+- Enterprise system integration
+
+Focus areas:
+
+- Secure communication
+- Workflow extension
+- Enterprise AI adoption patterns
+
+---
+
+## AI Application Quality and Operations
+
+Added:
+
+- Quality evaluation concepts
+- Application monitoring practices
+- Reliability considerations
+- Production feedback loops
+
+---
+
+## Repository Improvements
+
+Updated:
+
+- AI Application Engineering structure
+- Documentation hierarchy
+- Learning progression
+- Engineering knowledge organization
+
+---
+
+## Engineering Focus Areas
+
+Coverage expanded across:
+
+- AI Application Engineering
+- LLM Application Development
+- Retrieval Systems
+- AI Workflow Design
+- Enterprise AI Integration
+- AI Application Reliability
+
+---
+
+This release expands the repository from AI concepts and model understanding into practical AI application engineering patterns used for building reliable AI-powered software systems.
+
+---
+
 ## [v1.3.0] - Engineering Assessment Framework Expansion
 
 ### Assessment Framework Added
@@ -100,7 +273,6 @@ Reorganized learning path:
 - AI Platform Engineering
 - Production AI Engineering
 - Examples
-- Engineering Assessment
 - Engineering Assessment
 - Architecture Diagrams
 
