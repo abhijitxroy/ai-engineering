@@ -1,108 +1,55 @@
-# AI Application Engineering
+## [v1.4.0] - AI Application Engineering Expansion
 
-Engineering practices for building AI-powered applications by combining LLM capabilities, retrieval systems, workflows, integrations, and evaluation strategies.
+### AI Application Engineering Added
 
-This layer connects AI models with real-world software applications before moving into autonomous agent systems.
+Introduced a structured AI application engineering layer connecting LLM capabilities with practical software application development.
 
----
-
-# Purpose
-
-Build practical understanding of:
+Added coverage for:
 
 - AI application architecture
-- LLM integration patterns
-- Retrieval-Augmented Generation (RAG)
-- AI workflows
-- External system integration
-- Application evaluation
-
----
-
-# Repository Structure
-
-## 01 — Fundamentals
-
-Core AI application concepts:
-
-- Application architecture
 - Application patterns
 - LLM integration
+- Retrieval-Augmented Generation (RAG)
+- AI workflows
+- External system integrations
+- AI application evaluation
 
 ---
 
-## 02 — RAG
+### RAG Engineering Foundations
 
-Knowledge-grounded AI application patterns:
+Added foundational coverage for:
 
 - Retrieval architecture
 - Embeddings
 - Vector databases
-- RAG evaluation
+- RAG evaluation approaches
 
 ---
 
-## 03 — Workflows
+### Application Engineering Workflows
 
-Application execution workflows:
+Added coverage across:
 
 - Prompt workflows
 - Context management
 - Response generation
-
----
-
-## 04 — Integrations
-
-Connecting AI applications with external systems:
-
 - API integration
 - External tools
-- Enterprise systems
+- Enterprise system integration
 
 ---
 
-## 05 — Evaluation
+### AI Application Quality and Operations
 
-Measuring application quality and operational behavior:
+Added:
 
-- Quality evaluation
-- Application monitoring
+- Quality evaluation concepts
+- Application monitoring practices
+- Reliability considerations
 
----
-
-# Learning Flow
-
-```text
-AI Foundations
-
-↓
-
-LLM Engineering
-
-↓
-
-AI Application Engineering
-
-↓
-
-AI Agents
-
-↓
-
-MCP / A2A
-
-↓
-
-AI Platform Engineering
-
-↓
-
-Production AI Engineering
-```
+Repository capability expanded from AI concepts and models into practical AI application engineering patterns.
 
 ---
 
-# Goal
-
-Understand how AI capabilities become reliable software applications through architecture, integration, evaluation, and operational practices.
+## [v1.3.0] - Engineering Assessment Framework Expansion
