@@ -17,13 +17,18 @@ Repository improvement backlog and future enhancements.
 
 ## AI Foundations
 
-- [ ] AI engineering fundamentals
-- [ ] Machine Learning concepts
-- [ ] Deep Learning basics
-- [ ] Transformer architecture understanding
-- [ ] LLM fundamentals
-- [ ] Embeddings concepts
-- [ ] AI evaluation basics
+- [x] Artificial Intelligence fundamentals
+- [x] Machine Learning concepts
+- [x] Deep Learning foundations
+- [x] Neural Network basics
+- [x] Generative AI concepts
+- [x] Foundation Models
+- [x] Transformer fundamentals
+- [x] Datasets and AI development lifecycle
+- [x] AI evaluation basics
+- [x] Inference concepts
+- [x] Fine-tuning concepts
+- [x] Responsible AI principles
 
 ---
 

@@ -15,14 +15,18 @@ Understand the fundamentals behind modern AI systems.
 
 Topics:
 
-- AI engineering fundamentals
+- Artificial Intelligence fundamentals
 - Machine Learning concepts
-- Deep Learning basics
-- Neural networks
-- Transformers
-- Large Language Model fundamentals
-- Embeddings
+- Deep Learning foundations
+- Neural Network basics
+- Generative AI concepts
+- Foundation Models
+- Transformer fundamentals
+- Datasets and AI development lifecycle
 - AI evaluation basics
+- Inference concepts
+- Fine-tuning concepts
+- Responsible AI principles
 
 ---
 

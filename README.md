@@ -291,13 +291,29 @@ The repository structure reflects operational production engineering concerns in
 
 ### AI Foundations
 
+Location:
+
+```text
+01-ai-foundations/
+```
+
 Coverage:
 
-- AI engineering fundamentals
-- LLM concepts
-- Transformers
-- Embeddings
-- AI evaluation basics
+- Artificial Intelligence fundamentals
+- Machine Learning concepts
+- Deep Learning foundations
+- Neural Networks
+- Generative AI concepts
+- Foundation Models
+- Transformer fundamentals
+- AI development lifecycle
+- Inference concepts
+- Fine-tuning concepts
+- Responsible AI principles
+
+Purpose:
+
+Build the core understanding required before moving into LLM Engineering, AI Application Engineering, AI Agents, and Production AI systems.
 
 ---
 
