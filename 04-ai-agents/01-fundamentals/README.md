@@ -111,72 +111,29 @@ Input → Context → Planning → Tool Usage → Execution → Response
 
 ---
 
-## Enterprise Engineering Use Cases
+## AI Agent Use Cases
 
-- Incident investigation
-- CI/CD assistance
-- Developer productivity
-- Documentation generation
-- Infrastructure troubleshooting
-- Internal developer platforms
+Examples:
 
----
-
-## Platform Engineering Perspective
-
-AI agents can augment Platform Engineering initiatives by improving:
-
-- Developer Experience (DevEx)
-- Internal Developer Platforms (IDP)
-- Operational efficiency
-- Engineering productivity
+- Research assistance
+- Task automation
+- Knowledge discovery
+- Software development assistance
+- Decision support
+- Autonomous task execution
 
 ---
 
-## Production Engineering Reality
+## Agent Engineering Considerations
 
-AI agents operating in production environments introduce significantly more complexity than standalone prompt-response systems.
+Reliable AI agents require attention to:
 
-Real production agent systems must handle:
+- Agent behavior control
+- Tool usage safety
+- Memory management
+- Workflow reliability
+- Error handling
+- Human oversight
+- Security and governance
 
-- unreliable model outputs
-- orchestration failures
-- tool invocation failures
-- API reliability issues
-- latency bottlenecks
-- memory consistency challenges
-- workflow coordination problems
-- observability gaps
-- infrastructure scaling constraints
-- distributed execution complexity
-- operational debugging challenges
-- security and governance concerns
-
-Production AI agents are tightly connected with:
-
-- backend systems
-- APIs and distributed services
-- cloud infrastructure
-- deployment workflows
-- observability platforms
-- platform engineering systems
-- operational reliability engineering
-
-Successful AI agent engineering requires understanding not only model behavior, but also:
-
-- workflow orchestration
-- distributed systems behavior
-- infrastructure reliability
-- operational monitoring
-- debugging workflows
-- production scalability
-- failure recovery mechanisms
-- engineering governance
-
-AI agents should be treated as operational production systems rather than isolated AI experiments.
-
----
-
-## Key Takeaway
-
-AI agents are evolving software systems from static automation toward adaptive and context-aware execution models.
+AI agents should be designed as controlled autonomous systems that combine reasoning, tools, memory, and execution capabilities.
