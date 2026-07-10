@@ -317,6 +317,38 @@ Build the core understanding required before moving into LLM Engineering, AI App
 
 ---
 
+### LLM Engineering
+
+Location:
+
+```text
+02-llm-engineering/
+```
+
+Coverage:
+
+- Large Language Model fundamentals
+- Tokens and context windows
+- LLM capabilities and limitations
+- Model selection
+- Prompt engineering
+- Prompt patterns and evaluation
+- Retrieval-Augmented Generation (RAG)
+- Retrieval and ranking
+- Embeddings and vector search
+- LLM evaluation
+- Quality metrics
+- Production evaluation
+- Latency optimization
+- Cost optimization
+- Inference optimization
+
+Purpose:
+
+Build practical engineering knowledge required to design, evaluate, optimize, and operate LLM-powered applications.
+
+---
+
 ### AI Systems
 
 Coverage:
@@ -324,7 +356,6 @@ Coverage:
 - AI Agents
 - MCP
 - A2A
-- LLM Engineering
 - Retrieval workflows
 
 ---

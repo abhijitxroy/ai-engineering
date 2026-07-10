@@ -37,14 +37,21 @@ Build practical knowledge of LLM-powered applications.
 
 Topics:
 
+- Large Language Model fundamentals
+- Tokens and context windows
+- LLM capabilities and limitations
+- Model selection
 - Prompt engineering
-- Context management
-- Retrieval Augmented Generation (RAG)
-- Vector databases
-- Embedding strategies
-- Model evaluation
+- Prompt patterns and evaluation
+- Retrieval-Augmented Generation (RAG)
+- Retrieval and ranking
+- Embeddings and vector search
+- LLM evaluation
+- Quality metrics
+- Production evaluation
+- Latency optimization
 - Cost optimization
-- LLM application patterns
+- Inference optimization
 
 ---
 

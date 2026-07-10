@@ -34,16 +34,19 @@ Repository improvement backlog and future enhancements.
 
 ## LLM Engineering
 
+- [x] LLM fundamentals structure
 - [x] Prompt engineering structure
 - [x] RAG learning structure
-- [x] Evaluation concepts
+- [x] LLM evaluation structure
+- [x] LLM optimization structure
 
 Future additions:
 
-- [ ] Vector database deep dives
-- [ ] Context management patterns
-- [ ] LLM optimization techniques
-- [ ] Cost optimization strategies
+- [ ] Advanced vector database deep dives
+- [ ] Advanced context management patterns
+- [ ] Advanced LLM optimization techniques
+- [ ] Advanced model serving strategies
+- [ ] Enterprise LLM engineering patterns
 
 ---
 
