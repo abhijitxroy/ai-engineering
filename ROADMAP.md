@@ -133,18 +133,21 @@ Topics:
 ## Phase 7 — Production AI Engineering
 
 Goal:
-Build reliable and scalable AI systems.
+Build reliable, scalable, and maintainable production AI systems.
 
 Topics:
 
-- Deployment patterns
-- Scaling strategies
-- Performance optimization
-- Monitoring and observability
-- Security engineering
-- Incident troubleshooting
-- Reliability patterns
-- Cost management
+- Production AI deployment patterns
+- AI application troubleshooting
+- AI workflow failure investigation
+- Dependency failure analysis
+- AI workload scaling strategies
+- Performance and latency optimization
+- Monitoring and observability for AI systems
+- Security engineering for AI applications
+- Reliability patterns for AI systems
+- Cost optimization for AI workloads
+- Production readiness practices
 
 ---
 

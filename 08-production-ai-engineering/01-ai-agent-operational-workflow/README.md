@@ -1,10 +1,10 @@
 # AI Agent Operational Workflow
 
-Production engineering scenario demonstrating how AI Agents can improve operational troubleshooting, investigation workflows, and engineering productivity.
+Production AI Engineering scenario demonstrating how AI Agents can improve AI system troubleshooting, investigation workflows, and engineering decision making.
 
 Objective:
 
-Understand how AI-native systems integrate with operational engineering environments.
+Understand how AI agents can assist engineers in investigating and resolving production AI system issues.
 
 ---
 
@@ -16,10 +16,10 @@ Production service unstable.
 
 Symptoms:
 
-- Increased latency
-- Deployment instability
-- Dependency failures
-- Operational alerts
+- AI workflow failures
+- Agent execution issues
+- Model response problems
+- AI application errors
 
 Goal:
 
@@ -53,11 +53,11 @@ Check Dependencies
 
 ↓
 
-Validate Infrastructure
+Validate AI Application Context
 
 ↓
 
-Read Documentation
+Review Available Knowledge
 
 ↓
 
@@ -95,15 +95,15 @@ Planning Layer
 
 Signal Collection
 
-├── Logs
+├── Application Logs
 
-├── Metrics
+├── AI Workflow Context
 
-├── Tracing
+├── Model Information
 
 ├── Documentation
 
-└── Dependency Health
+└── Historical Knowledge
 
 ↓
 
@@ -147,23 +147,23 @@ Determine investigation path.
 
 Collect:
 
-Logs
+Application Logs
 
 ↓
 
-Metrics
+AI Workflow Context
 
 ↓
 
-Tracing
+Model Information
 
 ↓
 
-Operational References
+Knowledge References
 
 ↓
 
-Infrastructure Signals
+Application Signals
 
 Goal:
 
@@ -254,37 +254,6 @@ Resolution
 
 ---
 
-## Platform Engineering Perspective
-
-Potential integrations:
-
-Internal Developer Platform
-
-↓
-
-AI Operational Layer
-
-↓
-
-Knowledge Systems
-
-↓
-
-Infrastructure Systems
-
-↓
-
-Engineering Productivity
-
-Benefits:
-
-- Reduced operational friction
-- Better Developer Experience
-- Faster troubleshooting
-- Standardized operational workflows
-
----
-
 ## Reliability Considerations
 
 Examples:
@@ -323,7 +292,7 @@ Reliable operational systems.
 
 4. Operational visibility improvements?
 
-5. Platform Engineering integration opportunities?
+5. AI workflow improvement opportunities?
 
 ---
 

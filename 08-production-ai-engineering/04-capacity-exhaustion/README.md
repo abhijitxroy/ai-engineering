@@ -1,10 +1,10 @@
 # Capacity Exhaustion Investigation
 
-Production troubleshooting scenario focused on resource exhaustion, scaling decisions, and operational recovery.
+Production AI Engineering scenario focused on AI workload capacity issues, resource constraints, scaling decisions, and recovery approaches.
 
 Objective:
 
-Build systematic investigation capability for resource bottlenecks and capacity problems.
+Build systematic investigation capability for capacity challenges in production AI systems.
 
 ---
 
@@ -16,9 +16,9 @@ Application performance degraded.
 
 Symptoms:
 
-- Increased latency
-- Request failures
-- Service instability
+- AI workflow latency increase
+- AI request failures
+- Model service instability
 - Resource saturation
 
 Goal:
@@ -116,19 +116,19 @@ Infrastructure changes?
 
 Validate:
 
-CPU Utilization
+AI Workload Utilization
 
 ↓
 
-Memory Utilization
+CPU and Memory Utilization
 
 ↓
 
-Disk Usage
+Model Resource Usage
 
 ↓
 
-Network Throughput
+Data Processing Throughput
 
 ↓
 
@@ -338,17 +338,6 @@ Need caching?
 ↓
 
 Need workload distribution?
-
----
-
-## Platform Engineering Perspective
-
-Potential improvements:
-
-- Capacity dashboards
-- Self-service visibility
-- Infrastructure automation
-- Scaling recommendations
 
 ---
 

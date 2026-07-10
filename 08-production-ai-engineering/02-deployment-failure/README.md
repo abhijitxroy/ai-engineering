@@ -1,10 +1,10 @@
 # Deployment Failure Investigation
 
-Production troubleshooting scenario focused on deployment failures, operational investigation, and recovery approaches.
+Production AI Engineering scenario focused on AI application deployment failures, investigation approaches, and recovery strategies.
 
 Objective:
 
-Build systematic troubleshooting capability and operational engineering thinking.
+Build systematic troubleshooting capability for production AI deployments.
 
 ---
 
@@ -16,10 +16,10 @@ Deployment failed after release.
 
 Symptoms:
 
-- Service unavailable
-- Health checks failing
-- Increased restart count
-- Deployment validation failed
+- AI application unavailable
+- Model or workflow initialization failure
+- Increased application errors
+- Deployment validation failure
 
 Goal:
 
@@ -125,10 +125,10 @@ Deployment Logs:
 - Validation failure
 - Deployment timeout
 
-Infrastructure Logs:
+AI Application Logs:
 
-- Resource issue
-- Platform failure
+- Model initialization failure
+- Workflow execution errors
 
 Questions:
 
@@ -209,9 +209,9 @@ Dependencies healthy?
 
 Examples:
 
-- Database available
-- External API available
-- Cache available
+- Model service available
+- AI API dependency available
+- Required data source available
 
 Example:
 
@@ -289,17 +289,6 @@ Examples:
 Goal:
 
 Reduce recurrence.
-
----
-
-## Platform Engineering Perspective
-
-Potential improvements:
-
-- Self-service diagnostics
-- Deployment validation automation
-- Operational visibility
-- AI-assisted troubleshooting
 
 ---
 

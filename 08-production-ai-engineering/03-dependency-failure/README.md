@@ -1,10 +1,10 @@
 # Dependency Failure Investigation
 
-Production troubleshooting scenario focused on dependency failures, resilience patterns, and recovery strategies.
+Production AI Engineering scenario focused on dependency failures affecting AI applications, model services, external AI APIs, and recovery strategies.
 
 Objective:
 
-Build systematic dependency investigation capability and production troubleshooting mindset.
+Build systematic dependency investigation capability for production AI systems.
 
 ---
 
@@ -97,10 +97,10 @@ Entire platform impacted?
 
 Examples:
 
-- Login unavailable
-- Database issue
-- External API unavailable
-- Cache instability
+- AI workflow unavailable
+- Model service issue
+- External AI API unavailable
+- Data source instability
 
 Questions:
 
@@ -118,27 +118,27 @@ Examples:
 
 Potential dependencies:
 
-Application
+AI Application
 
 ↓
 
-Database
+Model Service
 
 ↓
 
-Cache
+Data Sources
 
 ↓
 
-External APIs
+External AI APIs
 
 ↓
 
-Authentication Service
+Authentication Services
 
 ↓
 
-Monitoring Systems
+Supporting Services
 
 Questions:
 
@@ -262,19 +262,19 @@ Error pattern visible?
 
 Validate:
 
-CPU
+AI Application Resources
 
 ↓
 
-Memory
+Model Service Availability
 
 ↓
 
-Network
+Data Access
 
 ↓
 
-Disk
+Network Communication
 
 Examples:
 
@@ -379,17 +379,6 @@ Fallback Strategy
 ↓
 
 Graceful Degradation
-
----
-
-## Platform Engineering Perspective
-
-Potential improvements:
-
-- Self-service diagnostics
-- Dependency visibility
-- Automated health validation
-- Operational dashboards
 
 ---
 

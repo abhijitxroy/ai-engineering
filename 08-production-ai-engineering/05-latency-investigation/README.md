@@ -1,10 +1,10 @@
 # Latency Investigation
 
-Production troubleshooting scenario focused on latency investigation, bottleneck identification, and performance analysis.
+Production AI Engineering scenario focused on latency investigation, bottleneck identification, and performance analysis for AI applications.
 
 Objective:
 
-Build systematic investigation capability for performance problems.
+Build systematic investigation capability for performance challenges in production AI systems.
 
 ---
 
@@ -16,9 +16,9 @@ Application response time increased.
 
 Symptoms:
 
-- Slow API response
+- Slow AI application response
 - User experience degradation
-- Timeout increase
+- AI workflow timeout increase
 - Throughput reduction
 
 Goal:
@@ -161,27 +161,23 @@ Capacity issue
 
 Workflow:
 
-Request
+AI Request
 
 ↓
 
-Gateway
+AI Application Layer
 
 ↓
 
-Service A
+Model Processing
 
 ↓
 
-Service B
+External AI Services
 
 ↓
 
-Database
-
-↓
-
-Response
+Response Generation
 
 Questions:
 
@@ -268,19 +264,19 @@ Timeout increase?
 
 Validate:
 
-CPU
+AI Application Resources
 
 ↓
 
-Memory
+Model Resource Usage
 
 ↓
 
-Disk
+Data Processing Resources
 
 ↓
 
-Network
+Network Communication
 
 Examples:
 
@@ -362,17 +358,6 @@ Examples:
 Goal:
 
 Reduce recurrence.
-
----
-
-## Platform Engineering Perspective
-
-Potential improvements:
-
-- Performance dashboards
-- Self-service diagnostics
-- Automated visibility
-- Capacity insights
 
 ---
 

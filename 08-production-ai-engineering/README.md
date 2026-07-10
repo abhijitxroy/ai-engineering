@@ -1,19 +1,19 @@
 # Production Scenarios
 
-Production engineering scenarios focused on troubleshooting mindset, operational thinking, reliability patterns, and system investigation approaches.
+Production AI Engineering scenarios focused on troubleshooting AI systems, investigating failures, and applying reliability patterns to AI-powered applications.
 
 Objective:
 
-Build engineering thinking for production systems and operational environments.
+Build systematic investigation skills for production AI systems and engineering decision making.
 
 These scenarios focus on:
 
 - Root cause analysis
 - Reliability thinking
 - Capacity planning
-- Operational troubleshooting
-- Platform Engineering workflows
-- AI operational integration
+- AI system troubleshooting
+- AI workflow investigation
+- AI-assisted troubleshooting approaches
 
 ---
 
@@ -118,9 +118,9 @@ capacity-exhaustion/
 
 Focus:
 
-- AI operational integration
-- Platform Engineering workflows
-- Automated troubleshooting
+- Agent execution investigation
+- AI-assisted troubleshooting
+- Automated analysis workflows
 
 Key areas:
 
@@ -183,10 +183,10 @@ Prevention
 Build:
 
 - Production engineering mindset
-- Operational awareness
-- Reliability understanding
-- Scaling thinking
-- Platform Engineering awareness
+- AI production troubleshooting mindset
+- Reliability understanding for AI systems
+- Scaling considerations for AI workloads
+- Production AI engineering awareness
 
 ---
 

@@ -194,7 +194,7 @@ Connect concepts with engineering workflows.
 
 ---
 
-### Production Scenarios
+### Production AI Engineering
 
 Location:
 
@@ -204,15 +204,18 @@ Location:
 
 Coverage:
 
-- Deployment failures
-- Dependency failures
-- Capacity exhaustion
-- Latency investigation
-- AI operational workflows
+- AI system troubleshooting
+- AI workflow investigation
+- AI application deployment failures
+- AI dependency failure analysis
+- AI workload capacity challenges
+- AI latency investigation
+- AI agent operational workflows
+- Reliability patterns for AI systems
 
 Purpose:
 
-Production engineering thinking and troubleshooting mindset.
+Understand how to investigate, troubleshoot, and improve production AI systems through systematic engineering approaches.
 
 ---
 
@@ -474,16 +477,27 @@ Understand how AI capabilities enhance internal engineering platforms, developer
 
 ---
 
-### Production Engineering
+### Production AI Engineering
+
+Location:
+
+```text
+08-production-ai-engineering/
+```
 
 Coverage:
 
-- Reliability
-- Scaling
-- Observability
-- Security
-- Governance
-- Cost optimization
+- Production AI troubleshooting
+- AI system reliability
+- AI application failures
+- AI workload scaling
+- AI performance investigation
+- AI security and governance considerations
+- AI production readiness
+
+Purpose:
+
+Build engineering skills required to operate and troubleshoot production AI systems.
 
 ---
 
