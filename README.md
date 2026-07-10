@@ -404,6 +404,53 @@ Build understanding of autonomous AI systems that can reason, use tools, and exe
 
 ---
 
+
+### MCP (Model Context Protocol)
+
+Location:
+
+```text
+05-mcp/
+```
+
+Coverage:
+
+- MCP fundamentals
+- MCP architecture
+- MCP server development
+- MCP client integration
+- Security and governance
+- MCP examples
+
+Purpose:
+
+Understand how AI applications connect with external tools, resources, and capabilities through a standardized protocol.
+
+---
+
+### Agent-to-Agent (A2A)
+
+Location:
+
+```text
+06-a2a/
+```
+
+Coverage:
+
+- A2A fundamentals
+- A2A architecture
+- Agent communication patterns
+- Agent collaboration models
+- Security and governance
+- A2A examples
+
+Purpose:
+
+Understand how multiple AI agents communicate, collaborate, and coordinate tasks through structured interactions.
+
+---
+
 ### AI Platform Engineering
 
 Coverage:

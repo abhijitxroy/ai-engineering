@@ -6,6 +6,58 @@ Repository evolution focuses on AI Engineering, LLM systems, AI applications, ag
 
 ---
 
+
+## [v1.9.0] - A2A Learning Layer
+
+### Agent-to-Agent (A2A) Added
+
+Introduced a structured Agent-to-Agent (A2A) learning layer focused on enabling AI agents to communicate, collaborate, and coordinate tasks.
+
+Added coverage for:
+
+- A2A fundamentals
+- A2A architecture
+- Agent communication patterns
+- Agent collaboration models
+- Security and governance
+- Practical A2A examples
+
+---
+
+### AI Engineering Progression Update
+
+Expanded the AI engineering learning path:
+
+- AI Foundations
+- LLM Engineering
+- AI Application Engineering
+- AI Agents
+- MCP
+- A2A
+- AI Platform Engineering
+- Production AI Systems
+
+Improved separation between:
+
+- Autonomous agent execution
+- External tool integrations
+- Agent-to-agent collaboration
+
+---
+
+### Repository Improvements
+
+Updated:
+
+- A2A documentation structure
+- Learning hierarchy
+- Agent collaboration concepts
+- Multi-agent system knowledge organization
+
+Repository capability expanded from autonomous agent execution into multi-agent collaboration patterns.
+
+---
+
 ## [v1.7.0] - AI Agents Learning Layer
 
 ### AI Agents Added

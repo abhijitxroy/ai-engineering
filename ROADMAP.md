@@ -96,16 +96,20 @@ Topics:
 ## Phase 5 — MCP and A2A Systems
 
 Goal:
-Understand communication patterns between AI systems and tools.
+Understand communication patterns between AI systems, tools, and other agents.
 
 Topics:
 
 - Model Context Protocol (MCP)
-- MCP servers
-- MCP tools
-- MCP integrations
+- MCP architecture
+- MCP servers and tools
+- MCP client integrations
+- MCP security and governance
 - Agent-to-Agent (A2A) communication
-- Multi-agent systems
+- A2A architecture
+- Agent collaboration patterns
+- Multi-agent communication
+- A2A security and governance
 
 ---
 
