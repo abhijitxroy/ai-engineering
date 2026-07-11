@@ -6,6 +6,39 @@ Repository evolution focuses on AI Engineering, LLM systems, AI applications, ag
 
 ---
 
+## [v2.1.0] - Production AI Engineering Layer
+
+### Production AI Engineering Added
+
+Introduced a structured Production AI Engineering layer focused on troubleshooting, reliability, scaling, and operational practices for AI-powered systems.
+
+Added coverage for:
+
+- AI system troubleshooting
+- AI workflow failure investigation
+- AI application deployment failures
+- AI dependency failure analysis
+- AI workload capacity challenges
+- AI latency investigation
+- AI agent operational workflows
+- Reliability patterns for AI systems
+- Production readiness practices
+
+---
+
+### Repository Improvements
+
+Updated:
+
+- Production AI Engineering structure
+- Scenario-based troubleshooting documentation
+- Learning progression
+- Engineering knowledge organization
+
+Expanded the repository from AI platform capabilities into production AI system operation and troubleshooting practices.
+
+---
+
 ## [v2.0.0] - AI Platform Engineering Layer
 
 ### AI Platform Engineering Added
