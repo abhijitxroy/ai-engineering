@@ -512,3 +512,226 @@ Tool         Tool
 ### RAG vs Fine-tuning
 
 > RAG adds knowledge. Fine-tuning changes model behavior.
+
+
+### LangChain
+
+> LangChain is a framework that helps developers build LLM applications faster.
+
+### Spring AI
+
+> Spring AI brings AI capabilities to the Spring ecosystem.
+
+### Spring AI vs LangChain
+
+> Spring AI is for Spring Boot applications. LangChain is a general AI framework.
+
+### LangGraph
+
+> LangGraph is designed for complex, stateful AI workflows with branching and retries.
+
+### LangChain vs LangGraph
+
+> LangChain builds AI applications. LangGraph orchestrates complex AI agent workflows.
+
+### AI Hallucination
+
+> AI hallucination is when an LLM confidently generates incorrect or fabricated information.
+
+### RAG and Hallucination
+
+> RAG reduces hallucinations by providing trusted context before the LLM generates a response.
+
+### RAG vs Tool Calling
+
+> RAG retrieves knowledge. Tool Calling performs actions.
+
+### Tool Failure
+
+> A production AI agent should retry, recover, and fail gracefully instead of failing immediately.
+
+
+---
+
+# 22. What is LangChain?
+
+LangChain is an open-source framework used to build AI applications powered by LLMs.
+
+It provides reusable components for:
+
+- Prompt management
+- Tool Calling
+- Memory
+- RAG
+- Agents
+- Output parsing
+
+Instead of writing everything from scratch, developers can use LangChain to build AI applications faster.
+
+Remember
+
+> **LangChain helps developers build LLM applications faster.**
+
+---
+
+# 23. What is Spring AI?
+
+Spring AI is a Spring Framework module that helps developers build AI-powered applications using Spring Boot.
+
+It provides support for:
+
+- Chat Models
+- Embeddings
+- Vector Databases
+- Prompt Templates
+- Tool Calling
+- RAG
+
+It follows the familiar Spring programming model.
+
+Remember
+
+> **Spring AI brings AI capabilities to the Spring ecosystem.**
+
+---
+
+# 24. Spring AI vs LangChain
+
+| Spring AI | LangChain |
+|------------|-----------|
+| Spring Framework module | General AI framework |
+| Java + Spring Boot | Multiple languages |
+| Integrates with Spring | AI application framework |
+| Best for Spring developers | Best for general AI development |
+
+---
+
+# 25. What is LangGraph?
+
+LangGraph is a framework for building complex AI agents.
+
+It supports:
+
+- Multi-step workflows
+- Decision making
+- Loops
+- Retries
+- Human-in-the-loop
+- Stateful execution
+
+Unlike a simple chain, LangGraph models the workflow as a graph.
+
+Remember
+
+> **LangChain builds AI applications. LangGraph orchestrates complex AI agent workflows.**
+
+---
+
+# 26. When should you use LangGraph instead of LangChain?
+
+Use LangGraph when the AI application needs:
+
+- Retries
+- Branching
+- Multiple decisions
+- Human approval
+- Long-running workflows
+- Multiple tool calls
+
+Example
+
+Read GitHub issue → Analyze → Create Jira → Notify Slack → Retry if Jira fails.
+
+---
+
+# 27. Design an AI Assistant for Developers
+
+High-level architecture:
+
+- User
+- AI Agent
+- LLM
+- GitHub Tool
+- RAG for internal documentation
+- Jira Tool
+- Build Log Analysis Tool
+- Final Response
+
+If supported, tools can communicate through MCP. Otherwise, APIs or SDKs can be used.
+
+Remember
+
+> **Use RAG for knowledge retrieval and Tool Calling for actions.**
+
+---
+
+# 28. What is AI Hallucination?
+
+An AI hallucination occurs when an LLM generates information that sounds correct but is actually incorrect or fabricated.
+
+The model is not intentionally lying. It is predicting the most likely response.
+
+How to reduce hallucinations:
+
+- Use RAG
+- Use trusted tools
+- Provide better prompts
+- Use reliable data sources
+- Human review for critical tasks
+
+Remember
+
+> **Hallucination means confidently generating incorrect information.**
+
+---
+
+# 29. How does RAG reduce Hallucinations?
+
+RAG retrieves trusted information before the LLM generates a response.
+
+Instead of relying only on training data, the LLM receives relevant documents as context.
+
+This improves answer accuracy.
+
+Remember
+
+> **RAG reduces hallucinations by providing trusted context.**
+
+---
+
+# 30. How does the AI decide between RAG and Tool Calling?
+
+The decision depends on the user's goal.
+
+- If the user needs information, use RAG.
+- If the user wants an action performed, use Tool Calling.
+- Some requests require both.
+
+Example:
+
+- "What is our leave policy?" → RAG
+- "Create a Jira ticket." → Tool Calling
+- "Read the bug guide and create a Jira ticket." → RAG + Tool Calling
+
+Remember
+
+> **RAG retrieves knowledge. Tool Calling performs actions.**
+
+---
+
+# 31. What should an AI Agent do if a Tool fails?
+
+If a tool fails, the AI agent should:
+
+- Retry the operation
+- Handle timeouts
+- Log the error
+- Use fallback logic if available
+- Continue other tasks when possible
+- Inform the user if the task cannot be completed
+
+Frameworks like LangGraph are useful for implementing retries and recovery workflows.
+
+Remember
+
+> **Production AI agents should fail gracefully, not fail immediately.**
